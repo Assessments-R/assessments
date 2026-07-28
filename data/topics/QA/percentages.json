@@ -408,7 +408,7 @@
       ],
       "formulas": [
         "Population after n years = P × (1 + r/100)<sup>n</sup>",
-        "Value after n years of depreciation = P × (1 − r/100),<sup>n</sup>"
+        "Value after n years of depreciation = P × (1 − r/100)<sup>n</sup>"
       ],
       "examples": [
         {
