@@ -1,1 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
 
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Assessment</title>
+
+  <style>
+    :root {
+      --primary: #3157d5;
+      --primary-dark: #223e9f;
+      --background: #f4f7fc;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #64748b;
+      --border: #dfe5ef;
+      --danger: #b91c1c;
+      --success: #15803d;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--background);
+      color: var(--text);
+    }
+
+    button,
+    input {
+      font: inherit;
+    }
+
+    .header {
+      padding: 18px 20px;
+      color: white;
+      background: linear-gradient(
+        135deg,
+        var(--primary-dark),
+        var(--primary)
+      );
+    }
+
+    .header-content {
+      width: min(900px, 94%);
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .header h1 {
+      font-size: 21px;
+    }
+
+    .timer {
+      min-width: 105px;
+      padding: 9px 14px;
+      text-align: center;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.16);
+      font-weight: 700;
+    }
+
+    .container {
+      width: min(900px, 94%);
+      margin: 30px auto 60px;
+    }
+
+    .student-card,
+    .assessment-card,
+    .message-card {
+      padding: 25px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: 0 7px 22px rgba(31, 41, 55, 0.07);
+    }
+
+    .student-card h2,
+    .assessment-card h2 {
+      margin-bottom: 18px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 7px;
+      font-weight: 700;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      outline: none;
+    }
+
+    .form-group input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(49, 87, 213, 0.12);
+    }
+
+    .primary-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 22px;
+      border: 0;
+      border-radius: 9px;
+      color: white;
+      background: var(--primary);
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .primary-button:hover {
+      background: var(--primary-dark);
+    }
+
+    .primary-button:disabled {
+      opacity: 0.65;
+      cursor: not-allowed;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .assessment-top {
+      margin-bottom: 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .progress-text {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .progress-bar {
+      height: 9px;
+      margin-bottom: 28px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e5e7eb;
+    }
+
+    .progress-fill {
+      width: 0;
+      height: 100%;
+      background: var(--primary);
+      transition: width 0.25s ease;
+    }
+
+    .question-number {
+      margin-bottom: 10px;
+      color: var(--primary);
+      font-weight: 700;
+    }
+
+    .question-text {
+      margin-bottom: 20px;
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+    .options {
+      display: grid;
+      gap: 12px;
+    }
+
+    .option {
+      display: flex;
+      align-items: flex-start;
+      gap: 11px;
+      padding: 14px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      cursor: pointer;
+      transition:
+        border-color 0.2s ease,
+        background 0.2s ease;
+    }
+
+    .option:hover {
+      border-color: var(--primary);
+      background: #f8faff;
+    }
+
+    .option.selected {
+      border-color: var(--primary);
+      background: #eef2ff;
+    }
+
+    .option input {
+      margin-top: 3px;
+    }
+
+    .navigation {
+      margin-top: 28px;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .secondary-button {
+      padding: 11px 20px;
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      background: white;
+      color: var(--text);
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .error {
+      color: var(--danger);
+    }
+
+    .success {
+      color: var(--success);
+    }
+
+    .message-card {
+      text-align: center;
+    }
+
+    @media (max-width: 650px) {
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .assessment-top {
+        display: block;
+      }
+
+      .question-text {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-content">
+      <h1 id="pageTitle">Assessment</h1>
+
+      <div class="timer" id="timer">
+        15:00
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="student-card" id="studentFormCard">
+      <h2>Student Details</h2>
+
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="studentName">Student Name</label>
+
+          <input
+            type="text"
+            id="studentName"
+            placeholder="Enter your name"
+            autocomplete="name"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="rollNumber">Roll Number</label>
+
+          <input
+            type="text"
+            id="rollNumber"
+            placeholder="Enter your roll number"
+            autocomplete="off"
+          >
+        </div>
+      </div>
+
+      <p
+        id="studentFormError"
+        class="error"
+        style="margin-top: 12px;"
+      ></p>
+
+      <button
+        type="button"
+        class="primary-button"
+        id="beginButton"
+      >
+        Begin Assessment
+      </button>
+    </section>
+
+    <section
+      class="assessment-card hidden"
+      id="assessmentCard"
+    >
+      <div class="assessment-top">
+        <div>
+          <h2 id="assessmentTitle">
+            Assessment
+          </h2>
+
+          <p class="progress-text" id="progressText"></p>
+        </div>
+      </div>
+
+      <div class="progress-bar">
+        <div
+          class="progress-fill"
+          id="progressFill"
+        ></div>
+      </div>
+
+      <div id="questionContainer"></div>
+
+      <div class="navigation">
+        <button
+          type="button"
+          class="secondary-button"
+          id="previousButton"
+        >
+          Previous
+        </button>
+
+        <button
+          type="button"
+          class="primary-button"
+          id="nextButton"
+        >
+          Next
+        </button>
+      </div>
+    </section>
+
+    <section
+      class="message-card hidden"
+      id="messageCard"
+    >
+      <h2 id="messageTitle"></h2>
+
+      <p
+        id="messageText"
+        style="margin-top: 12px;"
+      ></p>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <script>
+    /*
+      Replace these two values with your own Supabase details.
+
+      Supabase Dashboard:
+      Project Settings → API
+    */
+    const SUPABASE_URL =
+      "PASTE_YOUR_SUPABASE_PROJECT_URL_HERE";
+
+    const SUPABASE_PUBLISHABLE_KEY =
+      "PASTE_YOUR_SUPABASE_PUBLISHABLE_KEY_HERE";
+
+    const supabaseClient = window.supabase.createClient(
+      SUPABASE_URL,
+      SUPABASE_PUBLISHABLE_KEY
+    );
+
+    const parameters =
+      new URLSearchParams(window.location.search);
+
+    const category =
+      parameters.get("category") || "QA";
+
+    const topic =
+      parameters.get("topic") || "percentages";
+
+    const questionFile =
+      `data/questions/${category}/${topic}.json`;
+
+    let assessmentData = null;
+    let questions = [];
+    let answers = [];
+    let currentQuestionIndex = 0;
+
+    let studentName = "";
+    let rollNumber = "";
+
+    let assessmentStarted = false;
+    let assessmentSubmitted = false;
+
+    let startTime = null;
+    let timerInterval = null;
+    let remainingSeconds = 0;
+
+    const pageTitle =
+      document.getElementById("pageTitle");
+
+    const timer =
+      document.getElementById("timer");
+
+    const studentFormCard =
+      document.getElementById("studentFormCard");
+
+    const assessmentCard =
+      document.getElementById("assessmentCard");
+
+    const messageCard =
+      document.getElementById("messageCard");
+
+    const studentNameInput =
+      document.getElementById("studentName");
+
+    const rollNumberInput =
+      document.getElementById("rollNumber");
+
+    const studentFormError =
+      document.getElementById("studentFormError");
+
+    const beginButton =
+      document.getElementById("beginButton");
+
+    const assessmentTitle =
+      document.getElementById("assessmentTitle");
+
+    const progressText =
+      document.getElementById("progressText");
+
+    const progressFill =
+      document.getElementById("progressFill");
+
+    const questionContainer =
+      document.getElementById("questionContainer");
+
+    const previousButton =
+      document.getElementById("previousButton");
+
+    const nextButton =
+      document.getElementById("nextButton");
+
+    const messageTitle =
+      document.getElementById("messageTitle");
+
+    const messageText =
+      document.getElementById("messageText");
+
+    function showMessage(title, text, type = "") {
+      studentFormCard.classList.add("hidden");
+      assessmentCard.classList.add("hidden");
+      messageCard.classList.remove("hidden");
+
+      messageTitle.textContent = title;
+      messageText.textContent = text;
+
+      messageText.className = type;
+    }
+
+    async function loadAssessment() {
+      try {
+        const response = await fetch(questionFile);
+
+        if (!response.ok) {
+          throw new Error(
+            `Could not load ${questionFile}`
+          );
+        }
+
+        assessmentData = await response.json();
+        questions = assessmentData.questions;
+        answers = new Array(questions.length).fill(null);
+
+        pageTitle.textContent = assessmentData.title;
+        assessmentTitle.textContent = assessmentData.title;
+
+        remainingSeconds =
+          assessmentData.durationMinutes * 60;
+
+        updateTimerDisplay();
+      } catch (error) {
+        console.error(error);
+
+        showMessage(
+          "Assessment could not be loaded",
+          `Check that ${questionFile} exists.`,
+          "error"
+        );
+      }
+    }
+
+    function beginAssessment() {
+      studentName = studentNameInput.value.trim();
+      rollNumber = rollNumberInput.value.trim();
+
+      if (!studentName || !rollNumber) {
+        studentFormError.textContent =
+          "Enter both student name and roll number.";
+        return;
+      }
+
+      if (!questions.length) {
+        studentFormError.textContent =
+          "The assessment questions are not ready.";
+        return;
+      }
+
+      studentFormError.textContent = "";
+
+      assessmentStarted = true;
+      startTime = Date.now();
+
+      studentFormCard.classList.add("hidden");
+      assessmentCard.classList.remove("hidden");
+
+      renderQuestion();
+      startTimer();
+    }
+
+    function renderQuestion() {
+      const question =
+        questions[currentQuestionIndex];
+
+      const selectedAnswer =
+        answers[currentQuestionIndex];
+
+      progressText.textContent =
+        `Question ${currentQuestionIndex + 1} of ${questions.length}`;
+
+      progressFill.style.width =
+        `${((currentQuestionIndex + 1) / questions.length) * 100}%`;
+
+      questionContainer.innerHTML = `
+        <div class="question-number">
+          Question ${currentQuestionIndex + 1}
+        </div>
+
+        <div class="question-text">
+          ${question.question}
+        </div>
+
+        <div class="options">
+          ${question.options
+            .map((option, optionIndex) => `
+              <label
+                class="option ${
+                  selectedAnswer === optionIndex
+                    ? "selected"
+                    : ""
+                }"
+              >
+                <input
+                  type="radio"
+                  name="answer"
+                  value="${optionIndex}"
+                  ${
+                    selectedAnswer === optionIndex
+                      ? "checked"
+                      : ""
+                  }
+                >
+
+                <span>${option}</span>
+              </label>
+            `)
+            .join("")}
+        </div>
+      `;
+
+      const optionInputs =
+        questionContainer.querySelectorAll(
+          'input[name="answer"]'
+        );
+
+      optionInputs.forEach(input => {
+        input.addEventListener("change", event => {
+          answers[currentQuestionIndex] =
+            Number(event.target.value);
+
+          renderQuestion();
+        });
+      });
+
+      previousButton.disabled =
+        currentQuestionIndex === 0;
+
+      nextButton.textContent =
+        currentQuestionIndex === questions.length - 1
+          ? "Submit Assessment"
+          : "Next";
+    }
+
+    function goToPreviousQuestion() {
+      if (currentQuestionIndex > 0) {
+        currentQuestionIndex -= 1;
+        renderQuestion();
+      }
+    }
+
+    async function goToNextQuestion() {
+      if (currentQuestionIndex < questions.length - 1) {
+        currentQuestionIndex += 1;
+        renderQuestion();
+        return;
+      }
+
+      const unansweredCount =
+        answers.filter(answer => answer === null).length;
+
+      let confirmationText =
+        "Submit the assessment now?";
+
+      if (unansweredCount > 0) {
+        confirmationText =
+          `You have ${unansweredCount} unanswered question(s). ` +
+          "Submit the assessment now?";
+      }
+
+      if (window.confirm(confirmationText)) {
+        await submitAssessment();
+      }
+    }
+
+    function updateTimerDisplay() {
+      const minutes =
+        Math.floor(remainingSeconds / 60);
+
+      const seconds =
+        remainingSeconds % 60;
+
+      timer.textContent =
+        `${String(minutes).padStart(2, "0")}:` +
+        `${String(seconds).padStart(2, "0")}`;
+    }
+
+    function startTimer() {
+      timerInterval = window.setInterval(async () => {
+        remainingSeconds -= 1;
+        updateTimerDisplay();
+
+        if (remainingSeconds <= 0) {
+          window.clearInterval(timerInterval);
+          await submitAssessment(true);
+        }
+      }, 1000);
+    }
+
+    function calculateResult() {
+      let correctAnswers = 0;
+      let incorrectAnswers = 0;
+      let unanswered = 0;
+
+      questions.forEach((question, index) => {
+        const selectedAnswer = answers[index];
+
+        if (selectedAnswer === null) {
+          unanswered += 1;
+        } else if (
+          selectedAnswer === question.correctAnswer
+        ) {
+          correctAnswers += 1;
+        } else {
+          incorrectAnswers += 1;
+        }
+      });
+
+      const totalQuestions = questions.length;
+
+      const percentage =
+        Number(
+          (
+            (correctAnswers / totalQuestions) *
+            100
+          ).toFixed(2)
+        );
+
+      const timeTakenSeconds =
+        Math.min(
+          assessmentData.durationMinutes * 60,
+          Math.floor((Date.now() - startTime) / 1000)
+        );
+
+      return {
+        correctAnswers,
+        incorrectAnswers,
+        unanswered,
+        totalQuestions,
+        percentage,
+        timeTakenSeconds
+      };
+    }
+
+    async function submitAssessment(timeExpired = false) {
+      if (assessmentSubmitted) {
+        return;
+      }
+
+      assessmentSubmitted = true;
+      window.clearInterval(timerInterval);
+
+      nextButton.disabled = true;
+      previousButton.disabled = true;
+
+      nextButton.textContent = "Saving Result...";
+
+      const result = calculateResult();
+
+      const resultRecord = {
+        student_name: studentName,
+        roll_number: rollNumber,
+        topic: assessmentData.topic,
+        category: assessmentData.category,
+        score: result.correctAnswers,
+        total_questions: result.totalQuestions,
+        correct_answers: result.correctAnswers,
+        incorrect_answers: result.incorrectAnswers,
+        unanswered: result.unanswered,
+        percentage: result.percentage,
+        time_taken_seconds: result.timeTakenSeconds
+      };
+
+      try {
+        const { error } = await supabaseClient
+          .from("assessment_results")
+          .insert(resultRecord);
+
+        if (error) {
+          throw error;
+        }
+
+        const resultForDisplay = {
+          ...resultRecord,
+          title: assessmentData.title,
+          timeExpired
+        };
+
+        sessionStorage.setItem(
+          "latestAssessmentResult",
+          JSON.stringify(resultForDisplay)
+        );
+
+        window.location.href = "result.html";
+      } catch (error) {
+        console.error(error);
+
+        assessmentSubmitted = false;
+        nextButton.disabled = false;
+        previousButton.disabled = false;
+        nextButton.textContent = "Try Saving Again";
+
+        window.alert(
+          "The assessment was completed, but the result " +
+          "could not be saved to Supabase. " +
+          "Check the Supabase URL, key, table and policy."
+        );
+      }
+    }
+
+    beginButton.addEventListener(
+      "click",
+      beginAssessment
+    );
+
+    previousButton.addEventListener(
+      "click",
+      goToPreviousQuestion
+    );
+
+    nextButton.addEventListener(
+      "click",
+      goToNextQuestion
+    );
+
+    loadAssessment();
+  </script>
+</body>
+</html>
