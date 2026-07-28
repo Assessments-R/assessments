@@ -1,1 +1,550 @@
-[]
+{
+  "id": "percentages",
+  "category": "QR",
+  "title": "Percentages",
+  "subtitle": "Quantitative Aptitude – Placement Preparation",
+  "description": "Learn percentage fundamentals, important formulas, shortcuts and common placement-question patterns.",
+  "estimatedLearningTime": "25–30 minutes",
+
+  "learningObjectives": [
+    "Understand the meaning of percentage.",
+    "Convert fractions and decimals into percentages.",
+    "Find a percentage of a quantity.",
+    "Calculate percentage increase and decrease.",
+    "Solve successive percentage-change problems.",
+    "Compare two quantities using percentages.",
+    "Solve marks, salary, population, expenditure and election problems.",
+    "Apply percentage shortcuts in placement assessments."
+  ],
+
+  "sections": [
+    {
+      "heading": "1. Meaning of Percentage",
+      "content": [
+        "The word percentage means per hundred.",
+        "A percentage represents a number or quantity as a fraction of 100.",
+        "The symbol used for percentage is %.",
+        "For example, 35% means 35 out of every 100."
+      ],
+      "formulas": [
+        "x% = x/100",
+        "Percentage = (Part / Whole) × 100"
+      ],
+      "examples": [
+        {
+          "question": "Express 25% as a fraction.",
+          "solution": "25% = 25/100 = 1/4"
+        },
+        {
+          "question": "A student answered 36 questions correctly out of 40. Find the percentage.",
+          "solution": "Percentage = (36/40) × 100 = 90%"
+        }
+      ]
+    },
+
+    {
+      "heading": "2. Converting Fractions into Percentages",
+      "content": [
+        "To convert a fraction into a percentage, multiply the fraction by 100.",
+        "Memorising common fraction-percentage values improves speed in aptitude assessments."
+      ],
+      "formulas": [
+        "Percentage = Fraction × 100"
+      ],
+      "conversionTable": [
+        {
+          "fraction": "1/2",
+          "percentage": "50%"
+        },
+        {
+          "fraction": "1/3",
+          "percentage": "33.33%"
+        },
+        {
+          "fraction": "2/3",
+          "percentage": "66.67%"
+        },
+        {
+          "fraction": "1/4",
+          "percentage": "25%"
+        },
+        {
+          "fraction": "3/4",
+          "percentage": "75%"
+        },
+        {
+          "fraction": "1/5",
+          "percentage": "20%"
+        },
+        {
+          "fraction": "2/5",
+          "percentage": "40%"
+        },
+        {
+          "fraction": "3/5",
+          "percentage": "60%"
+        },
+        {
+          "fraction": "4/5",
+          "percentage": "80%"
+        },
+        {
+          "fraction": "1/6",
+          "percentage": "16.67%"
+        },
+        {
+          "fraction": "1/8",
+          "percentage": "12.5%"
+        },
+        {
+          "fraction": "3/8",
+          "percentage": "37.5%"
+        },
+        {
+          "fraction": "5/8",
+          "percentage": "62.5%"
+        },
+        {
+          "fraction": "7/8",
+          "percentage": "87.5%"
+        },
+        {
+          "fraction": "1/10",
+          "percentage": "10%"
+        }
+      ],
+      "examples": [
+        {
+          "question": "Convert 3/5 into a percentage.",
+          "solution": "(3/5) × 100 = 60%"
+        },
+        {
+          "question": "Convert 7/8 into a percentage.",
+          "solution": "(7/8) × 100 = 87.5%"
+        }
+      ]
+    },
+
+    {
+      "heading": "3. Converting Decimals into Percentages",
+      "content": [
+        "To convert a decimal into a percentage, multiply the decimal by 100.",
+        "Move the decimal point two places to the right and add the percentage symbol."
+      ],
+      "formulas": [
+        "Percentage = Decimal × 100"
+      ],
+      "examples": [
+        {
+          "question": "Convert 0.65 into a percentage.",
+          "solution": "0.65 × 100 = 65%"
+        },
+        {
+          "question": "Convert 1.25 into a percentage.",
+          "solution": "1.25 × 100 = 125%"
+        }
+      ]
+    },
+
+    {
+      "heading": "4. Converting Percentages into Fractions or Decimals",
+      "content": [
+        "To convert a percentage into a fraction, divide it by 100 and simplify.",
+        "To convert a percentage into a decimal, divide it by 100."
+      ],
+      "formulas": [
+        "Fraction = Percentage / 100",
+        "Decimal = Percentage / 100"
+      ],
+      "examples": [
+        {
+          "question": "Convert 45% into a fraction.",
+          "solution": "45/100 = 9/20"
+        },
+        {
+          "question": "Convert 72% into a decimal.",
+          "solution": "72/100 = 0.72"
+        }
+      ]
+    },
+
+    {
+      "heading": "5. Finding a Percentage of a Quantity",
+      "content": [
+        "Replace the percentage symbol with division by 100 and multiply by the given quantity.",
+        "The word of usually indicates multiplication."
+      ],
+      "formulas": [
+        "x% of y = (x/100) × y",
+        "x% of y = y% of x"
+      ],
+      "examples": [
+        {
+          "question": "Find 20% of 450.",
+          "solution": "(20/100) × 450 = 90"
+        },
+        {
+          "question": "Find 25% of 360.",
+          "solution": "25% = 1/4, therefore 360 ÷ 4 = 90"
+        },
+        {
+          "question": "Find 8% of 50.",
+          "solution": "8% of 50 = 50% of 8 = 4"
+        }
+      ]
+    },
+
+    {
+      "heading": "6. Finding the Whole when a Percentage is Given",
+      "content": [
+        "Sometimes a percentage value is given and the original total must be found.",
+        "Represent the total as 100% and use direct proportion."
+      ],
+      "formulas": [
+        "Whole = (Given value × 100) / Given percentage"
+      ],
+      "examples": [
+        {
+          "question": "30% of a number is 72. Find the number.",
+          "solution": "Number = (72 × 100) / 30 = 240"
+        },
+        {
+          "question": "A student scored 360 marks, which is 80% of the total. Find the total marks.",
+          "solution": "Total marks = (360 × 100) / 80 = 450"
+        }
+      ]
+    },
+
+    {
+      "heading": "7. Percentage Increase",
+      "content": [
+        "Percentage increase measures how much a value has increased compared with its original value.",
+        "Always divide the increase by the original value, not by the new value."
+      ],
+      "formulas": [
+        "Increase = New value − Original value",
+        "Percentage increase = (Increase / Original value) × 100",
+        "New value after r% increase = Original value × (100 + r) / 100"
+      ],
+      "examples": [
+        {
+          "question": "A value increases from 200 to 250. Find the percentage increase.",
+          "solution": "Increase = 250 − 200 = 50. Percentage increase = (50/200) × 100 = 25%"
+        },
+        {
+          "question": "A salary of 40,000 increases by 15%. Find the new salary.",
+          "solution": "New salary = 40,000 × 115/100 = 46,000"
+        }
+      ]
+    },
+
+    {
+      "heading": "8. Percentage Decrease",
+      "content": [
+        "Percentage decrease measures how much a value has fallen compared with its original value.",
+        "The original value is always the denominator."
+      ],
+      "formulas": [
+        "Decrease = Original value − New value",
+        "Percentage decrease = (Decrease / Original value) × 100",
+        "New value after r% decrease = Original value × (100 − r) / 100"
+      ],
+      "examples": [
+        {
+          "question": "A price decreases from 500 to 425. Find the percentage decrease.",
+          "solution": "Decrease = 500 − 425 = 75. Percentage decrease = (75/500) × 100 = 15%"
+        },
+        {
+          "question": "A machine worth 80,000 depreciates by 10%. Find its new value.",
+          "solution": "New value = 80,000 × 90/100 = 72,000"
+        }
+      ]
+    },
+
+    {
+      "heading": "9. Successive Percentage Changes",
+      "content": [
+        "When a quantity changes more than once, do not simply add or subtract the percentages.",
+        "Each new percentage is applied to the changed value.",
+        "The net-change shortcut is useful when two successive changes are given."
+      ],
+      "formulas": [
+        "Net percentage change = a + b + (a × b)/100",
+        "Use a positive sign for an increase.",
+        "Use a negative sign for a decrease."
+      ],
+      "examples": [
+        {
+          "question": "A value increases by 20% and then increases by 10%. Find the net percentage change.",
+          "solution": "Net change = 20 + 10 + (20 × 10)/100 = 32% increase"
+        },
+        {
+          "question": "A price increases by 20% and then decreases by 20%. Find the net change.",
+          "solution": "Net change = 20 − 20 + (20 × −20)/100 = −4%. Therefore, there is a 4% decrease."
+        },
+        {
+          "question": "A population decreases by 10% and then increases by 10%. Find the net change.",
+          "solution": "Net change = −10 + 10 + (−10 × 10)/100 = −1%. Therefore, there is a 1% decrease."
+        }
+      ]
+    },
+
+    {
+      "heading": "10. Restoring a Value after an Increase or Decrease",
+      "content": [
+        "Equal percentage increase and decrease do not cancel each other.",
+        "A different percentage is needed to return to the original value."
+      ],
+      "formulas": [
+        "Required decrease after an r% increase = [r / (100 + r)] × 100",
+        "Required increase after an r% decrease = [r / (100 − r)] × 100"
+      ],
+      "examples": [
+        {
+          "question": "A price is increased by 25%. By what percentage must it be reduced to return to the original price?",
+          "solution": "Required decrease = (25/125) × 100 = 20%"
+        },
+        {
+          "question": "A value decreases by 20%. By what percentage must it increase to return to its original value?",
+          "solution": "Required increase = (20/80) × 100 = 25%"
+        }
+      ]
+    },
+
+    {
+      "heading": "11. Comparing Two Quantities",
+      "content": [
+        "When comparing A with B, the reference quantity is important.",
+        "If A is greater than B, divide the difference by B.",
+        "If A is less than B, divide the difference by B."
+      ],
+      "formulas": [
+        "A is what percent more than B = [(A − B) / B] × 100",
+        "A is what percent less than B = [(B − A) / B] × 100"
+      ],
+      "examples": [
+        {
+          "question": "A is 150 and B is 120. A is what percent more than B?",
+          "solution": "Difference = 30. Percentage = (30/120) × 100 = 25%"
+        },
+        {
+          "question": "A is 80 and B is 100. A is what percent less than B?",
+          "solution": "Difference = 20. Percentage = (20/100) × 100 = 20%"
+        }
+      ]
+    },
+
+    {
+      "heading": "12. More-Than and Less-Than Relationship",
+      "content": [
+        "If A is r% more than B, B is not r% less than A.",
+        "The percentage changes because the reference quantity changes."
+      ],
+      "formulas": [
+        "If A is r% more than B, B is [r / (100 + r)] × 100% less than A.",
+        "If A is r% less than B, B is [r / (100 − r)] × 100% more than A."
+      ],
+      "examples": [
+        {
+          "question": "A is 25% more than B. B is what percent less than A?",
+          "solution": "(25/125) × 100 = 20%"
+        },
+        {
+          "question": "A is 20% less than B. B is what percent more than A?",
+          "solution": "(20/80) × 100 = 25%"
+        }
+      ]
+    },
+
+    {
+      "heading": "13. Marks and Examination Problems",
+      "content": [
+        "Marks questions commonly involve pass percentage, failure margin, maximum marks or difference between two students.",
+        "Convert the percentage into marks using the total maximum marks."
+      ],
+      "formulas": [
+        "Marks obtained = (Percentage / 100) × Maximum marks",
+        "Percentage scored = (Marks obtained / Maximum marks) × 100"
+      ],
+      "examples": [
+        {
+          "question": "A student scores 72% of 500 marks. Find the marks obtained.",
+          "solution": "(72/100) × 500 = 360 marks"
+        },
+        {
+          "question": "The pass mark is 40%. A student scores 168 marks and fails by 32 marks. Find the maximum marks.",
+          "solution": "Pass marks = 168 + 32 = 200. Since 200 is 40%, maximum marks = (200 × 100)/40 = 500."
+        }
+      ]
+    },
+
+    {
+      "heading": "14. Income, Expenditure and Savings",
+      "content": [
+        "Savings are calculated by subtracting expenditure from income.",
+        "When expenditure is given as a percentage of income, the remaining percentage represents savings."
+      ],
+      "formulas": [
+        "Savings = Income − Expenditure",
+        "Savings percentage = 100% − Expenditure percentage"
+      ],
+      "examples": [
+        {
+          "question": "A person spends 75% of their income. What percentage is saved?",
+          "solution": "Savings = 100% − 75% = 25%"
+        },
+        {
+          "question": "A person earns 50,000 and saves 20%. Find the expenditure.",
+          "solution": "Savings = 20% of 50,000 = 10,000. Expenditure = 50,000 − 10,000 = 40,000."
+        }
+      ]
+    },
+
+    {
+      "heading": "15. Population Growth and Depreciation",
+      "content": [
+        "Repeated population growth and depreciation are applications of compound percentage change.",
+        "The percentage is applied to the value at the beginning of each period."
+      ],
+      "formulas": [
+        "Population after n years = P × (1 + r/100)^n",
+        "Value after n years of depreciation = P × (1 − r/100)^n"
+      ],
+      "examples": [
+        {
+          "question": "A town has a population of 20,000. It grows by 10% annually. Find the population after two years.",
+          "solution": "20,000 × 1.10 × 1.10 = 24,200"
+        },
+        {
+          "question": "A machine worth 100,000 depreciates by 10% each year. Find its value after two years.",
+          "solution": "100,000 × 0.90 × 0.90 = 81,000"
+        }
+      ]
+    },
+
+    {
+      "heading": "16. Election and Voting Problems",
+      "content": [
+        "Election questions may include valid votes, invalid votes, votes not cast and winning margins.",
+        "Read carefully to identify whether a percentage is based on total voters, votes cast or valid votes."
+      ],
+      "examples": [
+        {
+          "question": "In an election, 10% of 8,000 registered voters did not vote. Find the number of votes cast.",
+          "solution": "Votes not cast = 10% of 8,000 = 800. Votes cast = 8,000 − 800 = 7,200."
+        },
+        {
+          "question": "A candidate receives 55% of 12,000 valid votes. Find the number of votes received.",
+          "solution": "(55/100) × 12,000 = 6,600 votes"
+        }
+      ]
+    },
+
+    {
+      "heading": "17. Product-Constant Shortcut",
+      "content": [
+        "Some placement questions keep a total product constant.",
+        "Examples include price and consumption when total expenditure remains unchanged.",
+        "If price increases, consumption must decrease to maintain the same expenditure."
+      ],
+      "formulas": [
+        "Required reduction when price rises by r% = [r / (100 + r)] × 100",
+        "Required increase when price falls by r% = [r / (100 − r)] × 100"
+      ],
+      "examples": [
+        {
+          "question": "The price of an item increases by 25%. By what percentage should consumption be reduced to keep expenditure unchanged?",
+          "solution": "Required reduction = (25/125) × 100 = 20%"
+        },
+        {
+          "question": "The price of an item decreases by 20%. By what percentage can consumption increase without changing expenditure?",
+          "solution": "Required increase = (20/80) × 100 = 25%"
+        }
+      ]
+    }
+  ],
+
+  "quickShortcuts": [
+    {
+      "title": "10% shortcut",
+      "note": "Divide the number by 10."
+    },
+    {
+      "title": "5% shortcut",
+      "note": "Find 10% and divide it by 2."
+    },
+    {
+      "title": "1% shortcut",
+      "note": "Divide the number by 100."
+    },
+    {
+      "title": "25% shortcut",
+      "note": "Divide the number by 4."
+    },
+    {
+      "title": "50% shortcut",
+      "note": "Divide the number by 2."
+    },
+    {
+      "title": "75% shortcut",
+      "note": "Find three-fourths of the number."
+    },
+    {
+      "title": "12.5% shortcut",
+      "note": "Divide the number by 8."
+    },
+    {
+      "title": "x% of y shortcut",
+      "note": "x% of y is equal to y% of x. Choose the easier calculation."
+    },
+    {
+      "title": "Assume 100",
+      "note": "When only percentages are given and no actual value is provided, assuming the original quantity as 100 often simplifies the problem."
+    }
+  ],
+
+  "placementQuestionTypes": [
+    "Basic percentage calculation",
+    "Marks and pass-percentage problems",
+    "Percentage increase and decrease",
+    "Successive percentage changes",
+    "Salary, income, savings and expenditure",
+    "Population growth and depreciation",
+    "Price and consumption",
+    "Election and voting",
+    "Comparison of two quantities",
+    "Reverse-percentage problems",
+    "Mixtures involving percentages",
+    "Data-interpretation percentage calculations"
+  ],
+
+  "commonMistakes": [
+    "Dividing percentage change by the new value instead of the original value.",
+    "Adding successive percentages directly.",
+    "Assuming that a 20% increase followed by a 20% decrease gives no change.",
+    "Treating 'A is 25% more than B' as the same as 'B is 25% less than A'.",
+    "Using total votes when the question specifies valid votes.",
+    "Forgetting to convert a percentage into a fraction before multiplication.",
+    "Calculating a percentage without identifying the correct base quantity."
+  ],
+
+  "revisionChecklist": [
+    "I can convert fractions and decimals into percentages.",
+    "I can find a percentage of a number quickly.",
+    "I can find the original value from a percentage.",
+    "I can calculate percentage increase and decrease.",
+    "I understand successive percentage change.",
+    "I understand more-than and less-than comparisons.",
+    "I can solve marks, salary and expenditure questions.",
+    "I can solve population and depreciation questions.",
+    "I can use fraction-percentage shortcuts."
+  ],
+
+  "assessment": {
+    "buttonText": "Start Assessment",
+    "page": "assessment.html",
+    "questionFile": "data/questions/QR/percentages.json",
+    "category": "QR",
+    "topic": "percentages"
+  }
+}
