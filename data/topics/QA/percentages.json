@@ -544,7 +544,7 @@
     "buttonText": "Start Assessment",
     "page": "assessment.html",
     "questionFile": "data/questions/QR/percentages.json",
-    "category": "QR",
+    "category": "QA",
     "topic": "percentages"
   }
 }
