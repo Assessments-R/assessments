@@ -1,1 +1,128 @@
-
+{
+  "topic": "percentages",
+  "category": "QA",
+  "title": "Percentages Assessment",
+  "durationMinutes": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is 25% of 240?",
+      "options": [
+        "40",
+        "50",
+        "60",
+        "80"
+      ],
+      "correctAnswer": 2,
+      "explanation": "25% means one-fourth. Therefore, 240 ÷ 4 = 60."
+    },
+    {
+      "id": 2,
+      "question": "A student scored 360 marks out of 450. What percentage did the student score?",
+      "options": [
+        "75%",
+        "80%",
+        "85%",
+        "90%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "(360 ÷ 450) × 100 = 80%."
+    },
+    {
+      "id": 3,
+      "question": "A number increases from 200 to 250. What is the percentage increase?",
+      "options": [
+        "20%",
+        "25%",
+        "30%",
+        "50%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Increase = 50. Percentage increase = (50 ÷ 200) × 100 = 25%."
+    },
+    {
+      "id": 4,
+      "question": "A product priced at 800 is discounted by 15%. What is its new price?",
+      "options": [
+        "660",
+        "680",
+        "700",
+        "720"
+      ],
+      "correctAnswer": 1,
+      "explanation": "15% of 800 = 120. New price = 800 − 120 = 680."
+    },
+    {
+      "id": 5,
+      "question": "30% of a number is 72. What is the number?",
+      "options": [
+        "180",
+        "200",
+        "220",
+        "240"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Number = (72 × 100) ÷ 30 = 240."
+    },
+    {
+      "id": 6,
+      "question": "A salary of 40,000 is increased by 10%. What is the new salary?",
+      "options": [
+        "42,000",
+        "43,000",
+        "44,000",
+        "45,000"
+      ],
+      "correctAnswer": 2,
+      "explanation": "10% of 40,000 = 4,000. New salary = 44,000."
+    },
+    {
+      "id": 7,
+      "question": "A value is increased by 20% and then decreased by 20%. What is the overall change?",
+      "options": [
+        "No change",
+        "2% decrease",
+        "4% decrease",
+        "4% increase"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Assume the value is 100. After a 20% increase it becomes 120. After a 20% decrease it becomes 96. Therefore, the net decrease is 4%."
+    },
+    {
+      "id": 8,
+      "question": "If A is 25% more than B, then B is what percent less than A?",
+      "options": [
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Required percentage = (25 ÷ 125) × 100 = 20%."
+    },
+    {
+      "id": 9,
+      "question": "A person spends 75% of their income. What percentage of income is saved?",
+      "options": [
+        "15%",
+        "20%",
+        "25%",
+        "30%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Savings = 100% − 75% = 25%."
+    },
+    {
+      "id": 10,
+      "question": "The population of a town is 20,000. It increases by 10%. What is the new population?",
+      "options": [
+        "21,000",
+        "22,000",
+        "23,000",
+        "24,000"
+      ],
+      "correctAnswer": 1,
+      "explanation": "10% of 20,000 = 2,000. New population = 22,000."
+    }
+  ]
+}
