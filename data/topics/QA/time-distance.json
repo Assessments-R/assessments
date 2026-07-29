@@ -1,1 +1,663 @@
+{
+  "id": "time-distance",
+  "category": "QA",
+  "title": "Time, Speed and Distance",
+  "subtitle": "Quantitative Aptitude – Placement Preparation",
+  "description": "Learn the important formulas, shortcuts and placement-level applications of time, speed and distance, including average speed, relative speed, trains, races, circular tracks, boats and streams.",
+  "estimatedLearningTime": "30–35 minutes",
 
+  "learningObjectives": [
+    "Understand the relationship between time, speed and distance.",
+    "Convert speed between kilometres per hour and metres per second.",
+    "Solve direct speed, distance and time questions.",
+    "Understand the inverse relationship between speed and time.",
+    "Calculate average speed correctly.",
+    "Use relative speed for objects moving in the same or opposite directions.",
+    "Solve meeting, overtaking and catching-up problems.",
+    "Solve problems involving late and early arrival.",
+    "Solve race and circular-track questions.",
+    "Solve train-crossing questions.",
+    "Solve boats-and-streams questions.",
+    "Apply placement shortcuts to solve questions quickly."
+  ],
+
+  "sections": [
+    {
+      "heading": "1. Basic Concepts",
+      "content": [
+        "Speed tells us how much distance an object covers in a given amount of time.",
+        "Distance is the total length travelled by an object.",
+        "Time is the duration taken to cover a distance.",
+        "Before applying a formula, ensure that the units of speed, distance and time are compatible."
+      ],
+      "formulas": [
+        "Speed = Distance / Time",
+        "Distance = Speed × Time",
+        "Time = Distance / Speed"
+      ],
+      "examples": [
+        {
+          "question": "A car covers 240 km in 4 hours. Find its speed.",
+          "solution": "Speed = Distance / Time = 240 / 4 = 60 km/h."
+        },
+        {
+          "question": "A bus travels at 55 km/h for 6 hours. Find the distance travelled.",
+          "solution": "Distance = Speed × Time = 55 × 6 = 330 km."
+        },
+        {
+          "question": "A person travels 180 km at 45 km/h. Find the time taken.",
+          "solution": "Time = Distance / Speed = 180 / 45 = 4 hours."
+        }
+      ]
+    },
+
+    {
+      "heading": "2. Unit Conversion",
+      "content": [
+        "Speed is commonly expressed in kilometres per hour or metres per second.",
+        "Convert the speed before solving when the units of distance and time are different.",
+        "The fraction 5/18 converts kilometres per hour into metres per second.",
+        "The fraction 18/5 converts metres per second into kilometres per hour."
+      ],
+      "formulas": [
+        "1 km = 1000 metres",
+        "1 hour = 3600 seconds",
+        "1 km/h = 5/18 m/s",
+        "1 m/s = 18/5 km/h",
+        "km/h to m/s: Multiply by 5/18",
+        "m/s to km/h: Multiply by 18/5"
+      ],
+      "examples": [
+        {
+          "question": "Convert 72 km/h into m/s.",
+          "solution": "72 × 5/18 = 20 m/s."
+        },
+        {
+          "question": "Convert 25 m/s into km/h.",
+          "solution": "25 × 18/5 = 90 km/h."
+        },
+        {
+          "question": "A train moves at 54 km/h. How many metres does it cover in 20 seconds?",
+          "solution": "54 km/h = 54 × 5/18 = 15 m/s. Distance = 15 × 20 = 300 metres."
+        }
+      ]
+    },
+
+    {
+      "heading": "3. Relationship Between Speed and Time",
+      "content": [
+        "For a fixed distance, speed and time are inversely proportional.",
+        "If speed increases, the time required decreases.",
+        "If speed decreases, the time required increases.",
+        "When the distance remains constant, the product of speed and time remains constant."
+      ],
+      "formulas": [
+        "For the same distance: Speed₁ × Time₁ = Speed₂ × Time₂",
+        "Speed₁ / Speed₂ = Time₂ / Time₁"
+      ],
+      "examples": [
+        {
+          "question": "A journey takes 6 hours at 50 km/h. How long will it take at 75 km/h?",
+          "solution": "Using 50 × 6 = 75 × Time. Time = 300 / 75 = 4 hours."
+        },
+        {
+          "question": "A person completes a journey in 8 hours at 45 km/h. What speed is required to complete it in 6 hours?",
+          "solution": "Required speed = 45 × 8/6 = 60 km/h."
+        }
+      ]
+    },
+
+    {
+      "heading": "4. Effect of Percentage Change in Speed",
+      "content": [
+        "For a fixed distance, a percentage increase in speed produces a percentage decrease in time.",
+        "The percentage increase in speed and percentage decrease in time are not numerically equal.",
+        "Similarly, a reduction in speed increases the time taken."
+      ],
+      "formulas": [
+        "If speed increases by x%, decrease in time = [x / (100 + x)] × 100%",
+        "If speed decreases by x%, increase in time = [x / (100 − x)] × 100%"
+      ],
+      "examples": [
+        {
+          "question": "If speed increases by 25%, by what percentage does the time decrease?",
+          "solution": "Decrease in time = 25/125 × 100 = 20%."
+        },
+        {
+          "question": "If speed decreases by 20%, by what percentage does the time increase?",
+          "solution": "Increase in time = 20/80 × 100 = 25%."
+        },
+        {
+          "question": "A person increases speed by 50%. Find the percentage reduction in travelling time.",
+          "solution": "Reduction = 50/150 × 100 = 33⅓%."
+        }
+      ]
+    },
+
+    {
+      "heading": "5. Average Speed",
+      "content": [
+        "Average speed is not always the arithmetic mean of the given speeds.",
+        "It must be calculated using the total distance and total time.",
+        "The arithmetic mean can be used when an object travels for equal amounts of time at different speeds.",
+        "For equal distances travelled at two speeds, use the special equal-distance formula."
+      ],
+      "formulas": [
+        "Average speed = Total distance / Total time",
+        "For equal time at speeds x and y: Average speed = (x + y) / 2",
+        "For equal distances at speeds x and y: Average speed = 2xy / (x + y)"
+      ],
+      "examples": [
+        {
+          "question": "A car travels for 2 hours at 40 km/h and 3 hours at 60 km/h. Find its average speed.",
+          "solution": "Total distance = 2 × 40 + 3 × 60 = 80 + 180 = 260 km. Total time = 5 hours. Average speed = 260/5 = 52 km/h."
+        },
+        {
+          "question": "A person travels equal distances at 40 km/h and 60 km/h. Find the average speed.",
+          "solution": "Average speed = 2 × 40 × 60 / (40 + 60) = 4800/100 = 48 km/h."
+        },
+        {
+          "question": "A cyclist travels for equal amounts of time at 30 km/h and 50 km/h. Find the average speed.",
+          "solution": "For equal time, average speed = (30 + 50)/2 = 40 km/h."
+        }
+      ]
+    },
+
+    {
+      "heading": "6. Average Speed for Three Equal Distances",
+      "content": [
+        "When three equal distances are covered at three different speeds, calculate total distance and total time.",
+        "Assume each equal distance to be a convenient common value or use the direct formula."
+      ],
+      "formulas": [
+        "For three equal distances at speeds x, y and z: Average speed = 3xyz / (xy + yz + zx)"
+      ],
+      "examples": [
+        {
+          "question": "A person covers three equal distances at 30 km/h, 40 km/h and 60 km/h. Find the average speed.",
+          "solution": "Average speed = 3 × 30 × 40 × 60 / [(30 × 40) + (40 × 60) + (60 × 30)] = 216000/5400 = 40 km/h."
+        }
+      ]
+    },
+
+    {
+      "heading": "7. Relative Speed",
+      "content": [
+        "Relative speed describes how quickly the distance between two moving objects changes.",
+        "When objects move in opposite directions, their speeds are added.",
+        "When objects move in the same direction, the slower speed is subtracted from the faster speed.",
+        "Relative speed is used in meeting, overtaking, train and race questions."
+      ],
+      "formulas": [
+        "Opposite directions: Relative speed = Speed₁ + Speed₂",
+        "Same direction: Relative speed = Faster speed − Slower speed",
+        "Time to meet or overtake = Initial distance / Relative speed"
+      ],
+      "examples": [
+        {
+          "question": "Two cars move in opposite directions at 50 km/h and 70 km/h. Find their relative speed.",
+          "solution": "Relative speed = 50 + 70 = 120 km/h."
+        },
+        {
+          "question": "Two cyclists move in the same direction at 24 km/h and 18 km/h. Find their relative speed.",
+          "solution": "Relative speed = 24 − 18 = 6 km/h."
+        },
+        {
+          "question": "Two vehicles are 300 km apart and move towards each other at 40 km/h and 60 km/h. When will they meet?",
+          "solution": "Relative speed = 40 + 60 = 100 km/h. Time = 300/100 = 3 hours."
+        }
+      ]
+    },
+
+    {
+      "heading": "8. Meeting Point Problems",
+      "content": [
+        "When two people start at the same time from opposite ends and meet, they travel for equal durations.",
+        "Therefore, the ratio of the distances travelled is equal to the ratio of their speeds.",
+        "The meeting point divides the total distance according to the speed ratio."
+      ],
+      "formulas": [
+        "Distance travelled by A / Distance travelled by B = Speed of A / Speed of B",
+        "Distance covered before meeting = Speed × Meeting time"
+      ],
+      "examples": [
+        {
+          "question": "Two persons start from points 280 km apart and move towards each other at 30 km/h and 40 km/h. Find the meeting time.",
+          "solution": "Combined speed = 30 + 40 = 70 km/h. Meeting time = 280/70 = 4 hours."
+        },
+        {
+          "question": "In the previous example, how far from the first point do they meet?",
+          "solution": "Distance travelled by the first person = 30 × 4 = 120 km."
+        },
+        {
+          "question": "Two persons move towards each other at speeds in the ratio 3:5. Find the ratio of distances covered before meeting.",
+          "solution": "They travel for equal time. Therefore, the distance ratio is also 3:5."
+        }
+      ]
+    },
+
+    {
+      "heading": "9. Catching and Overtaking",
+      "content": [
+        "Overtaking occurs when a faster object moving in the same direction catches a slower object.",
+        "Use the difference of their speeds as the relative speed.",
+        "The faster object must cover the initial gap between them."
+      ],
+      "formulas": [
+        "Overtaking time = Initial gap / (Faster speed − Slower speed)"
+      ],
+      "examples": [
+        {
+          "question": "A car moving at 70 km/h is 60 km behind a bus moving at 50 km/h. How long will the car take to catch the bus?",
+          "solution": "Relative speed = 70 − 50 = 20 km/h. Time = 60/20 = 3 hours."
+        },
+        {
+          "question": "A runner moving at 10 m/s is 100 metres behind another runner moving at 8 m/s. Find the catching time.",
+          "solution": "Relative speed = 10 − 8 = 2 m/s. Time = 100/2 = 50 seconds."
+        }
+      ]
+    },
+
+    {
+      "heading": "10. Late and Early Arrival",
+      "content": [
+        "These questions compare travelling times at two different speeds over the same distance.",
+        "At a lower speed, a person may arrive late.",
+        "At a higher speed, the person may arrive early.",
+        "The difference between the two travelling times equals the total difference between the late and early arrival times."
+      ],
+      "formulas": [
+        "Distance = Time difference / [(1/Slow speed) − (1/Fast speed)]",
+        "If late by a minutes at one speed and early by b minutes at another speed, difference in travelling times = a + b minutes"
+      ],
+      "examples": [
+        {
+          "question": "At 40 km/h, a person arrives 15 minutes late. At 50 km/h, the person arrives 15 minutes early. Find the distance.",
+          "solution": "Difference in time = 30 minutes = 1/2 hour. Distance × (1/40 − 1/50) = 1/2. Distance × 1/200 = 1/2. Distance = 100 km."
+        },
+        {
+          "question": "A student walking at 4 km/h reaches college 10 minutes late, while at 5 km/h the student reaches 2 minutes early. Find the travelling-time difference.",
+          "solution": "Difference in travelling time = 10 + 2 = 12 minutes."
+        }
+      ]
+    },
+
+    {
+      "heading": "11. Stoppage Problems",
+      "content": [
+        "A vehicle's speed while moving may be different from its overall average speed when stoppages are included.",
+        "Without stoppages, the vehicle covers more distance in one hour than it does when stoppages are included.",
+        "The difference can be used to calculate stopping time."
+      ],
+      "formulas": [
+        "Distance lost per hour = Speed without stoppages − Speed with stoppages",
+        "Stoppage time per hour = [Distance lost / Speed without stoppages] × 60 minutes"
+      ],
+      "examples": [
+        {
+          "question": "A bus travels at 60 km/h without stoppages and averages 48 km/h including stoppages. For how many minutes does it stop per hour?",
+          "solution": "Distance lost per hour = 60 − 48 = 12 km. Time to cover 12 km at 60 km/h = 12/60 hour = 12 minutes."
+        },
+        {
+          "question": "A train runs at 80 km/h but its average speed including stoppages is 64 km/h. Find the stoppage time per hour.",
+          "solution": "Distance lost = 80 − 64 = 16 km. Stoppage time = 16/80 × 60 = 12 minutes."
+        }
+      ]
+    },
+
+    {
+      "heading": "12. Race Problems",
+      "content": [
+        "A race question compares the distances covered by competitors in the same time.",
+        "If A beats B by a certain distance, A completes the full race while B covers a smaller distance.",
+        "The ratio of their speeds equals the ratio of distances covered in the same time."
+      ],
+      "formulas": [
+        "Speed of A / Speed of B = Distance covered by A / Distance covered by B",
+        "If A beats B by x metres in a d-metre race: Speed ratio A:B = d:(d − x)"
+      ],
+      "examples": [
+        {
+          "question": "In a 200-metre race, A beats B by 20 metres. Find the ratio of their speeds.",
+          "solution": "When A covers 200 metres, B covers 180 metres. Speed ratio A:B = 200:180 = 10:9."
+        },
+        {
+          "question": "In a 500-metre race, A beats B by 50 metres. If A's speed is 10 m/s, find B's speed.",
+          "solution": "Speed ratio A:B = 500:450 = 10:9. B's speed = 10 × 9/10 = 9 m/s."
+        },
+        {
+          "question": "A runs 25% faster than B. In a 400-metre race, by how many metres does A beat B?",
+          "solution": "Speed ratio A:B = 125:100 = 5:4. When A covers 400 metres, B covers 400 × 4/5 = 320 metres. A beats B by 80 metres."
+        }
+      ]
+    },
+
+    {
+      "heading": "13. Circular Track Problems",
+      "content": [
+        "On a circular track, runners may move in the same direction or opposite directions.",
+        "They meet whenever the relative distance covered equals one complete track length.",
+        "For the first meeting, divide the track length by relative speed.",
+        "When lap times are given, the first return to the starting point together is found using the LCM of their lap times."
+      ],
+      "formulas": [
+        "Same direction meeting time = Track length / Difference of speeds",
+        "Opposite direction meeting time = Track length / Sum of speeds",
+        "Time to meet at starting point again = LCM of individual lap times"
+      ],
+      "examples": [
+        {
+          "question": "Two runners move around a 400-metre circular track in the same direction at 8 m/s and 6 m/s. When will the faster runner catch the slower runner?",
+          "solution": "Relative speed = 8 − 6 = 2 m/s. Time = 400/2 = 200 seconds."
+        },
+        {
+          "question": "Two runners move in opposite directions on a 500-metre track at 6 m/s and 4 m/s. Find their first meeting time.",
+          "solution": "Relative speed = 6 + 4 = 10 m/s. Time = 500/10 = 50 seconds."
+        },
+        {
+          "question": "Two runners complete one lap in 60 seconds and 90 seconds. When will they meet at the starting point again?",
+          "solution": "Required time = LCM of 60 and 90 = 180 seconds."
+        }
+      ]
+    },
+
+    {
+      "heading": "14. Train Crossing a Pole or Person",
+      "content": [
+        "When a train crosses a stationary pole, tree or person, it covers a distance equal to its own length.",
+        "Convert the train's speed into metres per second when length is given in metres and time in seconds."
+      ],
+      "formulas": [
+        "Time to cross a pole = Length of train / Speed of train",
+        "Length of train = Speed × Time"
+      ],
+      "examples": [
+        {
+          "question": "A 180-metre train moves at 54 km/h. How long does it take to cross a pole?",
+          "solution": "54 km/h = 15 m/s. Time = 180/15 = 12 seconds."
+        },
+        {
+          "question": "A train moving at 72 km/h crosses a pole in 15 seconds. Find its length.",
+          "solution": "72 km/h = 20 m/s. Length = 20 × 15 = 300 metres."
+        }
+      ]
+    },
+
+    {
+      "heading": "15. Train Crossing a Platform or Bridge",
+      "content": [
+        "To completely cross a platform, the train must cover its own length plus the platform length.",
+        "The same rule applies to a bridge, tunnel or stationary object having a measurable length."
+      ],
+      "formulas": [
+        "Distance covered = Train length + Platform length",
+        "Crossing time = (Train length + Platform length) / Train speed"
+      ],
+      "examples": [
+        {
+          "question": "A 150-metre train moving at 54 km/h crosses a 300-metre platform. Find the time taken.",
+          "solution": "Total distance = 150 + 300 = 450 metres. Speed = 15 m/s. Time = 450/15 = 30 seconds."
+        },
+        {
+          "question": "A 200-metre train crosses a 400-metre bridge in 24 seconds. Find its speed.",
+          "solution": "Total distance = 200 + 400 = 600 metres. Speed = 600/24 = 25 m/s = 25 × 18/5 = 90 km/h."
+        }
+      ]
+    },
+
+    {
+      "heading": "16. Two Trains Crossing",
+      "content": [
+        "When two trains completely cross each other, the required relative distance is the sum of their lengths.",
+        "For trains moving in opposite directions, add their speeds.",
+        "For trains moving in the same direction, subtract the slower speed from the faster speed."
+      ],
+      "formulas": [
+        "Required distance = Length of first train + Length of second train",
+        "Opposite directions: Time = Sum of lengths / Sum of speeds",
+        "Same direction: Time = Sum of lengths / Difference of speeds"
+      ],
+      "examples": [
+        {
+          "question": "Two trains of lengths 120 metres and 180 metres move in opposite directions at 54 km/h and 36 km/h. Find the crossing time.",
+          "solution": "Total length = 300 metres. Relative speed = 54 + 36 = 90 km/h = 25 m/s. Time = 300/25 = 12 seconds."
+        },
+        {
+          "question": "Two trains of lengths 150 metres and 250 metres move in the same direction at 72 km/h and 54 km/h. Find the overtaking time.",
+          "solution": "Total length = 400 metres. Relative speed = 72 − 54 = 18 km/h = 5 m/s. Time = 400/5 = 80 seconds."
+        }
+      ]
+    },
+
+    {
+      "heading": "17. Train Crossing a Moving Person",
+      "content": [
+        "When a train crosses a moving person, use relative speed.",
+        "The distance to be covered is the train's length because the person's physical length is ignored.",
+        "Add speeds if they move in opposite directions and subtract speeds if they move in the same direction."
+      ],
+      "formulas": [
+        "Crossing time = Train length / Relative speed"
+      ],
+      "examples": [
+        {
+          "question": "A 140-metre train moves at 54 km/h. A man walks in the same direction at 3.6 km/h. Find the time taken by the train to cross him.",
+          "solution": "Relative speed = 54 − 3.6 = 50.4 km/h = 14 m/s. Time = 140/14 = 10 seconds."
+        },
+        {
+          "question": "A 180-metre train moves at 72 km/h while a person walks in the opposite direction at 18 km/h. Find the crossing time.",
+          "solution": "Relative speed = 72 + 18 = 90 km/h = 25 m/s. Time = 180/25 = 7.2 seconds."
+        }
+      ]
+    },
+
+    {
+      "heading": "18. Boats and Streams – Basic Concepts",
+      "content": [
+        "The speed of a boat in still water is the speed of the boat when there is no current.",
+        "Downstream means travelling in the same direction as the stream.",
+        "Upstream means travelling against the direction of the stream.",
+        "The stream increases the boat's speed downstream and reduces its speed upstream."
+      ],
+      "formulas": [
+        "Downstream speed = Speed of boat in still water + Speed of stream",
+        "Upstream speed = Speed of boat in still water − Speed of stream",
+        "Speed of boat in still water = (Downstream speed + Upstream speed) / 2",
+        "Speed of stream = (Downstream speed − Upstream speed) / 2"
+      ],
+      "examples": [
+        {
+          "question": "The speed of a boat in still water is 12 km/h and the stream speed is 3 km/h. Find the downstream and upstream speeds.",
+          "solution": "Downstream speed = 12 + 3 = 15 km/h. Upstream speed = 12 − 3 = 9 km/h."
+        },
+        {
+          "question": "A boat's downstream speed is 18 km/h and upstream speed is 10 km/h. Find the speed of the boat in still water.",
+          "solution": "Boat speed = (18 + 10)/2 = 14 km/h."
+        },
+        {
+          "question": "A boat's downstream speed is 20 km/h and upstream speed is 12 km/h. Find the stream speed.",
+          "solution": "Stream speed = (20 − 12)/2 = 4 km/h."
+        }
+      ]
+    },
+
+    {
+      "heading": "19. Boats and Streams – Time and Distance",
+      "content": [
+        "Use downstream speed for journeys made with the current.",
+        "Use upstream speed for journeys made against the current.",
+        "Calculate upstream and downstream times separately when a boat makes a return journey."
+      ],
+      "formulas": [
+        "Downstream time = Distance / Downstream speed",
+        "Upstream time = Distance / Upstream speed",
+        "Total round-trip time = Downstream time + Upstream time"
+      ],
+      "examples": [
+        {
+          "question": "A boat travels 45 km downstream at 15 km/h. Find the time taken.",
+          "solution": "Time = 45/15 = 3 hours."
+        },
+        {
+          "question": "A boat travels 36 km upstream at 9 km/h. Find the time taken.",
+          "solution": "Time = 36/9 = 4 hours."
+        },
+        {
+          "question": "A boat's speed in still water is 10 km/h and stream speed is 2 km/h. Find the total time to travel 24 km downstream and return.",
+          "solution": "Downstream speed = 12 km/h and upstream speed = 8 km/h. Downstream time = 24/12 = 2 hours. Upstream time = 24/8 = 3 hours. Total time = 5 hours."
+        }
+      ]
+    },
+
+    {
+      "heading": "20. Rafts and Floating Objects",
+      "content": [
+        "A raft, log or floating object has no independent speed of its own.",
+        "It moves only because of the stream.",
+        "Therefore, the speed of a floating object is equal to the speed of the stream."
+      ],
+      "formulas": [
+        "Speed of raft = Speed of stream",
+        "Distance travelled by raft = Stream speed × Time"
+      ],
+      "examples": [
+        {
+          "question": "A raft travels 18 km in 6 hours. Find the speed of the stream.",
+          "solution": "Stream speed = 18/6 = 3 km/h."
+        },
+        {
+          "question": "A log floats at 2.5 km/h. How far will it travel in 4 hours?",
+          "solution": "Distance = 2.5 × 4 = 10 km."
+        }
+      ]
+    }
+  ],
+
+  "quickShortcuts": [
+    {
+      "title": "Basic formula triangle",
+      "note": "Remember Distance = Speed × Time. Rearrange it to obtain speed or time."
+    },
+    {
+      "title": "Convert km/h to m/s",
+      "note": "Multiply the speed by 5/18."
+    },
+    {
+      "title": "Convert m/s to km/h",
+      "note": "Multiply the speed by 18/5."
+    },
+    {
+      "title": "Fixed distance",
+      "note": "For the same distance, speed and time are inversely proportional."
+    },
+    {
+      "title": "Equal-distance average speed",
+      "note": "For speeds x and y over equal distances, use 2xy/(x+y)."
+    },
+    {
+      "title": "Equal-time average speed",
+      "note": "For equal travelling times, use the arithmetic mean of the speeds."
+    },
+    {
+      "title": "Opposite directions",
+      "note": "Add the speeds to obtain relative speed."
+    },
+    {
+      "title": "Same direction",
+      "note": "Subtract the slower speed from the faster speed."
+    },
+    {
+      "title": "Train crossing a pole",
+      "note": "The distance covered equals the length of the train."
+    },
+    {
+      "title": "Train crossing a platform",
+      "note": "The distance covered equals train length plus platform length."
+    },
+    {
+      "title": "Two trains crossing",
+      "note": "Add both train lengths and divide by their relative speed."
+    },
+    {
+      "title": "Boat speed",
+      "note": "Boat speed in still water is half the sum of downstream and upstream speeds."
+    },
+    {
+      "title": "Stream speed",
+      "note": "Stream speed is half the difference between downstream and upstream speeds."
+    },
+    {
+      "title": "Circular track",
+      "note": "Use track length divided by relative speed for the first meeting."
+    },
+    {
+      "title": "Race speed ratio",
+      "note": "Distances covered in the same time are in the same ratio as speeds."
+    }
+  ],
+
+  "placementQuestionTypes": [
+    "Finding speed, distance or time",
+    "Conversion between km/h and m/s",
+    "Percentage increase or decrease in speed",
+    "Inverse relationship between speed and time",
+    "Average speed over equal distances",
+    "Average speed over equal time intervals",
+    "Meeting-point questions",
+    "Catching and overtaking",
+    "Late and early arrival",
+    "Stoppage-time questions",
+    "Race and lead questions",
+    "Circular-track meetings",
+    "Train crossing a pole",
+    "Train crossing a platform or bridge",
+    "Two trains crossing in opposite directions",
+    "Two trains moving in the same direction",
+    "Train crossing a moving person",
+    "Boats moving downstream and upstream",
+    "Finding boat and stream speeds",
+    "Round trips involving boats",
+    "Rafts and floating objects"
+  ],
+
+  "commonMistakes": [
+    "Using kilometres per hour directly with metres and seconds.",
+    "Forgetting to convert minutes into hours.",
+    "Taking the arithmetic mean for equal-distance average-speed questions.",
+    "Adding speeds when objects move in the same direction.",
+    "Subtracting speeds when objects move in opposite directions.",
+    "Using only the train length when crossing a platform.",
+    "Forgetting to add both train lengths when two trains cross.",
+    "Using train speed instead of relative speed when crossing a moving person.",
+    "Adding stream speed while travelling upstream.",
+    "Subtracting stream speed while travelling downstream.",
+    "Treating speed and time as directly proportional for a fixed distance.",
+    "Using the percentage increase in speed as the same percentage decrease in time.",
+    "Ignoring stoppage time while calculating overall average speed.",
+    "Using the entire track length incorrectly when solving circular-track meetings."
+  ],
+
+  "revisionChecklist": [
+    "I can use the basic speed, distance and time formulas.",
+    "I can convert km/h into m/s and m/s into km/h.",
+    "I understand the inverse relationship between speed and time.",
+    "I can solve percentage-change questions involving speed and time.",
+    "I can calculate average speed using total distance and total time.",
+    "I know the equal-distance average-speed shortcut.",
+    "I can calculate relative speed in the same and opposite directions.",
+    "I can solve meeting and overtaking problems.",
+    "I can solve late-arrival and early-arrival questions.",
+    "I can solve race and circular-track problems.",
+    "I can solve train-crossing questions.",
+    "I can calculate upstream and downstream speeds.",
+    "I can find the speed of a boat and the speed of a stream.",
+    "I can solve boat round-trip and raft questions."
+  ],
+
+  "assessment": {
+    "buttonText": "Begin Assessment",
+    "page": "assessment.html",
+    "category": "QA",
+    "topic": "time-distance"
+  }
+}
