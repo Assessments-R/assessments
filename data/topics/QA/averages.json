@@ -1,1 +1,368 @@
+{
+  "id": "averages",
+  "category": "QA",
+  "title": "Averages",
+  "subtitle": "Quantitative Aptitude – Placement Preparation",
+  "description": "Learn the essential formulas, shortcuts and placement-level problem types based on averages.",
+  "estimatedLearningTime": "20–25 minutes",
 
+  "learningObjectives": [
+    "Understand the meaning of arithmetic average.",
+    "Find the sum when the average and number of observations are known.",
+    "Calculate a missing observation.",
+    "Find the combined average of two or more groups.",
+    "Solve questions involving addition, removal or replacement of values.",
+    "Use deviations from the average to reduce calculation time.",
+    "Solve age, marks, salary, runs and weight-based average problems.",
+    "Understand weighted average and average speed."
+  ],
+
+  "sections": [
+    {
+      "heading": "1. Meaning of Average",
+      "content": [
+        "An average is a representative value of a group of observations.",
+        "In quantitative aptitude, average usually refers to the arithmetic mean.",
+        "The arithmetic mean is found by dividing the sum of all observations by the number of observations."
+      ],
+      "formulas": [
+        "Average = Sum of observations / Number of observations",
+        "Sum of observations = Average × Number of observations",
+        "Number of observations = Sum of observations / Average"
+      ],
+      "examples": [
+        {
+          "question": "Find the average of 12, 18, 20, 25 and 30.",
+          "solution": "Sum = 12 + 18 + 20 + 25 + 30 = 105. Average = 105 / 5 = 21."
+        },
+        {
+          "question": "The average of 8 numbers is 24. Find their total.",
+          "solution": "Total = Average × Number = 24 × 8 = 192."
+        }
+      ]
+    },
+
+    {
+      "heading": "2. Finding a Missing Observation",
+      "content": [
+        "First find the total of all observations using average × number of observations.",
+        "Subtract the sum of the known observations from the total."
+      ],
+      "formulas": [
+        "Missing value = Required total − Sum of known values"
+      ],
+      "examples": [
+        {
+          "question": "The average of five numbers is 28. Four of the numbers are 20, 24, 30 and 36. Find the fifth number.",
+          "solution": "Required total = 28 × 5 = 140. Sum of known numbers = 20 + 24 + 30 + 36 = 110. Missing number = 140 − 110 = 30."
+        }
+      ]
+    },
+
+    {
+      "heading": "3. Average of Consecutive Numbers",
+      "content": [
+        "For consecutive numbers forming an arithmetic sequence, the average is the middle value.",
+        "If there is an even number of terms, the average is the mean of the two middle values.",
+        "This shortcut also works for consecutive odd numbers and consecutive even numbers."
+      ],
+      "formulas": [
+        "Average of consecutive terms = (First term + Last term) / 2",
+        "Average of the first n natural numbers = (n + 1) / 2",
+        "Average of the first n odd numbers = n",
+        "Average of the first n even numbers = n + 1"
+      ],
+      "examples": [
+        {
+          "question": "Find the average of 21, 22, 23, 24 and 25.",
+          "solution": "The middle value is 23. Therefore, the average is 23."
+        },
+        {
+          "question": "Find the average of the first 20 natural numbers.",
+          "solution": "Average = (20 + 1) / 2 = 10.5."
+        },
+        {
+          "question": "Find the average of the first 15 odd numbers.",
+          "solution": "The average of the first n odd numbers is n. Therefore, the average is 15."
+        }
+      ]
+    },
+
+    {
+      "heading": "4. Combined Average",
+      "content": [
+        "The combined average of groups cannot usually be found by simply averaging their individual averages.",
+        "Each group's average must be multiplied by the number of observations in that group.",
+        "Add the group totals and divide by the total number of observations."
+      ],
+      "formulas": [
+        "Combined average = [(n1 × a1) + (n2 × a2)] / (n1 + n2)"
+      ],
+      "examples": [
+        {
+          "question": "The average marks of 20 students is 60 and the average marks of another 30 students is 70. Find the combined average.",
+          "solution": "Combined total = (20 × 60) + (30 × 70) = 1200 + 2100 = 3300. Total students = 50. Combined average = 3300 / 50 = 66."
+        }
+      ]
+    },
+
+    {
+      "heading": "5. Addition of a New Observation",
+      "content": [
+        "Find the original total using the old average.",
+        "Add the new value.",
+        "Divide by the new number of observations."
+      ],
+      "formulas": [
+        "New average = (Old total + New value) / New count"
+      ],
+      "examples": [
+        {
+          "question": "The average age of 5 students is 20 years. A sixth student aged 26 joins them. Find the new average.",
+          "solution": "Old total = 5 × 20 = 100. New total = 100 + 26 = 126. New average = 126 / 6 = 21 years."
+        }
+      ]
+    },
+
+    {
+      "heading": "6. Removal of an Observation",
+      "content": [
+        "Find the original total.",
+        "Subtract the removed value.",
+        "Divide by the remaining number of observations."
+      ],
+      "formulas": [
+        "New average = (Old total − Removed value) / New count"
+      ],
+      "examples": [
+        {
+          "question": "The average weight of 8 students is 52 kg. A student weighing 59 kg leaves. Find the average weight of the remaining students.",
+          "solution": "Old total = 8 × 52 = 416 kg. Remaining total = 416 − 59 = 357 kg. New average = 357 / 7 = 51 kg."
+        }
+      ]
+    },
+
+    {
+      "heading": "7. Replacement of an Observation",
+      "content": [
+        "When one value is replaced, only the difference between the old and new values affects the total.",
+        "This shortcut avoids recalculating the complete total."
+      ],
+      "formulas": [
+        "Change in total = New value − Old value",
+        "Change in average = Change in total / Number of observations",
+        "New average = Old average + Change in average"
+      ],
+      "examples": [
+        {
+          "question": "The average of 10 numbers is 40. One number, 32, is replaced by 52. Find the new average.",
+          "solution": "Increase in total = 52 − 32 = 20. Increase in average = 20 / 10 = 2. New average = 40 + 2 = 42."
+        },
+        {
+          "question": "The average marks of 20 students was calculated as 65. Later, a mark of 82 was found to have been entered as 62. Find the correct average.",
+          "solution": "Increase in total = 82 − 62 = 20. Increase in average = 20 / 20 = 1. Correct average = 65 + 1 = 66."
+        }
+      ]
+    },
+
+    {
+      "heading": "8. Change in Average",
+      "content": [
+        "A change in average corresponds to a change in the total.",
+        "Multiply the change in average by the number of observations to find the change in total."
+      ],
+      "formulas": [
+        "Change in total = Number of observations × Change in average"
+      ],
+      "examples": [
+        {
+          "question": "The average salary of 12 employees increases by 500. Find the increase in the total salary.",
+          "solution": "Increase in total = 12 × 500 = 6,000."
+        },
+        {
+          "question": "The average marks of a class of 25 students increases by 0.4 when a wrongly entered mark is corrected. Find the increase in the corrected mark.",
+          "solution": "Increase in total = 25 × 0.4 = 10. Therefore, the corrected mark is 10 more than the wrongly entered mark."
+        }
+      ]
+    },
+
+    {
+      "heading": "9. Deviation Method",
+      "content": [
+        "Choose a convenient assumed average close to the observations.",
+        "Find each value's deviation from the assumed average.",
+        "Add the deviations and divide by the number of observations.",
+        "Add this result to the assumed average.",
+        "The sum of deviations from the actual average is always zero."
+      ],
+      "formulas": [
+        "Actual average = Assumed average + (Sum of deviations / Number of observations)"
+      ],
+      "examples": [
+        {
+          "question": "Find the average of 48, 52, 49, 55 and 46 using 50 as the assumed average.",
+          "solution": "Deviations from 50 are −2, +2, −1, +5 and −4. Their sum is 0. Average = 50 + 0/5 = 50."
+        }
+      ]
+    },
+
+    {
+      "heading": "10. Average Age Problems",
+      "content": [
+        "Age problems commonly involve people joining or leaving a group.",
+        "Convert the given average age into total age before making any change.",
+        "If every member's age increases by the same number of years, the average also increases by the same number."
+      ],
+      "examples": [
+        {
+          "question": "The average age of 6 employees is 28 years. A manager aged 42 joins them. Find the new average age.",
+          "solution": "Old total = 6 × 28 = 168. New total = 168 + 42 = 210. New average = 210 / 7 = 30 years."
+        },
+        {
+          "question": "The average age of a group is 24 years. What will be the average age of the same group after 3 years?",
+          "solution": "Every person's age increases by 3 years. Therefore, the new average is 24 + 3 = 27 years."
+        }
+      ]
+    },
+
+    {
+      "heading": "11. Batting Average and Runs",
+      "content": [
+        "Batting-average questions use the same basic relation: total runs divided by number of innings.",
+        "To find the runs required to reach a target average, calculate the target total and subtract the present total."
+      ],
+      "formulas": [
+        "Batting average = Total runs / Number of innings",
+        "Required score = Target total − Present total"
+      ],
+      "examples": [
+        {
+          "question": "A player has an average of 45 runs after 8 innings. How many runs must the player score in the ninth innings to raise the average to 48?",
+          "solution": "Present total = 45 × 8 = 360. Required total after 9 innings = 48 × 9 = 432. Required score = 432 − 360 = 72 runs."
+        }
+      ]
+    },
+
+    {
+      "heading": "12. Weighted Average",
+      "content": [
+        "A weighted average is used when different observations or groups do not have equal importance or frequency.",
+        "Multiply each value by its weight, add the products and divide by the sum of the weights.",
+        "Combined average is a common form of weighted average."
+      ],
+      "formulas": [
+        "Weighted average = Sum of (Value × Weight) / Sum of weights"
+      ],
+      "examples": [
+        {
+          "question": "A student's test score is 80 with weight 40% and project score is 90 with weight 60%. Find the weighted average.",
+          "solution": "Weighted average = (80 × 0.40) + (90 × 0.60) = 32 + 54 = 86."
+        }
+      ]
+    },
+
+    {
+      "heading": "13. Average Speed",
+      "content": [
+        "Average speed is total distance divided by total time.",
+        "For equal distances travelled at two different speeds, do not take the simple arithmetic mean.",
+        "The equal-distance shortcut is the harmonic mean of the two speeds."
+      ],
+      "formulas": [
+        "Average speed = Total distance / Total time",
+        "For equal distances at speeds x and y: Average speed = 2xy / (x + y)"
+      ],
+      "examples": [
+        {
+          "question": "A person travels equal distances at 40 km/h and 60 km/h. Find the average speed.",
+          "solution": "Average speed = (2 × 40 × 60) / (40 + 60) = 4800 / 100 = 48 km/h."
+        },
+        {
+          "question": "A car travels for 2 hours at 50 km/h and 3 hours at 70 km/h. Find the average speed.",
+          "solution": "Total distance = (2 × 50) + (3 × 70) = 100 + 210 = 310 km. Total time = 5 hours. Average speed = 310 / 5 = 62 km/h."
+        }
+      ]
+    }
+  ],
+
+  "quickShortcuts": [
+    {
+      "title": "Convert average to total",
+      "note": "Always use Total = Average × Number before adding, removing or replacing a value."
+    },
+    {
+      "title": "Consecutive values",
+      "note": "For equally spaced values, the average is the middle value or the mean of the first and last values."
+    },
+    {
+      "title": "Replacement shortcut",
+      "note": "New average = Old average + (New value − Old value) / Number of observations."
+    },
+    {
+      "title": "Change in average",
+      "note": "A change of d in the average of n observations changes the total by n × d."
+    },
+    {
+      "title": "Same increase for everyone",
+      "note": "If every observation increases by x, the average also increases by x."
+    },
+    {
+      "title": "Same multiplication",
+      "note": "If every observation is multiplied by x, the average is also multiplied by x."
+    },
+    {
+      "title": "Combined groups",
+      "note": "Use group totals. Do not average two group averages unless the group sizes are equal."
+    },
+    {
+      "title": "Equal-distance speed",
+      "note": "For two equal distances, use 2xy / (x + y), not (x + y) / 2."
+    }
+  ],
+
+  "placementQuestionTypes": [
+    "Basic average and total",
+    "Missing observation",
+    "Average of consecutive numbers",
+    "Combined average of two groups",
+    "Addition or removal of a person",
+    "Replacement and incorrect-entry correction",
+    "Change in average",
+    "Average age",
+    "Average marks, salary and weight",
+    "Batting average and required runs",
+    "Weighted average",
+    "Average speed"
+  ],
+
+  "commonMistakes": [
+    "Adding group averages without considering the group sizes.",
+    "Forgetting to convert an average into a total before adding or removing an observation.",
+    "Dividing by the old count after a new observation joins.",
+    "Dividing by the original count after an observation leaves.",
+    "Using the simple arithmetic mean for equal-distance average-speed questions.",
+    "Recalculating every value when the replacement shortcut can be used.",
+    "Confusing a change in total with a change in average.",
+    "Using the middle-value shortcut for numbers that are not equally spaced."
+  ],
+
+  "revisionChecklist": [
+    "I can use Average = Sum / Number.",
+    "I can find the total from the average.",
+    "I can find a missing observation.",
+    "I can calculate combined averages.",
+    "I can solve addition and removal problems.",
+    "I can solve replacement and correction problems.",
+    "I can use the deviation method.",
+    "I can solve age and batting-average problems.",
+    "I understand weighted average.",
+    "I can calculate average speed correctly."
+  ],
+
+  "assessment": {
+    "buttonText": "Start Assessment",
+    "page": "assessment.html",
+    "category": "QA",
+    "topic": "averages"
+  }
+}
