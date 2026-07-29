@@ -1,1 +1,248 @@
-
+{
+  "topic": "number-system",
+  "category": "QA",
+  "title": "Number System Assessment",
+  "durationMinutes": 20,
+  "questions": [
+    {
+      "id": 1,
+      "question": "How many factors does 360 have?",
+      "options": [
+        "18",
+        "20",
+        "24",
+        "30"
+      ],
+      "correctAnswer": 2,
+      "explanation": "360 = 2^3 × 3^2 × 5^1. Number of factors = (3 + 1)(2 + 1)(1 + 1) = 4 × 3 × 2 = 24."
+    },
+    {
+      "id": 2,
+      "question": "What is the remainder when 98765 is divided by 9?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "5"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The sum of the digits is 9 + 8 + 7 + 6 + 5 = 35. When 35 is divided by 9, the remainder is 8. Therefore, 98765 also leaves a remainder of 8."
+    },
+    {
+      "id": 3,
+      "question": "Find the units digit of 7^103.",
+      "options": [
+        "1",
+        "3",
+        "7",
+        "9"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The units-digit cycle of powers of 7 is 7, 9, 3, 1 and has length 4. Since 103 mod 4 = 3, the third digit in the cycle is 3."
+    },
+    {
+      "id": 4,
+      "question": "How many trailing zeros are there in 100!?",
+      "options": [
+        "20",
+        "22",
+        "24",
+        "25"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Trailing zeros = floor(100/5) + floor(100/25) = 20 + 4 = 24."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following numbers is divisible by 11?",
+      "options": [
+        "473",
+        "484",
+        "497",
+        "508"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A number is divisible by 11 when the difference between the sums of its alternate digits is 0 or a multiple of 11. For 484, (4 + 4) − 8 = 0. Therefore, 484 is divisible by 11."
+    },
+    {
+      "id": 6,
+      "question": "The HCF of two numbers is 12 and their LCM is 420. If one number is 60, what is the other number?",
+      "options": [
+        "72",
+        "78",
+        "84",
+        "96"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For two numbers, First number × Second number = HCF × LCM. Therefore, the other number = (12 × 420) / 60 = 84."
+    },
+    {
+      "id": 7,
+      "question": "Find the digital root of 987654321.",
+      "options": [
+        "8",
+        "9",
+        "7",
+        "6"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The sum of the digits is 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 = 45. Then 4 + 5 = 9. Therefore, the digital root is 9."
+    },
+    {
+      "id": 8,
+      "question": "What is the least number divisible by 8, 12 and 15?",
+      "options": [
+        "60",
+        "120",
+        "180",
+        "240"
+      ],
+      "correctAnswer": 1,
+      "explanation": "8 = 2^3, 12 = 2^2 × 3 and 15 = 3 × 5. Therefore, LCM = 2^3 × 3 × 5 = 120."
+    },
+    {
+      "id": 9,
+      "question": "How many prime numbers are there between 20 and 40?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The prime numbers between 20 and 40 are 23, 29, 31 and 37. Therefore, there are 4 prime numbers."
+    },
+    {
+      "id": 10,
+      "question": "Convert the binary number 101101 into decimal.",
+      "options": [
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "correctAnswer": 2,
+      "explanation": "101101 in binary = 1 × 2^5 + 0 × 2^4 + 1 × 2^3 + 1 × 2^2 + 0 × 2^1 + 1 × 2^0 = 32 + 8 + 4 + 1 = 45."
+    },
+    {
+      "id": 11,
+      "question": "What is the remainder when 2^20 is divided by 7?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The remainder cycle of powers of 2 when divided by 7 is 2, 4, 1 and has length 3. Since 20 mod 3 = 2, the second value in the cycle is 4."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is not a prime number?",
+      "options": [
+        "97",
+        "89",
+        "91",
+        "83"
+      ],
+      "correctAnswer": 2,
+      "explanation": "91 = 7 × 13, so it is a composite number. The other given numbers are prime."
+    },
+    {
+      "id": 13,
+      "question": "How many odd factors does 360 have?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "360 = 2^3 × 3^2 × 5. To count only odd factors, ignore the factor 2. Number of odd factors = (2 + 1)(1 + 1) = 3 × 2 = 6."
+    },
+    {
+      "id": 14,
+      "question": "Find the units digit of 13^57.",
+      "options": [
+        "1",
+        "3",
+        "7",
+        "9"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The units digit depends on powers of 3. The cycle is 3, 9, 7, 1 and has length 4. Since 57 mod 4 = 1, the units digit is 3."
+    },
+    {
+      "id": 15,
+      "question": "How many trailing zeros are there in 50!?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Trailing zeros = floor(50/5) + floor(50/25) = 10 + 2 = 12."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following fractions has the greatest value?",
+      "options": [
+        "7/9",
+        "5/6",
+        "4/5",
+        "9/11"
+      ],
+      "correctAnswer": 1,
+      "explanation": "7/9 is approximately 0.778, 5/6 is approximately 0.833, 4/5 is 0.8 and 9/11 is approximately 0.818. Therefore, 5/6 has the greatest value."
+    },
+    {
+      "id": 17,
+      "question": "What is the sum of the first 20 natural numbers?",
+      "options": [
+        "200",
+        "210",
+        "220",
+        "230"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Sum of the first n natural numbers = n(n + 1)/2. Therefore, the sum = 20 × 21 / 2 = 210."
+    },
+    {
+      "id": 18,
+      "question": "Find the smallest prime factor of 221.",
+      "options": [
+        "11",
+        "13",
+        "17",
+        "19"
+      ],
+      "correctAnswer": 1,
+      "explanation": "221 = 13 × 17. Therefore, the smallest prime factor is 13."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following numbers is a perfect square?",
+      "options": [
+        "324",
+        "325",
+        "326",
+        "327"
+      ],
+      "correctAnswer": 0,
+      "explanation": "324 = 18^2. Therefore, 324 is a perfect square."
+    },
+    {
+      "id": 20,
+      "question": "Three traffic lights change every 24, 36 and 54 seconds. If they change together now, after how many seconds will they change together again?",
+      "options": [
+        "108",
+        "216",
+        "324",
+        "432"
+      ],
+      "correctAnswer": 1,
+      "explanation": "24 = 2^3 × 3, 36 = 2^2 × 3^2 and 54 = 2 × 3^3. Therefore, LCM = 2^3 × 3^3 = 8 × 27 = 216 seconds."
+    }
+  ]
+}
