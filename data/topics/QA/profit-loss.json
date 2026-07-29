@@ -1,1 +1,24 @@
 
+{
+  "heading": "Key Concepts",
+  "content": [
+    "Cost Price (CP) is the price at which an article is purchased.",
+    "Selling Price (SP) is the price at which an article is sold.",
+    "Marked Price (MP) is the price printed on the product before any discount.",
+    "Profit occurs when the selling price is greater than the cost price.",
+    "Loss occurs when the selling price is less than the cost price.",
+    "Profit percentage and loss percentage are generally calculated on the cost price unless mentioned otherwise.",
+    "Discount is always calculated on the marked price.",
+    "Successive discounts cannot be added directly. Use the equivalent discount formula.",
+    "For equal gain and equal loss percentages on two articles sold at the same selling price, the overall result is always a loss.",
+    "In false-weight or dishonest-dealer questions, profit comes from supplying less quantity while charging for the full quantity.",
+    "Always identify whether the percentage is based on Cost Price, Selling Price, or Marked Price before applying any formula.",
+    "Placement questions often combine profit, discount, markup and false-weight concepts in a single problem."
+  ]
+}
+"assessment": {
+  "buttonText": "Begin Assessment",
+  "page": "assessment.html",
+  "category": "QA",
+  "topic": "profit-loss"
+}
