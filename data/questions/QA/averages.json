@@ -1,1 +1,129 @@
+{
+  "topic": "averages",
+  "category": "QA",
+  "title": "Averages Assessment",
+  "durationMinutes": 15,
 
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the average of 18, 22, 26, 30 and 34?",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "28"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sum = 18 + 22 + 26 + 30 + 34 = 130. Average = 130 / 5 = 26."
+    },
+    {
+      "id": 2,
+      "question": "The average of 12 numbers is 35. What is their total?",
+      "options": [
+        "400",
+        "410",
+        "420",
+        "430"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total = Average × Number = 35 × 12 = 420."
+    },
+    {
+      "id": 3,
+      "question": "The average of five numbers is 24. Four of the numbers are 18, 21, 25 and 30. Find the fifth number.",
+      "options": [
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Required total = 24 × 5 = 120. Sum of known values = 18 + 21 + 25 + 30 = 94. Missing value = 120 − 94 = 26."
+    },
+    {
+      "id": 4,
+      "question": "The average marks of 20 students is 60 and the average marks of another 30 students is 70. What is the combined average?",
+      "options": [
+        "64",
+        "65",
+        "66",
+        "68"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Combined total = (20 × 60) + (30 × 70) = 3300. Combined average = 3300 / 50 = 66."
+    },
+    {
+      "id": 5,
+      "question": "The average age of 6 students is 20 years. A student aged 27 joins the group. What is the new average age?",
+      "options": [
+        "20 years",
+        "21 years",
+        "22 years",
+        "23 years"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Old total = 6 × 20 = 120. New total = 120 + 27 = 147. New average = 147 / 7 = 21 years."
+    },
+    {
+      "id": 6,
+      "question": "The average weight of 8 students is 52 kg. A student weighing 59 kg leaves. What is the average weight of the remaining students?",
+      "options": [
+        "49 kg",
+        "50 kg",
+        "51 kg",
+        "52 kg"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Old total = 8 × 52 = 416 kg. Remaining total = 416 − 59 = 357 kg. Average = 357 / 7 = 51 kg."
+    },
+    {
+      "id": 7,
+      "question": "The average of 10 numbers is 40. If 32 is replaced by 52, what is the new average?",
+      "options": [
+        "41",
+        "42",
+        "43",
+        "44"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The total increases by 52 − 32 = 20. The average increases by 20 / 10 = 2. New average = 42."
+    },
+    {
+      "id": 8,
+      "question": "A player has an average of 45 runs after 8 innings. How many runs must the player score in the ninth innings to raise the average to 48?",
+      "options": [
+        "66",
+        "68",
+        "70",
+        "72"
+      ],
+      "correctAnswer": 3,
+      "explanation": "Present total = 45 × 8 = 360. Required total = 48 × 9 = 432. Required score = 432 − 360 = 72."
+    },
+    {
+      "id": 9,
+      "question": "What is the average of the first 15 odd numbers?",
+      "options": [
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The average of the first n odd numbers is n. Therefore, the average is 15."
+    },
+    {
+      "id": 10,
+      "question": "A person travels equal distances at 40 km/h and 60 km/h. What is the average speed for the whole journey?",
+      "options": [
+        "45 km/h",
+        "48 km/h",
+        "50 km/h",
+        "52 km/h"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For equal distances, average speed = 2xy / (x + y) = (2 × 40 × 60) / 100 = 48 km/h."
+    }
+  ]
+}
