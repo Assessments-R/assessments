@@ -1,1 +1,645 @@
+{
+  "id": "simple-interest",
+  "category": "QA",
+  "title": "Simple Interest",
+  "subtitle": "Quantitative Aptitude – Placement Preparation",
+  "description": "Learn principal, rate, time, simple interest, amount, reverse formulas, comparison problems, ratio-based questions and common placement shortcuts.",
+  "estimatedLearningTime": "25–30 minutes",
 
+  "learningObjectives": [
+    "Understand the meaning of principal, rate, time, interest and amount.",
+    "Calculate simple interest using the standard formula.",
+    "Calculate the final amount after adding interest.",
+    "Find the principal when interest, rate and time are known.",
+    "Find the rate of interest.",
+    "Find the investment period.",
+    "Convert months and days into years correctly.",
+    "Solve problems involving money becoming double, triple or multiple times.",
+    "Compare simple interest earned on different investments.",
+    "Solve ratio-based simple interest questions.",
+    "Solve problems involving money invested in two or more parts.",
+    "Use shortcuts commonly applied in placement aptitude tests."
+  ],
+
+  "sections": [
+    {
+      "heading": "1. Basic Concepts of Simple Interest",
+      "content": [
+        "Simple Interest is the interest calculated only on the original principal throughout the investment or loan period.",
+        "The interest remains the same for every equal time period when the principal and rate do not change.",
+        "Unlike compound interest, simple interest does not earn interest on previously accumulated interest.",
+        "The final amount is obtained by adding the simple interest to the principal."
+      ],
+      "formulas": [
+        "Principal (P) = Original amount invested or borrowed",
+        "Rate (R) = Interest rate per year",
+        "Time (T) = Duration in years",
+        "Simple Interest (SI) = Interest earned or paid",
+        "Amount (A) = Principal + Simple Interest"
+      ],
+      "examples": [
+        {
+          "question": "A person invests $5,000 and earns $600 as interest. Find the final amount.",
+          "solution": "Amount = Principal + Interest = $5,000 + $600 = $5,600."
+        },
+        {
+          "question": "A loan amount is $8,000 and the borrower repays $9,200. Find the simple interest paid.",
+          "solution": "Simple Interest = Amount − Principal = $9,200 − $8,000 = $1,200."
+        }
+      ]
+    },
+
+    {
+      "heading": "2. Simple Interest Formula",
+      "content": [
+        "Simple Interest depends directly on the principal, annual rate and time.",
+        "If any one of these values increases while the others remain fixed, the simple interest also increases.",
+        "The rate must normally be expressed as a percentage per annum and time must be expressed in years."
+      ],
+      "formulas": [
+        "SI = (P × R × T) / 100",
+        "P = Principal",
+        "R = Annual rate of interest in percent",
+        "T = Time in years"
+      ],
+      "examples": [
+        {
+          "question": "Find the simple interest on $4,000 at 5% per annum for 3 years.",
+          "solution": "SI = (4,000 × 5 × 3)/100 = $600."
+        },
+        {
+          "question": "Find the simple interest on $7,500 at 8% per annum for 2 years.",
+          "solution": "SI = (7,500 × 8 × 2)/100 = $1,200."
+        },
+        {
+          "question": "Find the simple interest on $12,000 at 6% per annum for 4 years.",
+          "solution": "SI = (12,000 × 6 × 4)/100 = $2,880."
+        }
+      ]
+    },
+
+    {
+      "heading": "3. Finding the Amount",
+      "content": [
+        "The amount is the total money received or repaid at the end of the investment or loan period.",
+        "It includes both the original principal and the simple interest."
+      ],
+      "formulas": [
+        "Amount = Principal + Simple Interest",
+        "A = P + SI",
+        "A = P(1 + RT/100)"
+      ],
+      "examples": [
+        {
+          "question": "Find the amount on $6,000 at 10% per annum for 2 years.",
+          "solution": "SI = (6,000 × 10 × 2)/100 = $1,200. Amount = $6,000 + $1,200 = $7,200."
+        },
+        {
+          "question": "Find the amount on $15,000 at 4% per annum for 5 years.",
+          "solution": "SI = (15,000 × 4 × 5)/100 = $3,000. Amount = $15,000 + $3,000 = $18,000."
+        }
+      ]
+    },
+
+    {
+      "heading": "4. Finding the Principal",
+      "content": [
+        "When simple interest, rate and time are known, rearrange the basic formula to find the original principal.",
+        "Always ensure that time is measured in years before applying the formula."
+      ],
+      "formulas": [
+        "P = (SI × 100) / (R × T)"
+      ],
+      "examples": [
+        {
+          "question": "The simple interest is $900 at 6% per annum for 3 years. Find the principal.",
+          "solution": "P = (900 × 100)/(6 × 3) = 90,000/18 = $5,000."
+        },
+        {
+          "question": "A sum earns $1,600 as simple interest at 8% per annum in 4 years. Find the principal.",
+          "solution": "P = (1,600 × 100)/(8 × 4) = 160,000/32 = $5,000."
+        }
+      ]
+    },
+
+    {
+      "heading": "5. Finding the Rate of Interest",
+      "content": [
+        "The annual rate can be found when principal, simple interest and time are known.",
+        "The answer is expressed as a percentage per annum."
+      ],
+      "formulas": [
+        "R = (SI × 100) / (P × T)"
+      ],
+      "examples": [
+        {
+          "question": "A principal of $8,000 earns $1,200 in 3 years. Find the annual rate.",
+          "solution": "R = (1,200 × 100)/(8,000 × 3) = 120,000/24,000 = 5% per annum."
+        },
+        {
+          "question": "A sum of $10,000 earns $2,400 in 4 years. Find the annual rate.",
+          "solution": "R = (2,400 × 100)/(10,000 × 4) = 6% per annum."
+        }
+      ]
+    },
+
+    {
+      "heading": "6. Finding the Time",
+      "content": [
+        "The investment or loan period can be found when principal, simple interest and rate are known.",
+        "The result obtained from the formula is normally in years."
+      ],
+      "formulas": [
+        "T = (SI × 100) / (P × R)"
+      ],
+      "examples": [
+        {
+          "question": "How long will $5,000 take to earn $1,000 at 5% per annum?",
+          "solution": "T = (1,000 × 100)/(5,000 × 5) = 100,000/25,000 = 4 years."
+        },
+        {
+          "question": "A sum of $12,000 earns $2,880 at 8% per annum. Find the time.",
+          "solution": "T = (2,880 × 100)/(12,000 × 8) = 288,000/96,000 = 3 years."
+        }
+      ]
+    },
+
+    {
+      "heading": "7. Converting Months and Days into Years",
+      "content": [
+        "Simple interest rates are generally given per annum, so the time must be expressed in years.",
+        "Convert months into years by dividing by 12.",
+        "Convert days into years using 365 days, unless the question explicitly uses 360 days."
+      ],
+      "formulas": [
+        "Time in years = Number of months / 12",
+        "Time in years = Number of days / 365"
+      ],
+      "examples": [
+        {
+          "question": "Find the simple interest on $6,000 at 8% per annum for 9 months.",
+          "solution": "T = 9/12 = 3/4 year. SI = (6,000 × 8 × 3/4)/100 = $360."
+        },
+        {
+          "question": "Find the simple interest on $7,300 at 10% per annum for 90 days, assuming 365 days in a year.",
+          "solution": "T = 90/365. SI = (7,300 × 10 × 90)/(100 × 365) = $180."
+        }
+      ]
+    },
+
+    {
+      "heading": "8. When the Amount is Given",
+      "content": [
+        "When amount and principal are given, first find the simple interest by subtraction.",
+        "After finding the interest, use the appropriate formula to calculate rate, time or principal."
+      ],
+      "formulas": [
+        "SI = Amount − Principal",
+        "A = P + SI"
+      ],
+      "examples": [
+        {
+          "question": "A sum of $10,000 becomes $12,400 in 4 years. Find the simple interest.",
+          "solution": "SI = $12,400 − $10,000 = $2,400."
+        },
+        {
+          "question": "A sum of $8,000 becomes $9,600 in 5 years. Find the rate.",
+          "solution": "SI = $9,600 − $8,000 = $1,600. R = (1,600 × 100)/(8,000 × 5) = 4% per annum."
+        }
+      ]
+    },
+
+    {
+      "heading": "9. Direct Proportionality in Simple Interest",
+      "content": [
+        "Simple interest is directly proportional to principal, rate and time.",
+        "If the principal doubles while rate and time remain fixed, simple interest doubles.",
+        "If the rate triples while principal and time remain fixed, simple interest triples.",
+        "If the time is reduced by half while principal and rate remain fixed, simple interest is reduced by half."
+      ],
+      "formulas": [
+        "SI ∝ P when R and T are constant",
+        "SI ∝ R when P and T are constant",
+        "SI ∝ T when P and R are constant",
+        "SI ∝ P × R × T"
+      ],
+      "examples": [
+        {
+          "question": "A sum earns $600 at a certain rate and time. What interest will twice the principal earn at the same rate and time?",
+          "solution": "Since SI is directly proportional to principal, the interest will also double. Required interest = $1,200."
+        },
+        {
+          "question": "A sum earns $900 in 3 years. How much will it earn in 5 years at the same rate?",
+          "solution": "Interest ratio = 3:5. Required interest = 900 × 5/3 = $1,500."
+        }
+      ]
+    },
+
+    {
+      "heading": "10. Money Becoming Double, Triple or Multiple",
+      "content": [
+        "When a sum becomes double, the interest earned is equal to the principal.",
+        "When a sum becomes triple, the interest earned is twice the principal.",
+        "When a sum becomes four times, the interest earned is three times the principal.",
+        "Under simple interest, the increase is linear with time."
+      ],
+      "formulas": [
+        "If Amount = 2P, then SI = P and RT = 100",
+        "If Amount = 3P, then SI = 2P and RT = 200",
+        "If Amount = 4P, then SI = 3P and RT = 300",
+        "Time to become n times = 100(n − 1) / R"
+      ],
+      "examples": [
+        {
+          "question": "In how many years will a sum double at 10% simple interest?",
+          "solution": "For doubling, RT = 100. Therefore, T = 100/10 = 10 years."
+        },
+        {
+          "question": "In how many years will a sum triple at 8% simple interest?",
+          "solution": "For tripling, RT = 200. Therefore, T = 200/8 = 25 years."
+        },
+        {
+          "question": "At what rate will a sum become four times in 20 years?",
+          "solution": "For four times, RT = 300. Therefore, R = 300/20 = 15% per annum."
+        }
+      ]
+    },
+
+    {
+      "heading": "11. Finding a New Amount after a Different Time",
+      "content": [
+        "Under simple interest, the interest earned per year remains constant.",
+        "Find the annual interest first and then multiply it by the required number of years."
+      ],
+      "formulas": [
+        "Annual interest = Total simple interest / Number of years",
+        "New interest = Annual interest × New time",
+        "New amount = Principal + New interest"
+      ],
+      "examples": [
+        {
+          "question": "A sum of $5,000 amounts to $6,000 in 4 years. Find the amount after 7 years at the same rate.",
+          "solution": "Interest in 4 years = $1,000. Annual interest = $250. Interest in 7 years = $1,750. Amount = $5,000 + $1,750 = $6,750."
+        },
+        {
+          "question": "A sum amounts to $9,200 in 3 years and the principal is $8,000. Find the amount after 5 years.",
+          "solution": "Interest in 3 years = $1,200. Annual interest = $400. Interest in 5 years = $2,000. Amount = $8,000 + $2,000 = $10,000."
+        }
+      ]
+    },
+
+    {
+      "heading": "12. Difference Between Amounts at Different Times",
+      "content": [
+        "The difference between two amounts under simple interest is the interest earned during the difference in time.",
+        "This method is useful when the principal is not directly given."
+      ],
+      "formulas": [
+        "Difference in amounts = Annual interest × Difference in time",
+        "Annual interest = Difference in amounts / Difference in years"
+      ],
+      "examples": [
+        {
+          "question": "A sum amounts to $7,200 in 3 years and $8,000 in 5 years. Find the annual interest.",
+          "solution": "Difference in amounts = $800. Difference in time = 2 years. Annual interest = 800/2 = $400."
+        },
+        {
+          "question": "A sum amounts to $11,500 in 4 years and $13,000 in 7 years. Find the principal.",
+          "solution": "Difference of $1,500 is interest for 3 years. Annual interest = $500. Interest for 4 years = $2,000. Principal = $11,500 − $2,000 = $9,500."
+        }
+      ]
+    },
+
+    {
+      "heading": "13. Comparing Two Investments",
+      "content": [
+        "When comparing investments, use the product P × R × T.",
+        "The investment with the larger product earns more simple interest.",
+        "If the principal is the same, compare only rate × time."
+      ],
+      "formulas": [
+        "SI1 : SI2 = P1R1T1 : P2R2T2",
+        "For the same principal, SI1 : SI2 = R1T1 : R2T2",
+        "For the same rate and time, SI1 : SI2 = P1 : P2"
+      ],
+      "examples": [
+        {
+          "question": "Compare the interest on $5,000 at 8% for 3 years and $6,000 at 5% for 4 years.",
+          "solution": "First SI = $1,200. Second SI = $1,200. Therefore, both investments earn equal interest."
+        },
+        {
+          "question": "The same principal is invested at 6% for 4 years and 8% for 3 years. Compare the interests.",
+          "solution": "Interest ratio = 6 × 4 : 8 × 3 = 24:24 = 1:1."
+        }
+      ]
+    },
+
+    {
+      "heading": "14. Ratio-Based Simple Interest Problems",
+      "content": [
+        "Ratios can be used to compare principals, rates, times or interests.",
+        "Cancel common factors before calculating the final ratio."
+      ],
+      "formulas": [
+        "SI1 : SI2 = P1R1T1 : P2R2T2",
+        "If rates and times are equal, SI ratio = Principal ratio",
+        "If principals and times are equal, SI ratio = Rate ratio",
+        "If principals and rates are equal, SI ratio = Time ratio"
+      ],
+      "examples": [
+        {
+          "question": "Two principals are in the ratio 3:5 and are invested at the same rate for the same time. Find the interest ratio.",
+          "solution": "Since rate and time are the same, interest ratio = principal ratio = 3:5."
+        },
+        {
+          "question": "Two sums are in the ratio 2:3, their rates are in the ratio 4:5 and their times are in the ratio 3:2. Find the interest ratio.",
+          "solution": "SI ratio = 2 × 4 × 3 : 3 × 5 × 2 = 24:30 = 4:5."
+        }
+      ]
+    },
+
+    {
+      "heading": "15. Difference Between Two Simple Interests",
+      "content": [
+        "When two investments differ in principal, rate or time, calculate the difference using the simple interest formula.",
+        "If only one factor changes, the difference can often be calculated directly."
+      ],
+      "formulas": [
+        "Difference in SI = Difference in principal × R × T / 100",
+        "Difference in SI = P × Difference in rate × T / 100",
+        "Difference in SI = P × R × Difference in time / 100"
+      ],
+      "examples": [
+        {
+          "question": "Find the difference between the simple interests on $8,000 and $5,000 at 6% for 4 years.",
+          "solution": "Difference in principal = $3,000. Difference in SI = (3,000 × 6 × 4)/100 = $720."
+        },
+        {
+          "question": "Find the difference between the interest on $10,000 at 8% and 5% for 3 years.",
+          "solution": "Difference in rate = 3%. Difference in SI = (10,000 × 3 × 3)/100 = $900."
+        }
+      ]
+    },
+
+    {
+      "heading": "16. Money Invested in Two Parts",
+      "content": [
+        "A total amount may be divided and invested at different rates.",
+        "Represent one part using a variable and the other part as the total minus that variable.",
+        "Add the interests earned by both parts and equate the sum to the total interest."
+      ],
+      "formulas": [
+        "First part = x",
+        "Second part = Total amount − x",
+        "Total SI = SI on first part + SI on second part"
+      ],
+      "examples": [
+        {
+          "question": "A total of $10,000 is invested partly at 5% and the rest at 8% for one year. The total interest is $650. Find the amount invested at 5%.",
+          "solution": "Let the amount at 5% be x. Then 0.05x + 0.08(10,000 − x) = 650. So 5x + 800,000 − 8x = 65,000 after multiplying by 100. Therefore, 3x = 15,000 and x = $5,000."
+        },
+        {
+          "question": "A sum of $20,000 is divided between 6% and 10% simple interest. The total annual interest is $1,600. Find the amount invested at 10%.",
+          "solution": "Let x be invested at 10%. Then 0.10x + 0.06(20,000 − x) = 1,600. This gives 0.04x = 400, so x = $10,000."
+        }
+      ]
+    },
+
+    {
+      "heading": "17. Equal Interest from Different Investments",
+      "content": [
+        "Different principals can earn equal interest if their rates and times compensate for the difference.",
+        "Equate the two simple interest expressions and cancel the common factor of 100."
+      ],
+      "formulas": [
+        "P1R1T1 = P2R2T2"
+      ],
+      "examples": [
+        {
+          "question": "At what rate will $6,000 earn the same interest in 4 years as $8,000 earns at 6% in 3 years?",
+          "solution": "6,000 × R × 4 = 8,000 × 6 × 3. Therefore, R = 6%."
+        },
+        {
+          "question": "For how many years should $5,000 be invested at 8% to earn the same interest as $8,000 at 5% for 4 years?",
+          "solution": "5,000 × 8 × T = 8,000 × 5 × 4. Therefore, T = 4 years."
+        }
+      ]
+    },
+
+    {
+      "heading": "18. Rate Changes during the Investment Period",
+      "content": [
+        "If the interest rate changes during the investment period, divide the duration into separate parts.",
+        "Calculate the simple interest for each period separately and then add the results."
+      ],
+      "formulas": [
+        "Total SI = SI for first period + SI for second period + ...",
+        "Total SI = P(R1T1 + R2T2 + ...)/100"
+      ],
+      "examples": [
+        {
+          "question": "Find the interest on $10,000 for 2 years at 5% and the next 3 years at 8%.",
+          "solution": "First interest = (10,000 × 5 × 2)/100 = $1,000. Second interest = (10,000 × 8 × 3)/100 = $2,400. Total interest = $3,400."
+        },
+        {
+          "question": "A sum of $8,000 is invested for one year at 6% and two years at 9%. Find the final amount.",
+          "solution": "Interest = (8,000 × 6 × 1)/100 + (8,000 × 9 × 2)/100 = $480 + $1,440 = $1,920. Amount = $9,920."
+        }
+      ]
+    },
+
+    {
+      "heading": "19. Change in Rate or Time",
+      "content": [
+        "If principal remains fixed, the change in interest depends on the change in rate or time.",
+        "These questions can often be solved without calculating both complete interest amounts."
+      ],
+      "formulas": [
+        "Increase in SI due to rate change = P × Increase in rate × T / 100",
+        "Increase in SI due to time change = P × R × Increase in time / 100"
+      ],
+      "examples": [
+        {
+          "question": "By how much will the interest on $12,000 for 5 years increase if the rate rises from 6% to 8%?",
+          "solution": "Increase in rate = 2%. Increase in SI = (12,000 × 2 × 5)/100 = $1,200."
+        },
+        {
+          "question": "By how much will the interest on $10,000 at 7% increase if the time rises from 3 years to 5 years?",
+          "solution": "Increase in time = 2 years. Increase in SI = (10,000 × 7 × 2)/100 = $1,400."
+        }
+      ]
+    },
+
+    {
+      "heading": "20. Placement-Test Strategy",
+      "content": [
+        "Identify which of the five quantities—principal, rate, time, interest and amount—are given.",
+        "Convert all time values into years before substitution.",
+        "Use ratio and proportionality methods when exact principal values are unnecessary.",
+        "For double or triple amount questions, use RT shortcuts instead of calculating full interest.",
+        "For changing rates, split the duration into stages.",
+        "For two-part investment problems, form one linear equation.",
+        "Estimate the answer before selecting an option to detect calculation errors."
+      ],
+      "formulas": [
+        "SI = PRT/100",
+        "A = P + SI",
+        "P = 100SI/RT",
+        "R = 100SI/PT",
+        "T = 100SI/PR"
+      ],
+      "examples": [
+        {
+          "question": "A sum doubles in 8 years under simple interest. Find the rate.",
+          "solution": "For doubling, RT = 100. Therefore, R = 100/8 = 12.5% per annum."
+        },
+        {
+          "question": "A sum earns $1,500 in 5 years. How much interest will it earn in 8 years at the same rate?",
+          "solution": "SI is directly proportional to time. Required interest = 1,500 × 8/5 = $2,400."
+        }
+      ]
+    }
+  ],
+
+  "quickShortcuts": [
+    {
+      "title": "Basic formula",
+      "note": "Simple Interest = Principal × Rate × Time ÷ 100."
+    },
+    {
+      "title": "Amount",
+      "note": "Amount is always Principal plus Simple Interest."
+    },
+    {
+      "title": "Find interest from amount",
+      "note": "Subtract the principal from the amount."
+    },
+    {
+      "title": "Months to years",
+      "note": "Divide the number of months by 12."
+    },
+    {
+      "title": "Days to years",
+      "note": "Divide the number of days by 365 unless another convention is specified."
+    },
+    {
+      "title": "At 10% for one year",
+      "note": "The interest is one-tenth of the principal."
+    },
+    {
+      "title": "At 5% for one year",
+      "note": "The interest is one-twentieth of the principal."
+    },
+    {
+      "title": "Money doubles",
+      "note": "Use RT = 100."
+    },
+    {
+      "title": "Money triples",
+      "note": "Use RT = 200."
+    },
+    {
+      "title": "Money becomes four times",
+      "note": "Use RT = 300."
+    },
+    {
+      "title": "Same principal",
+      "note": "Compare Rate × Time."
+    },
+    {
+      "title": "Same rate",
+      "note": "Compare Principal × Time."
+    },
+    {
+      "title": "Same time",
+      "note": "Compare Principal × Rate."
+    },
+    {
+      "title": "Different amounts at different times",
+      "note": "Their difference gives the interest for the difference in time."
+    },
+    {
+      "title": "Changing rates",
+      "note": "Calculate the interest for each period separately."
+    },
+    {
+      "title": "Two-part investments",
+      "note": "Let one part be x and the other part be Total minus x."
+    }
+  ],
+
+  "placementQuestionTypes": [
+    "Finding simple interest",
+    "Finding final amount",
+    "Finding principal",
+    "Finding rate of interest",
+    "Finding investment time",
+    "Converting months into years",
+    "Converting days into years",
+    "Finding interest when amount is given",
+    "Finding amount after a different time",
+    "Difference between amounts at different times",
+    "Money doubling under simple interest",
+    "Money tripling under simple interest",
+    "Money becoming multiple times",
+    "Comparing two investments",
+    "Simple interest ratio questions",
+    "Equal-interest investments",
+    "Difference between two simple interests",
+    "Investment divided into two parts",
+    "Rate changing during the investment period",
+    "Increase or decrease in interest",
+    "Placement-based word problems"
+  ],
+
+  "commonMistakes": [
+    "Using the amount instead of the principal in the simple interest formula.",
+    "Forgetting to divide by 100.",
+    "Adding principal and interest when only simple interest is asked.",
+    "Giving simple interest when the question asks for the final amount.",
+    "Using months directly as years.",
+    "Forgetting to convert days into years.",
+    "Using the compound interest formula instead of the simple interest formula.",
+    "Treating the rate as a decimal and also dividing by 100.",
+    "Ignoring the phrase per annum.",
+    "Applying one rate to the entire period when the rate changes.",
+    "Assuming that interest is added to the principal every year.",
+    "Using RT = 100 for tripling instead of doubling.",
+    "Forgetting that tripling means interest equals twice the principal.",
+    "Comparing only rates when principals or times are different.",
+    "Rounding intermediate answers too early.",
+    "Using inconsistent currency or time units.",
+    "Failing to subtract the principal from the amount before finding interest."
+  ],
+
+  "revisionChecklist": [
+    "I understand principal, rate, time, simple interest and amount.",
+    "I can use the simple interest formula correctly.",
+    "I can calculate the final amount.",
+    "I can find the principal.",
+    "I can find the annual rate.",
+    "I can find the time period.",
+    "I can convert months into years.",
+    "I can convert days into years.",
+    "I can find interest when amount and principal are given.",
+    "I understand direct proportionality in simple interest.",
+    "I can solve doubling and tripling questions.",
+    "I can find a new amount for a different time period.",
+    "I can solve questions involving amounts at two different times.",
+    "I can compare two investments.",
+    "I can solve simple interest ratio problems.",
+    "I can solve equal-interest questions.",
+    "I can solve two-part investment problems.",
+    "I can solve questions with changing rates.",
+    "I can calculate the increase or decrease in simple interest.",
+    "I can avoid common time-conversion and formula errors."
+  ],
+
+  "assessment": {
+    "buttonText": "Begin Assessment",
+    "page": "assessment.html",
+    "questionFile": "data/questions/QA/simple-interest.json",
+    "category": "QA",
+    "topic": "simple-interest"
+  }
+}
