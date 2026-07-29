@@ -7,7 +7,7 @@
     {
       "id": 1,
       "instruction": "Study the bar graph and answer the question.",
-      "image": "data/images/assessments/data-interpretation/branch-placements.svg",
+      "image": "images/assessments/data-interpretation/branch-placements.svg",
       "imageAlt": "Bar graph showing students placed from CSE, ECE, EEE, Mechanical and Civil branches.",
       "question": "How many students were placed from CSE and ECE together?",
       "options": [
@@ -22,7 +22,7 @@
     {
       "id": 2,
       "instruction": "Study the bar graph and answer the question.",
-      "image": "data/images/assessments/data-interpretation/branch-placements.svg",
+      "image": "images/assessments/data-interpretation/branch-placements.svg",
       "imageAlt": "Bar graph showing students placed from CSE, ECE, EEE, Mechanical and Civil branches.",
       "question": "The number of students placed from CSE is what percentage greater than the number placed from EEE?",
       "options": [
@@ -37,7 +37,7 @@
     {
       "id": 3,
       "instruction": "Study the bar graph and answer the question.",
-      "image": "data/images/assessments/data-interpretation/branch-placements.svg",
+      "image": "images/assessments/data-interpretation/branch-placements.svg",
       "imageAlt": "Bar graph showing students placed from CSE, ECE, EEE, Mechanical and Civil branches.",
       "question": "What is the average number of students placed across all five branches?",
       "options": [
@@ -52,7 +52,7 @@
     {
       "id": 4,
       "instruction": "Study the line graph and answer the question.",
-      "image": "data/images/assessments/data-interpretation/company-revenue.svg",
+      "image": "images/assessments/data-interpretation/company-revenue.svg",
       "imageAlt": "Line graph showing company revenue from 2021 to 2025.",
       "question": "Between which two consecutive years did the company record the greatest increase in revenue?",
       "options": [
@@ -67,7 +67,7 @@
     {
       "id": 5,
       "instruction": "Study the line graph and answer the question.",
-      "image": "data/images/assessments/data-interpretation/company-revenue.svg",
+      "image": "images/assessments/data-interpretation/company-revenue.svg",
       "imageAlt": "Line graph showing company revenue from 2021 to 2025.",
       "question": "What was the percentage decrease in revenue from 2023 to 2024?",
       "options": [
@@ -82,7 +82,7 @@
     {
       "id": 6,
       "instruction": "Study the pie chart and answer the question.",
-      "image": "data/images/assessments/data-interpretation/company-expenditure.svg",
+      "image": "images/assessments/data-interpretation/company-expenditure.svg",
       "imageAlt": "Pie chart showing the percentage distribution of company expenditure.",
       "question": "If the company's total expenditure was ₹20,00,000, how much was spent on salaries?",
       "options": [
@@ -97,7 +97,7 @@
     {
       "id": 7,
       "instruction": "Study the pie chart and answer the question.",
-      "image": "data/images/assessments/data-interpretation/company-expenditure.svg",
+      "image": "images/assessments/data-interpretation/company-expenditure.svg",
       "imageAlt": "Pie chart showing the percentage distribution of company expenditure.",
       "question": "What is the ratio of expenditure on salaries to expenditure on marketing?",
       "options": [
@@ -112,7 +112,7 @@
     {
       "id": 8,
       "instruction": "Study the double bar graph and answer the question.",
-      "image": "data/images/assessments/data-interpretation/applications-selections.svg",
+      "image": "images/assessments/data-interpretation/applications-selections.svg",
       "imageAlt": "Double bar graph comparing job applications and selections from 2022 to 2025.",
       "question": "What was the selection percentage in 2024?",
       "options": [
@@ -127,7 +127,7 @@
     {
       "id": 9,
       "instruction": "Study the double bar graph and answer the question.",
-      "image": "data/images/assessments/data-interpretation/applications-selections.svg",
+      "image": "images/assessments/data-interpretation/applications-selections.svg",
       "imageAlt": "Double bar graph comparing job applications and selections from 2022 to 2025.",
       "question": "What was the total number of selections from 2022 to 2025?",
       "options": [
@@ -142,7 +142,7 @@
     {
       "id": 10,
       "instruction": "Study the table image and answer the question.",
-      "image": "data/images/assessments/data-interpretation/quarterly-sales.svg",
+      "image": "images/assessments/data-interpretation/quarterly-sales.svg",
       "imageAlt": "Table showing quarterly sales of Products A, B, C and D.",
       "question": "What was the average quarterly sale of Product B?",
       "options": [
@@ -157,7 +157,7 @@
     {
       "id": 11,
       "instruction": "Study the table image and answer the question.",
-      "image": "data/images/assessments/data-interpretation/quarterly-sales.svg",
+      "image": "images/assessments/data-interpretation/quarterly-sales.svg",
       "imageAlt": "Table showing quarterly sales of Products A, B, C and D.",
       "question": "What was the percentage increase in the sales of Product C from Quarter 1 to Quarter 4?",
       "options": [
@@ -172,7 +172,7 @@
     {
       "id": 12,
       "instruction": "Study the table image and answer the question.",
-      "image": "data/images/assessments/data-interpretation/quarterly-sales.svg",
+      "image": "images/assessments/data-interpretation/quarterly-sales.svg",
       "imageAlt": "Table showing quarterly sales of Products A, B, C and D.",
       "question": "Which product recorded the highest total annual sales?",
       "options": [
@@ -187,7 +187,7 @@
     {
       "id": 13,
       "instruction": "Study the stacked bar graph and answer the question.",
-      "image": "data/images/assessments/data-interpretation/company-employees.svg",
+      "image": "images/assessments/data-interpretation/company-employees.svg",
       "imageAlt": "Stacked bar graph showing male and female employees in four departments.",
       "question": "How many employees work in the Sales and Finance departments together?",
       "options": [
@@ -202,7 +202,7 @@
     {
       "id": 14,
       "instruction": "Study the stacked bar graph and answer the question.",
-      "image": "data/images/assessments/data-interpretation/company-employees.svg",
+      "image": "images/assessments/data-interpretation/company-employees.svg",
       "imageAlt": "Stacked bar graph showing male and female employees in four departments.",
       "question": "Women constitute what percentage of the employees in the HR department?",
       "options": [
@@ -217,7 +217,7 @@
     {
       "id": 15,
       "instruction": "Study the line graph and answer the question.",
-      "image": "data/images/assessments/data-interpretation/monthly-production.svg",
+      "image": "images/assessments/data-interpretation/monthly-production.svg",
       "imageAlt": "Line graph showing monthly production from January to June.",
       "question": "What was the average monthly production from January to June?",
       "options": [
