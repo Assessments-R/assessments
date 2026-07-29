@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="460" viewBox="0 0 850 460" role="img">
+  <title>Quarterly Sales of Products</title>
+
+  <rect width="850" height="460" fill="#ffffff"/>
+
+  <text x="425" y="40" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1f2937">
+    Quarterly Sales of Products
+  </text>
+
+  <text x="425" y="65" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="14" fill="#6b7280">
+    Sales figures in units
+  </text>
+
+  <rect x="75" y="100" width="700" height="280" rx="8"
+        fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+
+  <rect x="75" y="100" width="700" height="56" fill="#2563eb"/>
+
+  <g stroke="#cbd5e1" stroke-width="1.5">
+    <line x1="215" y1="100" x2="215" y2="380"/>
+    <line x1="355" y1="100" x2="355" y2="380"/>
+    <line x1="495" y1="100" x2="495" y2="380"/>
+    <line x1="635" y1="100" x2="635" y2="380"/>
+
+    <line x1="75" y1="156" x2="775" y2="156"/>
+    <line x1="75" y1="212" x2="775" y2="212"/>
+    <line x1="75" y1="268" x2="775" y2="268"/>
+    <line x1="75" y1="324" x2="775" y2="324"/>
+  </g>
+
+  <rect x="75" y="212" width="700" height="56" fill="#f8fafc"/>
+  <rect x="75" y="324" width="700" height="56" fill="#f8fafc"/>
+
+  <g font-family="Arial, sans-serif" font-size="15" font-weight="700"
+     fill="#ffffff" text-anchor="middle">
+    <text x="145" y="135">Product</text>
+    <text x="285" y="135">Q1</text>
+    <text x="425" y="135">Q2</text>
+    <text x="565" y="135">Q3</text>
+    <text x="705" y="135">Q4</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="16" fill="#1f2937" text-anchor="middle">
+    <text x="145" y="191" font-weight="700">A</text>
+    <text x="285" y="191">120</text>
+    <text x="425" y="191">150</text>
+    <text x="565" y="191">180</text>
+    <text x="705" y="191">210</text>
+
+    <text x="145" y="247" font-weight="700">B</text>
+    <text x="285" y="247">100</text>
+    <text x="425" y="247">140</text>
+    <text x="565" y="247">160</text>
+    <text x="705" y="247">200</text>
+
+    <text x="145" y="303" font-weight="700">C</text>
+    <text x="285" y="303">80</text>
+    <text x="425" y="303">120</text>
+    <text x="565" y="303">150</text>
+    <text x="705" y="303">170</text>
+
+    <text x="145" y="359" font-weight="700">D</text>
+    <text x="285" y="359">110</text>
+    <text x="425" y="359">130</text>
+    <text x="565" y="359">145</text>
+    <text x="705" y="359">165</text>
+  </g>
+</svg>
