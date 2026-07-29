@@ -1,1 +1,648 @@
+{
+  "id": "time-work",
+  "category": "QA",
+  "title": "Time and Work",
+  "subtitle": "Quantitative Aptitude – Placement Preparation",
+  "description": "Learn work-rate concepts, efficiency methods, combined work, wages, worker-based problems, alternate-day work and pipes and cisterns.",
+  "estimatedLearningTime": "30–35 minutes",
 
+  "learningObjectives": [
+    "Understand the relationship between work, rate and time.",
+    "Calculate one-day work and work efficiency.",
+    "Find the time taken by two or more people working together.",
+    "Compare the efficiencies of different workers.",
+    "Use the LCM method to solve Time and Work problems quickly.",
+    "Solve problems in which workers join or leave a task.",
+    "Solve alternate-day and partial-work problems.",
+    "Calculate wages according to work completed.",
+    "Solve problems involving men, women, machines, days and working hours.",
+    "Apply Time and Work concepts to pipes and cisterns.",
+    "Use placement-test shortcuts to solve questions efficiently."
+  ],
+
+  "sections": [
+    {
+      "heading": "1. Basic Concept of Time and Work",
+      "content": [
+        "Time and Work problems study the relationship between the amount of work completed, the rate of working and the time taken.",
+        "A person who works faster completes more work in the same amount of time.",
+        "For a fixed amount of work, efficiency and time are inversely proportional.",
+        "If efficiency increases, the time required decreases."
+      ],
+      "formulas": [
+        "Work done = Rate of work × Time",
+        "Rate of work = Work done / Time",
+        "Time = Work done / Rate of work",
+        "Efficiency ∝ 1 / Time"
+      ],
+      "examples": [
+        {
+          "question": "A worker completes 40 units of work in 5 days. Find the worker's daily rate.",
+          "solution": "Daily rate = 40/5 = 8 units per day."
+        },
+        {
+          "question": "A machine produces 15 units per hour. How many units will it produce in 8 hours?",
+          "solution": "Work done = Rate × Time = 15 × 8 = 120 units."
+        }
+      ]
+    },
+
+    {
+      "heading": "2. One-Day Work",
+      "content": [
+        "If a person completes an entire piece of work in a certain number of days, the person's one-day work is the reciprocal of the number of days.",
+        "One-day work represents the fraction of the total work completed in one day.",
+        "Once one-day work is known, the work completed in any number of days can be calculated."
+      ],
+      "formulas": [
+        "If A completes a work in x days, A's one-day work = 1/x",
+        "Work completed in n days = n/x",
+        "Time required = 1 / One-day work"
+      ],
+      "examples": [
+        {
+          "question": "A can complete a work in 12 days. Find A's one-day work.",
+          "solution": "A's one-day work = 1/12."
+        },
+        {
+          "question": "A completes a work in 15 days. What fraction of the work will A complete in 5 days?",
+          "solution": "Work completed in 5 days = 5/15 = 1/3."
+        },
+        {
+          "question": "A worker completes 1/18 of a task per day. How many days will the worker take to complete the task?",
+          "solution": "Time = 1 ÷ (1/18) = 18 days."
+        }
+      ]
+    },
+
+    {
+      "heading": "3. Combined Work of Two People",
+      "content": [
+        "When two people work together, their individual rates are added.",
+        "The combined rate represents the fraction of work completed by both people in one day.",
+        "The reciprocal of the combined one-day work gives the total time required."
+      ],
+      "formulas": [
+        "Combined one-day work = 1/x + 1/y",
+        "Time taken together = xy / (x + y)",
+        "Here, x and y are the individual times taken by A and B."
+      ],
+      "examples": [
+        {
+          "question": "A can complete a work in 12 days and B can complete it in 18 days. Find the time taken when they work together.",
+          "solution": "Combined work per day = 1/12 + 1/18 = 3/36 + 2/36 = 5/36. Time = 36/5 = 7.2 days."
+        },
+        {
+          "question": "A completes a task in 10 days and B completes it in 15 days. How long will they take together?",
+          "solution": "Time together = (10 × 15)/(10 + 15) = 150/25 = 6 days."
+        }
+      ]
+    },
+
+    {
+      "heading": "4. Combined Work of Three People",
+      "content": [
+        "When three people work together, add the one-day work of all three people.",
+        "The same method can be extended to any number of workers.",
+        "After adding their work rates, take the reciprocal to find the required time."
+      ],
+      "formulas": [
+        "Combined one-day work = 1/x + 1/y + 1/z",
+        "Time taken together = 1 / Combined one-day work"
+      ],
+      "examples": [
+        {
+          "question": "A, B and C can complete a work individually in 12, 18 and 36 days. Find the time taken when all three work together.",
+          "solution": "Combined work = 1/12 + 1/18 + 1/36 = 3/36 + 2/36 + 1/36 = 6/36 = 1/6. Therefore, they complete the work in 6 days."
+        },
+        {
+          "question": "A, B and C can complete a task in 8, 12 and 24 days respectively. Find their combined time.",
+          "solution": "Combined work = 1/8 + 1/12 + 1/24 = 3/24 + 2/24 + 1/24 = 6/24 = 1/4. Therefore, the work is completed in 4 days."
+        }
+      ]
+    },
+
+    {
+      "heading": "5. LCM Method",
+      "content": [
+        "The LCM method avoids complicated fractions.",
+        "Take the least common multiple of the given completion times as the total number of work units.",
+        "Divide the total work units by each worker's time to obtain the worker's daily efficiency.",
+        "Add the efficiencies of workers who work together."
+      ],
+      "formulas": [
+        "Total work = LCM of individual completion times",
+        "Efficiency = Total work / Number of days",
+        "Time taken together = Total work / Combined efficiency"
+      ],
+      "examples": [
+        {
+          "question": "A completes a work in 12 days and B completes it in 18 days. Solve using the LCM method.",
+          "solution": "LCM of 12 and 18 = 36 units. A's efficiency = 36/12 = 3 units per day. B's efficiency = 36/18 = 2 units per day. Combined efficiency = 5 units per day. Time = 36/5 = 7.2 days."
+        },
+        {
+          "question": "A, B and C complete a work in 10, 15 and 30 days respectively. Find their combined time using work units.",
+          "solution": "LCM = 30 units. Efficiencies are 3, 2 and 1 units per day. Combined efficiency = 6 units per day. Time = 30/6 = 5 days."
+        }
+      ]
+    },
+
+    {
+      "heading": "6. Efficiency and Time",
+      "content": [
+        "Efficiency represents the amount of work completed in one unit of time.",
+        "A more efficient worker completes the same work in less time.",
+        "For the same amount of work, efficiency and time are inversely proportional.",
+        "If the efficiency ratio is known, reverse the ratio to obtain the time ratio."
+      ],
+      "formulas": [
+        "Efficiency ratio = Inverse of time ratio",
+        "If efficiency of A : B = m : n, then time taken by A : B = n : m",
+        "If time taken by A : B = m : n, then efficiency of A : B = n : m"
+      ],
+      "examples": [
+        {
+          "question": "The efficiency ratio of A and B is 3:2. Find the ratio of the times taken by them.",
+          "solution": "Time ratio is the inverse of efficiency ratio. Therefore, time taken by A : B = 2:3."
+        },
+        {
+          "question": "A takes 12 days and B takes 18 days to complete the same work. Find their efficiency ratio.",
+          "solution": "Efficiency ratio A:B = 18:12 = 3:2."
+        },
+        {
+          "question": "A is twice as efficient as B. If B completes a work in 20 days, find the time taken by A.",
+          "solution": "A's efficiency is twice B's efficiency, so A takes half the time. Time taken by A = 20/2 = 10 days."
+        }
+      ]
+    },
+
+    {
+      "heading": "7. Finding Individual Time from Combined Time",
+      "content": [
+        "Sometimes the combined completion time and one person's individual time are given.",
+        "Subtract the known person's one-day work from the combined one-day work.",
+        "The remaining rate belongs to the other worker."
+      ],
+      "formulas": [
+        "B's one-day work = Combined one-day work − A's one-day work",
+        "1/B = 1/T − 1/A",
+        "If A and B together take T days and A alone takes x days, B alone takes xT / (x − T) days"
+      ],
+      "examples": [
+        {
+          "question": "A and B together complete a task in 8 days. A alone completes it in 12 days. Find the time taken by B alone.",
+          "solution": "B's work = 1/8 − 1/12 = 3/24 − 2/24 = 1/24. Therefore, B takes 24 days."
+        },
+        {
+          "question": "A and B together take 6 days. A alone takes 10 days. Find B's individual time.",
+          "solution": "B's time = (10 × 6)/(10 − 6) = 60/4 = 15 days."
+        }
+      ]
+    },
+
+    {
+      "heading": "8. Work Completed and Remaining Work",
+      "content": [
+        "When workers work for only part of the total time, first calculate the amount of work they complete.",
+        "Subtract the completed work from the total work to find the remaining work.",
+        "The remaining time depends on the rate of the worker or group that continues."
+      ],
+      "formulas": [
+        "Work completed = Rate × Number of days",
+        "Remaining work = Total work − Completed work",
+        "Time for remaining work = Remaining work / Remaining rate"
+      ],
+      "examples": [
+        {
+          "question": "A can complete a work in 20 days. How much work remains after A works for 8 days?",
+          "solution": "Work completed = 8/20 = 2/5. Remaining work = 1 − 2/5 = 3/5."
+        },
+        {
+          "question": "A and B together can complete a work in 10 days. They work together for 4 days. What fraction of the work remains?",
+          "solution": "Work completed = 4/10 = 2/5. Remaining work = 1 − 2/5 = 3/5."
+        }
+      ]
+    },
+
+    {
+      "heading": "9. Workers Joining or Leaving",
+      "content": [
+        "Some questions involve one worker beginning the task and another worker joining later.",
+        "Other questions involve workers leaving before the task is completed.",
+        "Divide the work into separate stages according to the workers present during each stage.",
+        "Calculate the work completed in each stage before finding the remaining work."
+      ],
+      "formulas": [
+        "Stage work = Combined rate during the stage × Duration of the stage",
+        "Total completed work = Sum of work completed in all stages",
+        "Remaining time = Remaining work / Current combined rate"
+      ],
+      "examples": [
+        {
+          "question": "A can complete a work in 12 days and B in 18 days. A works alone for 4 days, after which B joins. Find the total time required.",
+          "solution": "A completes 4/12 = 1/3 of the work. Remaining work = 2/3. Combined rate = 1/12 + 1/18 = 5/36. Time for remaining work = (2/3) ÷ (5/36) = (2/3) × (36/5) = 24/5 = 4.8 days. Total time = 4 + 4.8 = 8.8 days."
+        },
+        {
+          "question": "A and B can complete a work in 10 days. They work together for 6 days, and then B leaves. A completes the remaining work in 8 days. Find A's individual completion time.",
+          "solution": "Together they complete 6/10 = 3/5 of the work. Remaining work = 2/5. A completes 2/5 in 8 days, so A's daily work = (2/5)/8 = 1/20. Therefore, A alone takes 20 days."
+        }
+      ]
+    },
+
+    {
+      "heading": "10. Alternate-Day Work",
+      "content": [
+        "In alternate-day problems, workers perform the task on different days.",
+        "Calculate the work completed during one complete cycle.",
+        "A two-day cycle usually consists of one day of A's work and one day of B's work.",
+        "Continue counting complete cycles and then calculate the work done on the final day."
+      ],
+      "formulas": [
+        "Work in one two-day cycle = A's one-day work + B's one-day work",
+        "Number of complete cycles = Work completed before the final partial cycle / Work per cycle"
+      ],
+      "examples": [
+        {
+          "question": "A can complete a work in 10 days and B in 15 days. They work on alternate days beginning with A. Find the work completed in two days.",
+          "solution": "Work completed in two days = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6."
+        },
+        {
+          "question": "A can complete a task in 4 days and B in 12 days. They work on alternate days beginning with A. Find the total time required.",
+          "solution": "In two days, work completed = 1/4 + 1/12 = 1/3. In 6 days, three cycles complete the entire work. Therefore, total time = 6 days."
+        }
+      ]
+    },
+
+    {
+      "heading": "11. Men, Days and Work",
+      "content": [
+        "For workers with equal efficiency, the total work is proportional to the number of workers multiplied by the number of days.",
+        "More workers require fewer days to complete the same task.",
+        "Fewer workers require more days when all other conditions remain unchanged."
+      ],
+      "formulas": [
+        "Work ∝ Number of workers × Number of days",
+        "M1 × D1 = M2 × D2",
+        "Required days = (Original workers × Original days) / New workers"
+      ],
+      "examples": [
+        {
+          "question": "12 workers complete a task in 15 days. How many days will 20 workers take?",
+          "solution": "12 × 15 = 20 × D. Therefore, D = 180/20 = 9 days."
+        },
+        {
+          "question": "18 workers complete a task in 24 days. How many workers are needed to complete it in 16 days?",
+          "solution": "18 × 24 = M × 16. Therefore, M = 432/16 = 27 workers."
+        }
+      ]
+    },
+
+    {
+      "heading": "12. Men, Days and Working Hours",
+      "content": [
+        "When daily working hours change, include hours in the work relationship.",
+        "The total work is proportional to the number of workers, number of days and working hours per day.",
+        "This method assumes that all workers have equal efficiency."
+      ],
+      "formulas": [
+        "Work ∝ Workers × Days × Hours per day",
+        "M1 × D1 × H1 = M2 × D2 × H2"
+      ],
+      "examples": [
+        {
+          "question": "10 workers working 6 hours per day complete a task in 15 days. How many days will 15 workers working 8 hours per day take?",
+          "solution": "10 × 15 × 6 = 15 × D × 8. Therefore, D = 900/120 = 7.5 days."
+        },
+        {
+          "question": "20 workers working 8 hours per day complete a task in 12 days. How many workers working 6 hours per day are required to complete it in 16 days?",
+          "solution": "20 × 12 × 8 = M × 16 × 6. Therefore, M = 1920/96 = 20 workers."
+        }
+      ]
+    },
+
+    {
+      "heading": "13. Different Categories of Workers",
+      "content": [
+        "Men, women, children or machines may have different efficiencies.",
+        "Convert one category into an equivalent number of another category using the given efficiency ratio.",
+        "After conversion, apply the standard workers-and-days relationship."
+      ],
+      "formulas": [
+        "Equivalent workers = Number of workers × Relative efficiency",
+        "Total work = Workers × Efficiency × Time",
+        "If m men are equivalent to w women, then efficiency of one man : one woman = w : m"
+      ],
+      "examples": [
+        {
+          "question": "3 men can complete the same work as 5 women. Find the efficiency ratio of one man to one woman.",
+          "solution": "3 men = 5 women. Therefore, efficiency of one man : one woman = 5:3."
+        },
+        {
+          "question": "2 machines can produce the same output as 5 workers. How many workers are equivalent to 6 machines?",
+          "solution": "1 machine = 5/2 workers. Therefore, 6 machines = 6 × 5/2 = 15 workers."
+        }
+      ]
+    },
+
+    {
+      "heading": "14. Work and Wages",
+      "content": [
+        "Wages are generally divided according to the amount of work completed.",
+        "When workers work for the same amount of time, wages are divided according to their efficiency ratio.",
+        "When workers work for different durations, wages are divided according to efficiency multiplied by time."
+      ],
+      "formulas": [
+        "Wage ratio = Work-done ratio",
+        "Work done = Efficiency × Time",
+        "Wage ratio = Efficiency ratio × Time ratio"
+      ],
+      "examples": [
+        {
+          "question": "A and B complete a job together and their efficiency ratio is 3:2. If they receive $500, find their individual shares.",
+          "solution": "Total ratio = 3 + 2 = 5. A's share = (3/5) × $500 = $300. B's share = (2/5) × $500 = $200."
+        },
+        {
+          "question": "A and B have efficiencies in the ratio 2:3. A works for 6 days and B works for 4 days. Find their wage ratio.",
+          "solution": "A's work : B's work = 2 × 6 : 3 × 4 = 12:12 = 1:1. Therefore, wages are divided equally."
+        }
+      ]
+    },
+
+    {
+      "heading": "15. Work Completed in a Given Number of Days",
+      "content": [
+        "When a worker's total completion time is known, multiply the one-day work by the number of days worked.",
+        "The same approach can be used for a group of workers.",
+        "Make sure that the work completed does not exceed the total work."
+      ],
+      "formulas": [
+        "Individual work in d days = d/x",
+        "Combined work in d days = d × Combined one-day work"
+      ],
+      "examples": [
+        {
+          "question": "A completes a task in 16 days. What percentage of the task is completed in 4 days?",
+          "solution": "Work completed = 4/16 = 1/4. Percentage completed = 25%."
+        },
+        {
+          "question": "A and B can complete a task in 12 and 18 days. What fraction do they complete together in 3 days?",
+          "solution": "Combined daily work = 1/12 + 1/18 = 5/36. Work in 3 days = 3 × 5/36 = 15/36 = 5/12."
+        }
+      ]
+    },
+
+    {
+      "heading": "16. Finding Efficiency from Percentage Comparison",
+      "content": [
+        "Efficiency may be compared using percentages.",
+        "If A is a certain percentage more efficient than B, assign B an efficiency of 100 units.",
+        "Increase or decrease the efficiency according to the given percentage.",
+        "Reverse the efficiency ratio to find the time ratio."
+      ],
+      "formulas": [
+        "If A is p% more efficient than B, efficiency ratio A:B = (100 + p):100",
+        "If A is p% less efficient than B, efficiency ratio A:B = (100 − p):100",
+        "Time ratio = Inverse of efficiency ratio"
+      ],
+      "examples": [
+        {
+          "question": "A is 25% more efficient than B. Find the efficiency and time ratios.",
+          "solution": "Let B's efficiency be 100. A's efficiency = 125. Efficiency ratio A:B = 125:100 = 5:4. Time ratio A:B = 4:5."
+        },
+        {
+          "question": "A is 20% less efficient than B. If B completes a work in 16 days, find A's time.",
+          "solution": "Efficiency ratio A:B = 80:100 = 4:5. Time ratio A:B = 5:4. A's time = 16 × 5/4 = 20 days."
+        }
+      ]
+    },
+
+    {
+      "heading": "17. Pipes and Cisterns – Basic Concepts",
+      "content": [
+        "Pipes and cisterns use the same principles as Time and Work.",
+        "A filling pipe performs positive work because it adds water to the tank.",
+        "An emptying pipe or leak performs negative work because it removes water.",
+        "The capacity of the tank is treated as the total work."
+      ],
+      "formulas": [
+        "If a pipe fills a tank in x hours, filling rate = 1/x",
+        "If a pipe empties a tank in y hours, emptying rate = −1/y",
+        "Net rate = Sum of filling rates − Sum of emptying rates",
+        "Required time = 1 / Net rate"
+      ],
+      "examples": [
+        {
+          "question": "A pipe fills a tank in 12 hours. What fraction of the tank does it fill in one hour?",
+          "solution": "One-hour filling rate = 1/12."
+        },
+        {
+          "question": "An outlet empties a tank in 15 hours. What is its one-hour rate?",
+          "solution": "Since it removes water, its rate is −1/15."
+        }
+      ]
+    },
+
+    {
+      "heading": "18. Two Filling Pipes",
+      "content": [
+        "When two inlet pipes are opened together, add their filling rates.",
+        "The combined filling time is found in the same way as the combined work of two people."
+      ],
+      "formulas": [
+        "Combined rate = 1/x + 1/y",
+        "Combined filling time = xy / (x + y)"
+      ],
+      "examples": [
+        {
+          "question": "Pipe A fills a tank in 10 hours and Pipe B fills it in 15 hours. Find the time taken when both are opened together.",
+          "solution": "Combined time = (10 × 15)/(10 + 15) = 150/25 = 6 hours."
+        },
+        {
+          "question": "Two pipes fill a tank in 12 hours and 18 hours. Find their combined filling time.",
+          "solution": "Combined rate = 1/12 + 1/18 = 5/36. Time = 36/5 = 7.2 hours."
+        }
+      ]
+    },
+
+    {
+      "heading": "19. Inlet Pipe and Outlet Pipe",
+      "content": [
+        "When a filling pipe and an emptying pipe are opened together, subtract the emptying rate from the filling rate.",
+        "The tank fills only when the filling rate is greater than the emptying rate.",
+        "The tank empties when the emptying rate is greater than the filling rate."
+      ],
+      "formulas": [
+        "Net filling rate = 1/x − 1/y",
+        "If y > x, net filling time = xy / (y − x)",
+        "Here, x is filling time and y is emptying time."
+      ],
+      "examples": [
+        {
+          "question": "A pipe fills a tank in 8 hours and a leak empties it in 24 hours. Find the time taken to fill the tank when both operate.",
+          "solution": "Net rate = 1/8 − 1/24 = 3/24 − 1/24 = 2/24 = 1/12. Therefore, the tank fills in 12 hours."
+        },
+        {
+          "question": "An inlet fills a tank in 12 hours and an outlet empties it in 18 hours. Find the net filling time.",
+          "solution": "Net rate = 1/12 − 1/18 = 3/36 − 2/36 = 1/36. Therefore, the tank fills in 36 hours."
+        }
+      ]
+    },
+
+    {
+      "heading": "20. Leak Detected after Filling Begins",
+      "content": [
+        "A leak reduces the effective filling rate of a pipe.",
+        "If the normal filling time and the actual filling time are given, subtract the actual net rate from the inlet rate to find the leak rate.",
+        "Take the reciprocal of the leak rate to find the time in which the leak alone would empty the tank."
+      ],
+      "formulas": [
+        "Leak rate = Inlet rate − Actual net rate",
+        "Leak rate = 1/x − 1/y",
+        "Leak emptying time = 1 / Leak rate"
+      ],
+      "examples": [
+        {
+          "question": "A pipe normally fills a tank in 6 hours, but because of a leak it takes 9 hours. In how many hours can the leak empty the full tank?",
+          "solution": "Leak rate = 1/6 − 1/9 = 3/18 − 2/18 = 1/18. Therefore, the leak can empty the tank in 18 hours."
+        },
+        {
+          "question": "A pipe fills a tank in 8 hours, but a leak increases the filling time to 12 hours. Find the leak's emptying time.",
+          "solution": "Leak rate = 1/8 − 1/12 = 3/24 − 2/24 = 1/24. Therefore, the leak empties the tank in 24 hours."
+        }
+      ]
+    }
+  ],
+
+  "quickShortcuts": [
+    {
+      "title": "One-day work",
+      "note": "If a person completes a task in x days, the person's one-day work is 1/x."
+    },
+    {
+      "title": "Combined work",
+      "note": "Add the individual one-day work rates of all people working together."
+    },
+    {
+      "title": "Two-worker shortcut",
+      "note": "If A and B take x and y days individually, together they take xy/(x+y) days."
+    },
+    {
+      "title": "Use the LCM method",
+      "note": "Take the LCM of the given completion times as total work to avoid fractions."
+    },
+    {
+      "title": "Efficiency and time",
+      "note": "Efficiency and time are inversely proportional for the same amount of work."
+    },
+    {
+      "title": "Reverse the ratio",
+      "note": "Reverse the efficiency ratio to obtain the time ratio."
+    },
+    {
+      "title": "Workers and days",
+      "note": "For equal efficiency and fixed work, workers × days remains constant."
+    },
+    {
+      "title": "Include working hours",
+      "note": "When hours change, use workers × days × hours."
+    },
+    {
+      "title": "Workers joining later",
+      "note": "Divide the work into stages and calculate completed and remaining work separately."
+    },
+    {
+      "title": "Alternate-day work",
+      "note": "Find the work completed in one complete cycle before counting the final day."
+    },
+    {
+      "title": "Wage distribution",
+      "note": "Divide wages in the ratio of the actual work completed."
+    },
+    {
+      "title": "Filling pipes",
+      "note": "Treat filling pipes as positive work rates."
+    },
+    {
+      "title": "Outlet or leak",
+      "note": "Treat an outlet pipe or leak as a negative work rate."
+    },
+    {
+      "title": "Net pipe rate",
+      "note": "Add inlet rates and subtract outlet rates."
+    },
+    {
+      "title": "Check the answer",
+      "note": "People working together must normally take less time than either person working alone."
+    }
+  ],
+
+  "placementQuestionTypes": [
+    "Finding one-day work",
+    "Finding work completed in a given number of days",
+    "Two people working together",
+    "Three or more people working together",
+    "Finding individual time from combined time",
+    "Comparing efficiency and completion time",
+    "Using the LCM work-unit method",
+    "Workers joining after work begins",
+    "Workers leaving before work is completed",
+    "Alternate-day work",
+    "Work completed and remaining work",
+    "Men and days problems",
+    "Men, days and working-hours problems",
+    "Men, women and children efficiency problems",
+    "Machines and production problems",
+    "Efficiency percentage comparison",
+    "Work and wage distribution",
+    "Two inlet pipes filling a tank",
+    "Inlet and outlet pipes operating together",
+    "Leakage and delayed filling",
+    "Pipes opened or closed at different times"
+  ],
+
+  "commonMistakes": [
+    "Adding the number of days instead of adding work rates.",
+    "Treating completion time as efficiency.",
+    "Forgetting that efficiency and time are inversely proportional.",
+    "Using the efficiency ratio directly as the time ratio.",
+    "Failing to calculate the work completed before a worker joins or leaves.",
+    "Using the total work instead of the remaining work in the final stage.",
+    "Ignoring the order of workers in alternate-day problems.",
+    "Forgetting to include working hours when daily hours change.",
+    "Assuming men, women and machines have equal efficiency without conversion.",
+    "Dividing wages according to time instead of actual work completed.",
+    "Treating an outlet pipe as a positive rate.",
+    "Adding filling and emptying rates instead of subtracting them.",
+    "Forgetting that a leak increases the total filling time.",
+    "Using inconsistent time units such as days and hours in the same calculation.",
+    "Rounding intermediate fractional values too early."
+  ],
+
+  "revisionChecklist": [
+    "I understand the relationship between work, rate and time.",
+    "I can calculate one-day work.",
+    "I can find the work completed in a given number of days.",
+    "I can calculate the combined work rate of two or more people.",
+    "I can use the LCM method to represent total work.",
+    "I understand the inverse relationship between efficiency and time.",
+    "I can find an individual's completion time from a combined rate.",
+    "I can solve problems involving workers joining or leaving.",
+    "I can calculate completed and remaining work.",
+    "I can solve alternate-day work problems.",
+    "I can solve men, days and working-hours problems.",
+    "I can compare workers with different efficiencies.",
+    "I can divide wages according to work completed.",
+    "I can treat inlet pipes as positive work.",
+    "I can treat outlets and leaks as negative work.",
+    "I can solve combined inlet-and-outlet pipe problems.",
+    "I can solve leakage and delayed-filling questions."
+  ],
+
+  "assessment": {
+    "buttonText": "Begin Assessment",
+    "page": "assessment.html",
+    "questionFile": "data/questions/QA/time-work.json",
+    "category": "QA",
+    "topic": "time-work"
+  }
+}
