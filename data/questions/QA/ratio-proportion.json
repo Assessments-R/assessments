@@ -1,1 +1,248 @@
-
+{
+  "topic": "ratio-proportion",
+  "category": "QA",
+  "title": "Ratio and Proportion Assessment",
+  "durationMinutes": 20,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Simplify the ratio 84:126.",
+      "options": [
+        "2:3",
+        "3:4",
+        "4:5",
+        "5:7"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The HCF of 84 and 126 is 42. Dividing both terms by 42 gives 84:126 = 2:3."
+    },
+    {
+      "id": 2,
+      "question": "What is the ratio of 2.5 meters to 75 centimeters?",
+      "options": [
+        "5:2",
+        "10:3",
+        "3:10",
+        "25:75"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Convert 2.5 meters into centimeters: 2.5 meters = 250 centimeters. Ratio = 250:75 = 10:3."
+    },
+    {
+      "id": 3,
+      "question": "Simplify the ratio 2/3 : 5/6.",
+      "options": [
+        "2:5",
+        "4:5",
+        "5:4",
+        "3:5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The LCM of 3 and 6 is 6. Multiplying both terms by 6 gives 4:5."
+    },
+    {
+      "id": 4,
+      "question": "If 7:9 = 35:x, find the value of x.",
+      "options": [
+        "40",
+        "42",
+        "45",
+        "49"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Using cross multiplication, 7x = 9 × 35 = 315. Therefore, x = 315/7 = 45."
+    },
+    {
+      "id": 5,
+      "question": "Find the fourth proportional to 6, 9 and 14.",
+      "options": [
+        "18",
+        "20",
+        "21",
+        "24"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let the fourth proportional be x. Then 6:9 = 14:x. Therefore, x = 9 × 14/6 = 21."
+    },
+    {
+      "id": 6,
+      "question": "Find the third proportional to 8 and 12.",
+      "options": [
+        "16",
+        "18",
+        "20",
+        "24"
+      ],
+      "correctAnswer": 1,
+      "explanation": "If 8:12 = 12:x, then x = 12²/8 = 144/8 = 18."
+    },
+    {
+      "id": 7,
+      "question": "Find the mean proportional between 12 and 27.",
+      "options": [
+        "15",
+        "18",
+        "20",
+        "21"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Mean proportional = √(12 × 27) = √324 = 18."
+    },
+    {
+      "id": 8,
+      "question": "A sum of $1,260 is divided between A and B in the ratio 4:5. What is B's share?",
+      "options": [
+        "$560",
+        "$630",
+        "$700",
+        "$720"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total ratio parts = 4 + 5 = 9. B's share = 5/9 × $1,260 = $700."
+    },
+    {
+      "id": 9,
+      "question": "Two numbers are in the ratio 5:8. If their difference is 39, find the smaller number.",
+      "options": [
+        "52",
+        "60",
+        "65",
+        "72"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The difference in ratio terms is 8 − 5 = 3. One part = 39/3 = 13. The smaller number = 5 × 13 = 65."
+    },
+    {
+      "id": 10,
+      "question": "Two numbers are in the ratio 7:11 and their sum is 162. Find the larger number.",
+      "options": [
+        "63",
+        "81",
+        "99",
+        "108"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total ratio parts = 7 + 11 = 18. One part = 162/18 = 9. The larger number = 11 × 9 = 99."
+    },
+    {
+      "id": 11,
+      "question": "If A:B = 3:4 and B:C = 6:7, find A:B:C.",
+      "options": [
+        "3:6:7",
+        "6:8:7",
+        "9:12:14",
+        "12:16:21"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Make B equal in both ratios. The LCM of 4 and 6 is 12. Multiply 3:4 by 3 to get 9:12, and multiply 6:7 by 2 to get 12:14. Therefore, A:B:C = 9:12:14."
+    },
+    {
+      "id": 12,
+      "question": "Find the compound ratio of 2:3, 4:5 and 3:7.",
+      "options": [
+        "8:35",
+        "24:105",
+        "8:21",
+        "12:35"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Compound ratio = 2 × 4 × 3 : 3 × 5 × 7 = 24:105. Simplifying by 3 gives 8:35."
+    },
+    {
+      "id": 13,
+      "question": "If 8 notebooks cost $120, what will 14 notebooks cost at the same rate?",
+      "options": [
+        "$180",
+        "$195",
+        "$210",
+        "$224"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Cost is directly proportional to quantity. Cost of 14 notebooks = 120 × 14/8 = $210."
+    },
+    {
+      "id": 14,
+      "question": "Fifteen workers can complete a job in 24 days. How many days will 18 workers take, assuming equal efficiency?",
+      "options": [
+        "18 days",
+        "20 days",
+        "22 days",
+        "28 days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Workers and days are inversely proportional. Required days = 15 × 24/18 = 20 days."
+    },
+    {
+      "id": 15,
+      "question": "The present ages of A and B are in the ratio 3:5. After 6 years, their ages will be in the ratio 2:3. What is A's present age?",
+      "options": [
+        "12 years",
+        "15 years",
+        "18 years",
+        "24 years"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Let the present ages be 3x and 5x. Then (3x + 6)/(5x + 6) = 2/3. Cross multiplication gives 9x + 18 = 10x + 12, so x = 6. A's present age = 3 × 6 = 18 years."
+    },
+    {
+      "id": 16,
+      "question": "A invests $8,000 for 12 months and B invests $12,000 for 8 months. In what ratio should they divide the profit?",
+      "options": [
+        "1:1",
+        "2:3",
+        "3:2",
+        "4:3"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Profit ratio = Capital × Time. A:B = 8000 × 12 : 12000 × 8 = 96000:96000 = 1:1."
+    },
+    {
+      "id": 17,
+      "question": "A 60-liter mixture contains milk and water in the ratio 7:3. How many liters of water are present?",
+      "options": [
+        "15 liters",
+        "18 liters",
+        "21 liters",
+        "24 liters"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total ratio parts = 7 + 3 = 10. Water = 3/10 × 60 = 18 liters."
+    },
+    {
+      "id": 18,
+      "question": "The ratio of boys to girls in a class is 5:4. If 8 girls join the class, the ratio becomes 5:6. How many boys were originally in the class?",
+      "options": [
+        "15",
+        "20",
+        "25",
+        "30"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Let the original numbers of boys and girls be 5x and 4x. Then 5x/(4x + 8) = 5/6. Cross multiplication gives 30x = 20x + 40, so x = 4. Boys = 5 × 4 = 20."
+    },
+    {
+      "id": 19,
+      "question": "A and B cover the same distance. Their travel times are in the ratio 4:5. What is the ratio of their speeds?",
+      "options": [
+        "4:5",
+        "5:4",
+        "16:25",
+        "25:16"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For the same distance, speed is inversely proportional to time. Therefore, speed ratio A:B = 5:4."
+    },
+    {
+      "id": 20,
+      "question": "A can complete a job in 15 days and B can complete it in 25 days. What is the ratio of their efficiencies?",
+      "options": [
+        "3:5",
+        "5:3",
+        "8:5",
+        "15:25"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Efficiency is inversely proportional to time. Therefore, efficiency ratio A:B = 25:15 = 5:3."
+    }
+  ]
+}
