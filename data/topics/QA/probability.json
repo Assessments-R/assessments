@@ -1,1 +1,928 @@
+{
+  "id": "probability",
+  "category": "QA",
+  "title": "Probability",
+  "subtitle": "Quantitative Aptitude – Placement Preparation",
+  "description": "Learn the fundamental concepts, formulas and shortcuts required to solve probability questions in placement aptitude tests. This module covers sample spaces, events, complementary probability, coins, dice, cards, balls, selections, independent events, mutually exclusive events, conditional probability and repeated trials.",
+  "estimatedLearningTime": "45–50 minutes",
 
+  "learningObjectives": [
+    "Understand random experiments, outcomes and sample spaces.",
+    "Identify favourable and total possible outcomes.",
+    "Calculate the probability of a simple event.",
+    "Understand impossible, certain and equally likely events.",
+    "Use complementary probability effectively.",
+    "Differentiate between mutually exclusive and independent events.",
+    "Apply addition and multiplication rules of probability.",
+    "Solve probability questions involving coins.",
+    "Solve probability questions involving dice.",
+    "Solve probability questions involving playing cards.",
+    "Solve questions involving balls drawn from bags.",
+    "Handle selection problems using combinations.",
+    "Solve problems involving events with and without replacement.",
+    "Calculate conditional probability.",
+    "Solve at-least-one and none-type probability questions.",
+    "Apply probability concepts to repeated trials.",
+    "Use placement-test shortcuts to reduce calculation time."
+  ],
+
+  "sections": [
+    {
+      "heading": "1. Introduction to Probability",
+      "content": [
+        "Probability measures the likelihood that a particular event will occur.",
+        "Its value always lies between 0 and 1.",
+        "A probability of 0 represents an impossible event.",
+        "A probability of 1 represents a certain event.",
+        "A higher probability indicates that the event is more likely to occur."
+      ],
+      "formulas": [
+        "0 ≤ P(E) ≤ 1",
+        "P(Impossible event) = 0",
+        "P(Certain event) = 1"
+      ],
+      "examples": [
+        {
+          "question": "What is the probability that the Sun will rise in the east tomorrow?",
+          "solution": "This is treated as a certain event. Therefore, its probability is 1."
+        },
+        {
+          "question": "What is the probability of rolling a 7 on a standard six-sided die?",
+          "solution": "A standard die contains only the numbers 1 to 6. Rolling a 7 is impossible, so the probability is 0."
+        }
+      ]
+    },
+
+    {
+      "heading": "2. Random Experiment, Outcome and Event",
+      "content": [
+        "A random experiment is an action whose exact result cannot be predicted in advance.",
+        "An outcome is one possible result of a random experiment.",
+        "An event is a collection of one or more outcomes.",
+        "Tossing a coin, rolling a die and drawing a card are common random experiments."
+      ],
+      "examples": [
+        {
+          "question": "A die is rolled once. What are the possible outcomes?",
+          "solution": "The possible outcomes are 1, 2, 3, 4, 5 and 6."
+        },
+        {
+          "question": "A die is rolled. What outcomes form the event of obtaining an even number?",
+          "solution": "The even-number event contains the outcomes 2, 4 and 6."
+        }
+      ]
+    },
+
+    {
+      "heading": "3. Sample Space",
+      "content": [
+        "The sample space is the complete set of all possible outcomes of a random experiment.",
+        "It is commonly represented by the letter S.",
+        "The number of outcomes in the sample space is written as n(S).",
+        "Listing the sample space correctly is the first step in many probability questions."
+      ],
+      "formulas": [
+        "Sample space = Set of all possible outcomes",
+        "n(S) = Number of outcomes in the sample space"
+      ],
+      "examples": [
+        {
+          "question": "What is the sample space when one coin is tossed?",
+          "solution": "S = {H, T}. Therefore, n(S) = 2."
+        },
+        {
+          "question": "What is the sample space when two coins are tossed?",
+          "solution": "S = {HH, HT, TH, TT}. Therefore, n(S) = 4."
+        }
+      ]
+    },
+
+    {
+      "heading": "4. Basic Probability Formula",
+      "content": [
+        "When all outcomes are equally likely, probability is calculated by dividing favourable outcomes by total possible outcomes.",
+        "Favourable outcomes are the outcomes that satisfy the given condition.",
+        "The numerator and denominator must be counted from the same sample space."
+      ],
+      "formulas": [
+        "P(E) = Number of favourable outcomes / Total number of equally likely outcomes",
+        "P(E) = n(E) / n(S)"
+      ],
+      "examples": [
+        {
+          "question": "What is the probability of obtaining an even number when a fair die is rolled?",
+          "solution": "Even outcomes are 2, 4 and 6, giving 3 favourable outcomes. Total outcomes = 6. Probability = 3/6 = 1/2."
+        },
+        {
+          "question": "A number is selected from 1 to 10. What is the probability that it is divisible by 3?",
+          "solution": "Numbers divisible by 3 are 3, 6 and 9. Probability = 3/10."
+        }
+      ]
+    },
+
+    {
+      "heading": "5. Types of Events",
+      "content": [
+        "A simple event contains exactly one outcome.",
+        "A compound event contains more than one outcome.",
+        "An impossible event cannot occur.",
+        "A certain event always occurs.",
+        "Equally likely events have the same chance of occurring.",
+        "Complementary events together cover the complete sample space."
+      ],
+      "examples": [
+        {
+          "question": "When a die is rolled, is obtaining 4 a simple or compound event?",
+          "solution": "The event contains only one outcome, 4. Therefore, it is a simple event."
+        },
+        {
+          "question": "When a die is rolled, is obtaining a number greater than 3 a simple or compound event?",
+          "solution": "The event contains 4, 5 and 6. Since it contains multiple outcomes, it is a compound event."
+        }
+      ]
+    },
+
+    {
+      "heading": "6. Complementary Probability",
+      "content": [
+        "The complement of an event E represents the event that E does not occur.",
+        "The probability of an event and its complement always adds to 1.",
+        "Complementary probability is especially useful for at-least-one questions.",
+        "It is often easier to calculate the probability of none and subtract it from 1."
+      ],
+      "formulas": [
+        "P(E') = 1 − P(E)",
+        "P(E) + P(E') = 1",
+        "P(At least one) = 1 − P(None)"
+      ],
+      "examples": [
+        {
+          "question": "The probability of passing an examination is 0.75. What is the probability of failing?",
+          "solution": "Probability of failing = 1 − 0.75 = 0.25."
+        },
+        {
+          "question": "The probability that a machine works correctly is 0.92. What is the probability that it does not work correctly?",
+          "solution": "Required probability = 1 − 0.92 = 0.08."
+        }
+      ]
+    },
+
+    {
+      "heading": "7. Mutually Exclusive Events",
+      "content": [
+        "Two events are mutually exclusive when they cannot occur at the same time.",
+        "For mutually exclusive events, their intersection is empty.",
+        "When choosing between mutually exclusive events, their probabilities are added.",
+        "Obtaining an odd number and an even number on the same die roll are mutually exclusive."
+      ],
+      "formulas": [
+        "P(A ∩ B) = 0",
+        "P(A or B) = P(A) + P(B)"
+      ],
+      "examples": [
+        {
+          "question": "A die is rolled. What is the probability of obtaining either 1 or 6?",
+          "solution": "Obtaining 1 and obtaining 6 are mutually exclusive. Probability = 1/6 + 1/6 = 2/6 = 1/3."
+        },
+        {
+          "question": "One card is drawn from a deck. What is the probability of drawing either a king or a queen?",
+          "solution": "There are 4 kings and 4 queens. These events cannot occur together in one draw. Probability = 4/52 + 4/52 = 8/52 = 2/13."
+        }
+      ]
+    },
+
+    {
+      "heading": "8. Addition Rule of Probability",
+      "content": [
+        "The addition rule is used to find the probability that event A or event B occurs.",
+        "When the events overlap, subtract the probability of their intersection once.",
+        "This prevents common outcomes from being counted twice.",
+        "The word or normally indicates the addition rule."
+      ],
+      "formulas": [
+        "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)",
+        "For mutually exclusive events: P(A ∪ B) = P(A) + P(B)"
+      ],
+      "examples": [
+        {
+          "question": "A card is drawn from a deck. What is the probability that it is a king or a heart?",
+          "solution": "There are 4 kings and 13 hearts. The king of hearts is counted in both groups. Probability = 4/52 + 13/52 − 1/52 = 16/52 = 4/13."
+        },
+        {
+          "question": "A number is selected from 1 to 20. What is the probability that it is divisible by 2 or 5?",
+          "solution": "There are 10 multiples of 2, 4 multiples of 5 and 2 multiples of both 2 and 5. Probability = (10 + 4 − 2)/20 = 12/20 = 3/5."
+        }
+      ]
+    },
+
+    {
+      "heading": "9. Independent Events",
+      "content": [
+        "Two events are independent when the occurrence of one event does not affect the probability of the other.",
+        "Separate coin tosses are independent events.",
+        "Rolling two different dice produces independent outcomes.",
+        "For independent events, multiply their probabilities to find the probability that both occur."
+      ],
+      "formulas": [
+        "P(A ∩ B) = P(A) × P(B)",
+        "P(A and B) = P(A)P(B)"
+      ],
+      "examples": [
+        {
+          "question": "A coin is tossed twice. What is the probability of obtaining heads on both tosses?",
+          "solution": "Probability = 1/2 × 1/2 = 1/4."
+        },
+        {
+          "question": "A die is rolled twice. What is the probability of obtaining 6 on both rolls?",
+          "solution": "Probability = 1/6 × 1/6 = 1/36."
+        }
+      ]
+    },
+
+    {
+      "heading": "10. Dependent Events",
+      "content": [
+        "Two events are dependent when the occurrence of one event changes the probability of the other.",
+        "Drawing objects without replacement usually creates dependent events.",
+        "After the first selection, both the favourable count and total count may change.",
+        "Multiply the probability of the first event by the conditional probability of the second."
+      ],
+      "formulas": [
+        "P(A ∩ B) = P(A) × P(B given A)",
+        "P(A ∩ B) = P(A) × P(B|A)"
+      ],
+      "examples": [
+        {
+          "question": "A bag contains 3 red and 2 blue balls. Two balls are drawn without replacement. What is the probability that both are red?",
+          "solution": "Probability of first red = 3/5. After drawing one red ball, probability of second red = 2/4. Required probability = 3/5 × 2/4 = 3/10."
+        },
+        {
+          "question": "Two cards are drawn from a deck without replacement. What is the probability that both are aces?",
+          "solution": "Probability = 4/52 × 3/51 = 1/221."
+        }
+      ]
+    },
+
+    {
+      "heading": "11. Probability with Replacement",
+      "content": [
+        "With replacement means the selected object is returned before the next selection.",
+        "The total number of objects remains unchanged after each draw.",
+        "The probabilities of successive draws remain the same.",
+        "Draws with replacement are generally independent."
+      ],
+      "examples": [
+        {
+          "question": "A bag contains 3 red and 2 blue balls. A ball is drawn, replaced and another ball is drawn. What is the probability that both are red?",
+          "solution": "Probability of red on each draw = 3/5. Required probability = 3/5 × 3/5 = 9/25."
+        },
+        {
+          "question": "A card is drawn from a deck, replaced and another card is drawn. What is the probability that both are kings?",
+          "solution": "Probability of a king on each draw = 4/52 = 1/13. Required probability = 1/13 × 1/13 = 1/169."
+        }
+      ]
+    },
+
+    {
+      "heading": "12. Probability Without Replacement",
+      "content": [
+        "Without replacement means the selected object is not returned before the next selection.",
+        "The total number of available objects decreases after each draw.",
+        "The number of favourable objects may also decrease.",
+        "Such events are generally dependent."
+      ],
+      "examples": [
+        {
+          "question": "A bag contains 5 white and 3 black balls. Two balls are drawn without replacement. What is the probability that both are white?",
+          "solution": "Probability = 5/8 × 4/7 = 20/56 = 5/14."
+        },
+        {
+          "question": "A bag contains 4 red and 6 green balls. Two balls are drawn without replacement. What is the probability of drawing a red ball followed by a green ball?",
+          "solution": "Probability = 4/10 × 6/9 = 24/90 = 4/15."
+        }
+      ]
+    },
+
+    {
+      "heading": "13. Coin-Toss Probability",
+      "content": [
+        "A fair coin has two equally likely outcomes: head and tail.",
+        "For n independent coin tosses, the total number of outcomes is 2 raised to n.",
+        "Use combinations when exactly a specified number of heads or tails is required.",
+        "The probability of each complete outcome sequence is 1 divided by 2 raised to n."
+      ],
+      "formulas": [
+        "Total outcomes for n coin tosses = 2^n",
+        "P(Exactly r heads in n tosses) = nCr / 2^n"
+      ],
+      "examples": [
+        {
+          "question": "Three coins are tossed. What is the probability of obtaining exactly two heads?",
+          "solution": "The favourable outcomes are HHT, HTH and THH. Probability = 3/8. Alternatively, 3C2/2^3 = 3/8."
+        },
+        {
+          "question": "Four coins are tossed. What is the probability of obtaining exactly three heads?",
+          "solution": "Probability = 4C3/2^4 = 4/16 = 1/4."
+        }
+      ]
+    },
+
+    {
+      "heading": "14. At Least and At Most in Coin Problems",
+      "content": [
+        "At least r means r or more.",
+        "At most r means r or fewer.",
+        "Add the probabilities of all valid cases.",
+        "For at least one head, use the complement of obtaining no heads."
+      ],
+      "formulas": [
+        "P(At least one head) = 1 − P(All tails)",
+        "P(At most r heads) = P(0 heads) + P(1 head) + ... + P(r heads)"
+      ],
+      "examples": [
+        {
+          "question": "Three coins are tossed. What is the probability of obtaining at least one head?",
+          "solution": "Probability of all tails = 1/8. Required probability = 1 − 1/8 = 7/8."
+        },
+        {
+          "question": "Three coins are tossed. What is the probability of obtaining at most one head?",
+          "solution": "Valid cases are zero heads and one head. Favourable outcomes = 1 + 3C1 = 4. Probability = 4/8 = 1/2."
+        }
+      ]
+    },
+
+    {
+      "heading": "15. Single-Die Probability",
+      "content": [
+        "A standard fair die contains six equally likely outcomes numbered from 1 to 6.",
+        "Identify favourable numbers based on conditions such as odd, even, prime or divisible.",
+        "Probability is favourable outcomes divided by 6."
+      ],
+      "examples": [
+        {
+          "question": "What is the probability of obtaining a prime number on a die?",
+          "solution": "Prime numbers on a die are 2, 3 and 5. Probability = 3/6 = 1/2."
+        },
+        {
+          "question": "What is the probability of obtaining a number greater than 4?",
+          "solution": "The favourable outcomes are 5 and 6. Probability = 2/6 = 1/3."
+        }
+      ]
+    },
+
+    {
+      "heading": "16. Two-Dice Probability",
+      "content": [
+        "When two fair dice are rolled, there are 6 × 6 = 36 ordered outcomes.",
+        "Outcomes such as (2, 5) and (5, 2) are counted separately.",
+        "For sum-based questions, count the ordered pairs that produce the required sum.",
+        "The sums near 7 have more possible combinations than sums near 2 or 12."
+      ],
+      "formulas": [
+        "Total outcomes when two dice are rolled = 36"
+      ],
+      "examples": [
+        {
+          "question": "What is the probability that the sum of two dice is 7?",
+          "solution": "The favourable pairs are (1,6), (2,5), (3,4), (4,3), (5,2) and (6,1). Probability = 6/36 = 1/6."
+        },
+        {
+          "question": "What is the probability that the sum of two dice is 10?",
+          "solution": "The favourable pairs are (4,6), (5,5) and (6,4). Probability = 3/36 = 1/12."
+        }
+      ]
+    },
+
+    {
+      "heading": "17. Common Two-Dice Sum Table",
+      "content": [
+        "Memorising the number of ways to obtain each sum can save time in placement tests.",
+        "The number of combinations increases from sum 2 to sum 7 and then decreases symmetrically.",
+        "Sum 7 has the highest number of possible outcomes."
+      ],
+      "sampleData": {
+        "title": "Number of Ways to Obtain Each Sum with Two Dice",
+        "columns": [
+          "Sum",
+          "Number of Ways"
+        ],
+        "rows": [
+          [2, 1],
+          [3, 2],
+          [4, 3],
+          [5, 4],
+          [6, 5],
+          [7, 6],
+          [8, 5],
+          [9, 4],
+          [10, 3],
+          [11, 2],
+          [12, 1]
+        ]
+      },
+      "examples": [
+        {
+          "question": "What is the probability that the sum is greater than 9?",
+          "solution": "Possible sums are 10, 11 and 12. Their numbers of ways are 3, 2 and 1. Probability = 6/36 = 1/6."
+        },
+        {
+          "question": "What is the probability that the sum is less than 5?",
+          "solution": "Possible sums are 2, 3 and 4. Number of favourable ways = 1 + 2 + 3 = 6. Probability = 6/36 = 1/6."
+        }
+      ]
+    },
+
+    {
+      "heading": "18. Playing Cards – Basic Facts",
+      "content": [
+        "A standard deck contains 52 cards.",
+        "There are four suits: hearts, diamonds, clubs and spades.",
+        "Each suit contains 13 cards.",
+        "Hearts and diamonds are red suits.",
+        "Clubs and spades are black suits.",
+        "Each suit contains one ace, cards 2 to 10, one jack, one queen and one king.",
+        "There are 12 face cards: 4 jacks, 4 queens and 4 kings."
+      ],
+      "formulas": [
+        "Total cards = 52",
+        "Cards in each suit = 13",
+        "Red cards = 26",
+        "Black cards = 26",
+        "Face cards = 12",
+        "Aces = 4",
+        "Kings = 4",
+        "Queens = 4",
+        "Jacks = 4"
+      ]
+    },
+
+    {
+      "heading": "19. Basic Card Probability",
+      "content": [
+        "For a single card draw, divide the number of favourable cards by 52.",
+        "Check whether categories overlap when the question uses the word or.",
+        "For example, one card may be both a king and a heart."
+      ],
+      "examples": [
+        {
+          "question": "What is the probability of drawing a red card?",
+          "solution": "There are 26 red cards. Probability = 26/52 = 1/2."
+        },
+        {
+          "question": "What is the probability of drawing a face card?",
+          "solution": "There are 12 face cards. Probability = 12/52 = 3/13."
+        },
+        {
+          "question": "What is the probability of drawing the ace of spades?",
+          "solution": "There is only one ace of spades. Probability = 1/52."
+        }
+      ]
+    },
+
+    {
+      "heading": "20. Card Problems Involving Or",
+      "content": [
+        "Use the addition rule when a card may belong to either of two categories.",
+        "Subtract the overlap when a card belongs to both categories.",
+        "If the categories cannot overlap, simply add their counts."
+      ],
+      "examples": [
+        {
+          "question": "What is the probability of drawing a queen or a spade?",
+          "solution": "There are 4 queens and 13 spades. The queen of spades is common. Probability = (4 + 13 − 1)/52 = 16/52 = 4/13."
+        },
+        {
+          "question": "What is the probability of drawing a red king or a black queen?",
+          "solution": "There are 2 red kings and 2 black queens. The categories do not overlap. Probability = 4/52 = 1/13."
+        }
+      ]
+    },
+
+    {
+      "heading": "21. Probability Using Combinations",
+      "content": [
+        "Combination-based probability is useful when multiple objects are selected simultaneously.",
+        "The denominator represents all possible selections.",
+        "The numerator represents selections satisfying the condition.",
+        "Order does not matter when objects are chosen as a group."
+      ],
+      "formulas": [
+        "Probability = Number of favourable combinations / Total combinations",
+        "P(E) = Favourable selections / nCr"
+      ],
+      "examples": [
+        {
+          "question": "Two cards are selected from a deck. What is the probability that both are aces?",
+          "solution": "Favourable selections = 4C2. Total selections = 52C2. Probability = 4C2/52C2 = 1/221."
+        },
+        {
+          "question": "A committee of 2 is selected from 5 men and 3 women. What is the probability that both selected members are women?",
+          "solution": "Favourable selections = 3C2. Total selections = 8C2. Probability = 3/28."
+        }
+      ]
+    },
+
+    {
+      "heading": "22. Balls Drawn from a Bag",
+      "content": [
+        "Bag-based questions involve objects of different colours or types.",
+        "For a single draw, count the balls satisfying the required colour.",
+        "For multiple draws, check whether replacement is allowed.",
+        "Use combinations when several balls are drawn together.",
+        "Use sequential probability when balls are drawn one after another."
+      ],
+      "examples": [
+        {
+          "question": "A bag contains 5 red, 4 blue and 3 green balls. What is the probability of drawing a blue ball?",
+          "solution": "Total balls = 5 + 4 + 3 = 12. Probability of blue = 4/12 = 1/3."
+        },
+        {
+          "question": "Two balls are selected from a bag containing 4 red and 6 white balls. What is the probability that both are red?",
+          "solution": "Favourable selections = 4C2. Total selections = 10C2. Probability = 6/45 = 2/15."
+        }
+      ]
+    },
+
+    {
+      "heading": "23. Same-Colour and Different-Colour Problems",
+      "content": [
+        "For the same colour, add the probabilities of selecting all objects from each individual colour.",
+        "For different colours, select the required number from each colour.",
+        "Complementary counting may simplify different-colour questions involving only two draws."
+      ],
+      "examples": [
+        {
+          "question": "A bag contains 4 red and 3 blue balls. Two balls are selected. What is the probability that both are of the same colour?",
+          "solution": "Favourable selections = 4C2 + 3C2 = 6 + 3 = 9. Total selections = 7C2 = 21. Probability = 9/21 = 3/7."
+        },
+        {
+          "question": "A bag contains 4 red and 3 blue balls. Two balls are selected. What is the probability that they have different colours?",
+          "solution": "Favourable selections = 4C1 × 3C1 = 12. Total selections = 7C2 = 21. Probability = 12/21 = 4/7."
+        }
+      ]
+    },
+
+    {
+      "heading": "24. At Least One Success",
+      "content": [
+        "At-least-one questions are usually fastest through complementary probability.",
+        "First calculate the probability that no success occurs.",
+        "Subtract that value from 1.",
+        "This method avoids adding several successful cases separately."
+      ],
+      "formulas": [
+        "P(At least one success) = 1 − P(No success)",
+        "For n independent trials: P(At least one success) = 1 − (Probability of failure)^n"
+      ],
+      "examples": [
+        {
+          "question": "A die is rolled three times. What is the probability of obtaining at least one 6?",
+          "solution": "Probability of no 6 in one roll = 5/6. Probability of no 6 in three rolls = (5/6)^3 = 125/216. Required probability = 1 − 125/216 = 91/216."
+        },
+        {
+          "question": "A coin is tossed four times. What is the probability of obtaining at least one head?",
+          "solution": "Probability of all tails = (1/2)^4 = 1/16. Required probability = 1 − 1/16 = 15/16."
+        }
+      ]
+    },
+
+    {
+      "heading": "25. Exactly, At Least and At Most",
+      "content": [
+        "Exactly r means only r successful outcomes.",
+        "At least r means r or more successful outcomes.",
+        "At most r means r or fewer successful outcomes.",
+        "List valid cases carefully before adding their probabilities.",
+        "Use the binomial probability method when trials are independent and have the same success probability."
+      ],
+      "formulas": [
+        "P(Exactly r successes) = nCr × p^r × q^(n − r)",
+        "q = 1 − p"
+      ],
+      "examples": [
+        {
+          "question": "A fair coin is tossed five times. What is the probability of exactly three heads?",
+          "solution": "Probability = 5C3 × (1/2)^3 × (1/2)^2 = 10/32 = 5/16."
+        },
+        {
+          "question": "A fair coin is tossed four times. What is the probability of at most one head?",
+          "solution": "Probability = P(0 heads) + P(1 head) = 1/16 + 4/16 = 5/16."
+        }
+      ]
+    },
+
+    {
+      "heading": "26. Conditional Probability",
+      "content": [
+        "Conditional probability is the probability of an event occurring when another event has already occurred.",
+        "The known event reduces the original sample space.",
+        "The phrase given that commonly indicates conditional probability.",
+        "Only outcomes satisfying the given condition should remain in the denominator."
+      ],
+      "formulas": [
+        "P(A|B) = P(A ∩ B) / P(B)",
+        "P(A ∩ B) = P(B) × P(A|B)"
+      ],
+      "examples": [
+        {
+          "question": "A card drawn from a deck is known to be a face card. What is the probability that it is a king?",
+          "solution": "There are 12 face cards, of which 4 are kings. Required probability = 4/12 = 1/3."
+        },
+        {
+          "question": "A number selected from 1 to 20 is known to be even. What is the probability that it is divisible by 4?",
+          "solution": "There are 10 even numbers. Among them, 4, 8, 12, 16 and 20 are divisible by 4. Probability = 5/10 = 1/2."
+        }
+      ]
+    },
+
+    {
+      "heading": "27. Odds in Favour and Odds Against",
+      "content": [
+        "Odds compare favourable and unfavourable outcomes.",
+        "Odds in favour compare successful outcomes with unsuccessful outcomes.",
+        "Odds against compare unsuccessful outcomes with successful outcomes.",
+        "Probability can be calculated directly from the odds."
+      ],
+      "formulas": [
+        "If odds in favour are a:b, then P(E) = a/(a + b)",
+        "If odds against are a:b, then P(E) = b/(a + b)"
+      ],
+      "examples": [
+        {
+          "question": "The odds in favour of an event are 3:2. Find its probability.",
+          "solution": "Probability = 3/(3 + 2) = 3/5."
+        },
+        {
+          "question": "The odds against an event are 4:1. Find its probability.",
+          "solution": "Probability of the event = 1/(4 + 1) = 1/5."
+        }
+      ]
+    },
+
+    {
+      "heading": "28. Probability from Percentage Data",
+      "content": [
+        "Percentages can be converted directly into probabilities.",
+        "Divide a percentage by 100 to express it as a probability.",
+        "Probability may be represented as a fraction, decimal or percentage.",
+        "Ensure that all probabilities are written in the same form before performing calculations."
+      ],
+      "formulas": [
+        "Probability = Percentage / 100",
+        "Percentage probability = Probability × 100"
+      ],
+      "examples": [
+        {
+          "question": "A candidate has a 70% chance of clearing an assessment. Express this as a probability.",
+          "solution": "Probability = 70/100 = 0.7 = 7/10."
+        },
+        {
+          "question": "The probability of selection is 0.35. Express it as a percentage.",
+          "solution": "Percentage = 0.35 × 100 = 35%."
+        }
+      ]
+    },
+
+    {
+      "heading": "29. Expected Number of Occurrences",
+      "content": [
+        "The expected number tells how many times an event is likely to occur over repeated trials.",
+        "Multiply the number of trials by the probability of success in one trial.",
+        "The expected value is a long-run average and need not always be a whole number."
+      ],
+      "formulas": [
+        "Expected number of successes = Number of trials × Probability of success",
+        "Expected successes = n × p"
+      ],
+      "examples": [
+        {
+          "question": "A fair die is rolled 120 times. How many times is 6 expected to appear?",
+          "solution": "Expected number = 120 × 1/6 = 20."
+        },
+        {
+          "question": "The probability of a candidate clearing a test is 0.4. Out of 200 candidates, how many are expected to clear it?",
+          "solution": "Expected number = 200 × 0.4 = 80."
+        }
+      ]
+    },
+
+    {
+      "heading": "30. Placement-Test Strategy",
+      "content": [
+        "Write the complete sample space when the number of outcomes is small.",
+        "Use favourable outcomes divided by total outcomes only when outcomes are equally likely.",
+        "Use the complement method for at-least-one questions.",
+        "Use addition for or and multiplication for and, after checking the event relationship.",
+        "Check whether events are independent or dependent.",
+        "Check whether selected objects are replaced.",
+        "For simultaneous selections, combinations are generally faster.",
+        "For sequential draws, update the total after every draw when there is no replacement.",
+        "Memorise basic coin, dice and playing-card facts.",
+        "In two-dice questions, remember that ordered pairs are distinct.",
+        "When a question says given that, reduce the sample space.",
+        "Avoid converting simple fractions into decimals unnecessarily.",
+        "Simplify fractions before selecting the final answer.",
+        "Use answer options to eliminate impossible values greater than 1 or less than 0."
+      ],
+      "formulas": [
+        "P(E) = Favourable outcomes / Total outcomes",
+        "P(E') = 1 − P(E)",
+        "P(A ∪ B) = P(A) + P(B) − P(A ∩ B)",
+        "For independent events: P(A ∩ B) = P(A)P(B)",
+        "P(A|B) = P(A ∩ B)/P(B)",
+        "P(At least one) = 1 − P(None)",
+        "P(Exactly r successes) = nCr × p^r × q^(n − r)"
+      ],
+      "examples": [
+        {
+          "question": "A question asks for the probability of obtaining at least one head in five coin tosses. What is the fastest approach?",
+          "solution": "Calculate the probability of obtaining no heads, which means all tails, and subtract it from 1."
+        },
+        {
+          "question": "Two balls are drawn from a bag without replacement. Should the second probability use the original total?",
+          "solution": "No. Since the first ball is not replaced, the total number of balls decreases by one before the second draw."
+        }
+      ]
+    }
+  ],
+
+  "quickShortcuts": [
+    {
+      "title": "Basic probability",
+      "note": "Probability equals favourable outcomes divided by total equally likely outcomes."
+    },
+    {
+      "title": "Probability range",
+      "note": "Every probability must lie between 0 and 1."
+    },
+    {
+      "title": "Complement",
+      "note": "Use P(not E) = 1 − P(E)."
+    },
+    {
+      "title": "At least one",
+      "note": "Use 1 minus the probability of none."
+    },
+    {
+      "title": "Or rule",
+      "note": "Add probabilities and subtract the overlap."
+    },
+    {
+      "title": "Independent and rule",
+      "note": "Multiply the probabilities of independent events."
+    },
+    {
+      "title": "Without replacement",
+      "note": "Reduce the total after every selection."
+    },
+    {
+      "title": "With replacement",
+      "note": "The total and individual probabilities remain unchanged."
+    },
+    {
+      "title": "Coin tosses",
+      "note": "The total number of outcomes for n coin tosses is 2^n."
+    },
+    {
+      "title": "Exactly r heads",
+      "note": "For fair coins, use nCr divided by 2^n."
+    },
+    {
+      "title": "One die",
+      "note": "A standard die has 6 equally likely outcomes."
+    },
+    {
+      "title": "Two dice",
+      "note": "Two dice have 36 ordered outcomes."
+    },
+    {
+      "title": "Sum of 7",
+      "note": "A sum of 7 has 6 favourable ordered pairs."
+    },
+    {
+      "title": "Card deck",
+      "note": "A standard deck contains 52 cards divided into four suits of 13."
+    },
+    {
+      "title": "Red and black cards",
+      "note": "There are 26 red cards and 26 black cards."
+    },
+    {
+      "title": "Face cards",
+      "note": "There are 12 face cards: 4 jacks, 4 queens and 4 kings."
+    },
+    {
+      "title": "Card overlap",
+      "note": "For king or heart, subtract the king of hearts once."
+    },
+    {
+      "title": "Simultaneous selection",
+      "note": "Use combinations when order does not matter."
+    },
+    {
+      "title": "Given that",
+      "note": "Reduce the sample space to outcomes satisfying the stated condition."
+    },
+    {
+      "title": "Expected occurrences",
+      "note": "Multiply the number of trials by the probability of success."
+    }
+  ],
+
+  "placementQuestionTypes": [
+    "Basic favourable-outcome probability",
+    "Sample-space questions",
+    "Impossible and certain events",
+    "Complementary probability",
+    "Mutually exclusive events",
+    "Independent events",
+    "Dependent events",
+    "Addition rule of probability",
+    "Multiplication rule of probability",
+    "Conditional probability",
+    "Coin-toss probability",
+    "Exactly r heads or tails",
+    "At-least-one head or tail",
+    "Single-die probability",
+    "Two-dice sum problems",
+    "Two-dice product problems",
+    "Playing-card probability",
+    "Face card and suit questions",
+    "Multiple-card selection",
+    "Balls drawn from bags",
+    "With-replacement questions",
+    "Without-replacement questions",
+    "Same-colour selections",
+    "Different-colour selections",
+    "Selection probability using combinations",
+    "At least and at most probability",
+    "Repeated independent trials",
+    "Odds in favour and against",
+    "Probability from percentage data",
+    "Expected number of occurrences",
+    "Placement-based mixed probability problems"
+  ],
+
+  "commonMistakes": [
+    "Using favourable outcomes divided by total outcomes when outcomes are not equally likely.",
+    "Writing an incomplete sample space.",
+    "Counting identical outcomes more than once.",
+    "Forgetting that probability must lie between 0 and 1.",
+    "Confusing mutually exclusive events with independent events.",
+    "Adding probabilities when the question requires multiplication.",
+    "Multiplying probabilities when the question requires addition.",
+    "Forgetting to subtract the intersection in an or question.",
+    "Using the original denominator after drawing without replacement.",
+    "Reducing the denominator even when replacement is allowed.",
+    "Treating two-dice outcomes as unordered pairs.",
+    "Assuming that a sum of 2 and a sum of 7 are equally likely.",
+    "Forgetting that a standard deck contains 52 cards.",
+    "Counting aces as face cards.",
+    "Forgetting the overlap between a card rank and a suit.",
+    "Using permutations instead of combinations for simultaneous selections.",
+    "Adding all successful cases when complementary probability is faster.",
+    "Misinterpreting at least as exactly.",
+    "Misinterpreting at most as less than.",
+    "Failing to reduce the sample space in conditional probability.",
+    "Using the wrong success probability in a repeated-trial question.",
+    "Converting fractions into rounded decimals too early.",
+    "Failing to simplify the final probability.",
+    "Giving odds instead of probability or probability instead of odds."
+  ],
+
+  "revisionChecklist": [
+    "I understand random experiments and outcomes.",
+    "I can construct a sample space.",
+    "I can identify favourable outcomes.",
+    "I can use the basic probability formula.",
+    "I know the probability range from 0 to 1.",
+    "I can use complementary probability.",
+    "I understand mutually exclusive events.",
+    "I understand independent events.",
+    "I understand dependent events.",
+    "I can apply the addition rule.",
+    "I can apply the multiplication rule.",
+    "I correctly handle replacement and non-replacement.",
+    "I can solve single-coin and multiple-coin questions.",
+    "I can solve exactly, at-least and at-most coin questions.",
+    "I can solve single-die questions.",
+    "I can solve two-dice sum questions.",
+    "I remember the important facts about playing cards.",
+    "I can solve card questions involving overlapping categories.",
+    "I can solve ball-selection questions.",
+    "I can use combinations in probability.",
+    "I can solve same-colour and different-colour questions.",
+    "I can calculate conditional probability.",
+    "I can convert odds into probability.",
+    "I can calculate expected occurrences.",
+    "I can select the quickest method for placement-test questions."
+  ],
+
+  "assessment": {
+    "buttonText": "Begin Assessment",
+    "page": "assessment.html",
+    "questionFile": "data/questions/QA/probability.json",
+    "category": "QA",
+    "topic": "probability"
+  }
+}
