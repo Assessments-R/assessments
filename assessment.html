@@ -177,6 +177,44 @@
       font-weight: 700;
     }
 
+    .question-instruction {
+      margin-bottom: 16px;
+      padding: 12px 16px;
+      border-left: 4px solid var(--primary);
+      border-radius: 6px;
+      background: #f8fafc;
+      color: var(--muted);
+      font-weight: 600;
+      line-height: 1.6;
+    }
+
+    .question-image-wrapper {
+      width: 100%;
+      margin-bottom: 22px;
+      padding: 14px;
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #ffffff;
+      text-align: center;
+    }
+
+    .question-image {
+      display: block;
+      width: 100%;
+      max-width: 850px;
+      height: auto;
+      margin: 0 auto;
+      object-fit: contain;
+    }
+
+    .image-error {
+      margin: 0;
+      padding: 20px;
+      color: var(--danger);
+      font-weight: 600;
+    }
+
     .question-text {
       margin-bottom: 20px;
       font-size: 20px;
@@ -232,6 +270,16 @@
       cursor: pointer;
     }
 
+    .secondary-button:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .secondary-button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
     .error {
       color: var(--danger);
     }
@@ -256,6 +304,16 @@
       .question-text {
         font-size: 18px;
       }
+
+      .student-card,
+      .assessment-card,
+      .message-card {
+        padding: 18px;
+      }
+
+      .question-image-wrapper {
+        padding: 8px;
+      }
     }
   </style>
 </head>
@@ -277,7 +335,9 @@
 
       <div class="form-grid">
         <div class="form-group">
-          <label for="studentName">Student Name</label>
+          <label for="studentName">
+            Student Name
+          </label>
 
           <input
             type="text"
@@ -288,7 +348,9 @@
         </div>
 
         <div class="form-group">
-          <label for="rollNumber">Roll Number</label>
+          <label for="rollNumber">
+            Roll Number
+          </label>
 
           <input
             type="text"
@@ -297,16 +359,19 @@
             autocomplete="off"
           >
         </div>
-<div class="form-group">
-  <label for="studentEmail">Email ID</label>
 
-  <input
-    type="email"
-    id="studentEmail"
-    placeholder="Enter your email ID"
-    autocomplete="email"
-  >
-</div> 
+        <div class="form-group">
+          <label for="studentEmail">
+            Email ID
+          </label>
+
+          <input
+            type="email"
+            id="studentEmail"
+            placeholder="Enter your email ID"
+            autocomplete="email"
+          >
+        </div>
       </div>
 
       <p
@@ -334,7 +399,10 @@
             Assessment
           </h2>
 
-          <p class="progress-text" id="progressText"></p>
+          <p
+            class="progress-text"
+            id="progressText"
+          ></p>
         </div>
       </div>
 
@@ -382,22 +450,17 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
   <script>
-    /*
-      Replace these two values with your own Supabase details.
-
-      Supabase Dashboard:
-      Project Settings → API
-    */
     const SUPABASE_URL =
-    "https://nsoqpccekycnujhylkwe.supabase.co";
+      "https://nsoqpccekycnujhylkwe.supabase.co";
 
-  const SUPABASE_PUBLISHABLE_KEY =
-    "sb_publishable_vAsqUrdIM6TcA-yJhqk9hg_3vuVCvsI";
+    const SUPABASE_PUBLISHABLE_KEY =
+      "sb_publishable_vAsqUrdIM6TcA-yJhqk9hg_3vuVCvsI";
 
-  const supabaseClient = window.supabase.createClient(
-    SUPABASE_URL,
-    SUPABASE_PUBLISHABLE_KEY
-    );
+    const supabaseClient =
+      window.supabase.createClient(
+        SUPABASE_URL,
+        SUPABASE_PUBLISHABLE_KEY
+      );
 
     const parameters =
       new URLSearchParams(window.location.search);
@@ -447,8 +510,9 @@
 
     const rollNumberInput =
       document.getElementById("rollNumber");
+
     const studentEmailInput =
-  document.getElementById("studentEmail");
+      document.getElementById("studentEmail");
 
     const studentFormError =
       document.getElementById("studentFormError");
@@ -487,8 +551,16 @@
 
       messageTitle.textContent = title;
       messageText.textContent = text;
-
       messageText.className = type;
+    }
+
+    function escapeHtml(value) {
+      return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
     }
 
     async function loadAssessment() {
@@ -502,14 +574,32 @@
         }
 
         assessmentData = await response.json();
-        questions = assessmentData.questions;
-        answers = new Array(questions.length).fill(null);
 
-        pageTitle.textContent = assessmentData.title;
-        assessmentTitle.textContent = assessmentData.title;
+        if (
+          !assessmentData ||
+          !Array.isArray(assessmentData.questions)
+        ) {
+          throw new Error(
+            "The assessment JSON does not contain a questions array."
+          );
+        }
+
+        questions = assessmentData.questions;
+
+        answers =
+          new Array(questions.length).fill(null);
+
+        pageTitle.textContent =
+          assessmentData.title || "Assessment";
+
+        assessmentTitle.textContent =
+          assessmentData.title || "Assessment";
+
+        const durationMinutes =
+          Number(assessmentData.durationMinutes) || 15;
 
         remainingSeconds =
-          assessmentData.durationMinutes * 60;
+          durationMinutes * 60;
 
         updateTimerDisplay();
       } catch (error) {
@@ -517,31 +607,44 @@
 
         showMessage(
           "Assessment could not be loaded",
-          `Check that ${questionFile} exists.`,
+          `Check that ${questionFile} exists and contains valid JSON.`,
           "error"
         );
       }
     }
 
     function beginAssessment() {
-     studentName = studentNameInput.value.trim();
-rollNumber = rollNumberInput.value.trim();
-studentEmail = studentEmailInput.value.trim();
+      studentName =
+        studentNameInput.value.trim();
 
-if (!studentName || !rollNumber || !studentEmail) {
-  studentFormError.textContent =
-    "Enter student name, roll number and email ID.";
-  return;
-}
+      rollNumber =
+        rollNumberInput.value.trim();
 
-if (!studentEmailInput.checkValidity()) {
-  studentFormError.textContent =
-    "Enter a valid email ID.";
-  return;
-}
+      studentEmail =
+        studentEmailInput.value.trim();
+
+      if (
+        !studentName ||
+        !rollNumber ||
+        !studentEmail
+      ) {
+        studentFormError.textContent =
+          "Enter student name, roll number and email ID.";
+
+        return;
+      }
+
+      if (!studentEmailInput.checkValidity()) {
+        studentFormError.textContent =
+          "Enter a valid email ID.";
+
+        return;
+      }
+
       if (!questions.length) {
         studentFormError.textContent =
           "The assessment questions are not ready.";
+
         return;
       }
 
@@ -568,44 +671,110 @@ if (!studentEmailInput.checkValidity()) {
         `Question ${currentQuestionIndex + 1} of ${questions.length}`;
 
       progressFill.style.width =
-        `${((currentQuestionIndex + 1) / questions.length) * 100}%`;
+        `${(
+          (currentQuestionIndex + 1) /
+          questions.length
+        ) * 100}%`;
 
-      questionContainer.innerHTML = `
-        <div class="question-number">
-          Question ${currentQuestionIndex + 1}
-        </div>
+      const instructionHtml =
+        question.instruction
+          ? `
+            <div class="question-instruction">
+              ${escapeHtml(question.instruction)}
+            </div>
+          `
+          : "";
 
-        <div class="question-text">
-          ${question.question}
-        </div>
+      const imageHtml =
+        question.image
+          ? `
+            <div class="question-image-wrapper">
+              <img
+                src="${escapeHtml(question.image)}"
+                alt="${
+                  escapeHtml(
+                    question.imageAlt ||
+                    "Data interpretation graph"
+                  )
+                }"
+                class="question-image"
+                loading="eager"
+              >
+            </div>
+          `
+          : "";
 
-        <div class="options">
-          ${question.options
-            .map((option, optionIndex) => `
+      const optionsHtml =
+        question.options
+          .map((option, optionIndex) => {
+            const isSelected =
+              selectedAnswer === optionIndex;
+
+            return `
               <label
                 class="option ${
-                  selectedAnswer === optionIndex
-                    ? "selected"
-                    : ""
+                  isSelected ? "selected" : ""
                 }"
               >
                 <input
                   type="radio"
                   name="answer"
                   value="${optionIndex}"
-                  ${
-                    selectedAnswer === optionIndex
-                      ? "checked"
-                      : ""
-                  }
+                  ${isSelected ? "checked" : ""}
                 >
 
-                <span>${option}</span>
+                <span>
+                  ${escapeHtml(option)}
+                </span>
               </label>
-            `)
-            .join("")}
+            `;
+          })
+          .join("");
+
+      questionContainer.innerHTML = `
+        <div class="question-number">
+          Question ${currentQuestionIndex + 1}
+        </div>
+
+        ${instructionHtml}
+
+        ${imageHtml}
+
+        <div class="question-text">
+          ${escapeHtml(question.question)}
+        </div>
+
+        <div class="options">
+          ${optionsHtml}
         </div>
       `;
+
+      const questionImage =
+        questionContainer.querySelector(
+          ".question-image"
+        );
+
+      if (questionImage) {
+        questionImage.addEventListener(
+          "error",
+          function () {
+            const wrapper =
+              this.closest(
+                ".question-image-wrapper"
+              );
+
+            if (wrapper) {
+              wrapper.innerHTML = `
+                <p class="image-error">
+                  Image could not be loaded.
+                  Check the image path in the question JSON:
+                  ${escapeHtml(question.image)}
+                </p>
+              `;
+            }
+          }
+        );
+      }
 
       const optionInputs =
         questionContainer.querySelectorAll(
@@ -613,19 +782,23 @@ if (!studentEmailInput.checkValidity()) {
         );
 
       optionInputs.forEach(input => {
-        input.addEventListener("change", event => {
-          answers[currentQuestionIndex] =
-            Number(event.target.value);
+        input.addEventListener(
+          "change",
+          event => {
+            answers[currentQuestionIndex] =
+              Number(event.target.value);
 
-          renderQuestion();
-        });
+            renderQuestion();
+          }
+        );
       });
 
       previousButton.disabled =
         currentQuestionIndex === 0;
 
       nextButton.textContent =
-        currentQuestionIndex === questions.length - 1
+        currentQuestionIndex ===
+        questions.length - 1
           ? "Submit Assessment"
           : "Next";
     }
@@ -638,14 +811,20 @@ if (!studentEmailInput.checkValidity()) {
     }
 
     async function goToNextQuestion() {
-      if (currentQuestionIndex < questions.length - 1) {
+      if (
+        currentQuestionIndex <
+        questions.length - 1
+      ) {
         currentQuestionIndex += 1;
         renderQuestion();
+
         return;
       }
 
       const unansweredCount =
-        answers.filter(answer => answer === null).length;
+        answers.filter(
+          answer => answer === null
+        ).length;
 
       let confirmationText =
         "Submit the assessment now?";
@@ -674,15 +853,25 @@ if (!studentEmailInput.checkValidity()) {
     }
 
     function startTimer() {
-      timerInterval = window.setInterval(async () => {
-        remainingSeconds -= 1;
-        updateTimerDisplay();
+      if (timerInterval) {
+        window.clearInterval(timerInterval);
+      }
 
-        if (remainingSeconds <= 0) {
-          window.clearInterval(timerInterval);
-          await submitAssessment(true);
-        }
-      }, 1000);
+      timerInterval =
+        window.setInterval(async () => {
+          remainingSeconds -= 1;
+
+          if (remainingSeconds < 0) {
+            remainingSeconds = 0;
+          }
+
+          updateTimerDisplay();
+
+          if (remainingSeconds <= 0) {
+            window.clearInterval(timerInterval);
+            await submitAssessment(true);
+          }
+        }, 1000);
     }
 
     function calculateResult() {
@@ -690,34 +879,50 @@ if (!studentEmailInput.checkValidity()) {
       let incorrectAnswers = 0;
       let unanswered = 0;
 
-      questions.forEach((question, index) => {
-        const selectedAnswer = answers[index];
+      questions.forEach(
+        (question, index) => {
+          const selectedAnswer =
+            answers[index];
 
-        if (selectedAnswer === null) {
-          unanswered += 1;
-        } else if (
-          selectedAnswer === question.correctAnswer
-        ) {
-          correctAnswers += 1;
-        } else {
-          incorrectAnswers += 1;
+          if (selectedAnswer === null) {
+            unanswered += 1;
+          } else if (
+            selectedAnswer ===
+            question.correctAnswer
+          ) {
+            correctAnswers += 1;
+          } else {
+            incorrectAnswers += 1;
+          }
         }
-      });
+      );
 
-      const totalQuestions = questions.length;
+      const totalQuestions =
+        questions.length;
 
       const percentage =
+        totalQuestions > 0
+          ? Number(
+              (
+                (
+                  correctAnswers /
+                  totalQuestions
+                ) * 100
+              ).toFixed(2)
+            )
+          : 0;
+
+      const durationMinutes =
         Number(
-          (
-            (correctAnswers / totalQuestions) *
-            100
-          ).toFixed(2)
-        );
+          assessmentData.durationMinutes
+        ) || 15;
 
       const timeTakenSeconds =
         Math.min(
-          assessmentData.durationMinutes * 60,
-          Math.floor((Date.now() - startTime) / 1000)
+          durationMinutes * 60,
+          Math.floor(
+            (Date.now() - startTime) / 1000
+          )
         );
 
       return {
@@ -730,40 +935,54 @@ if (!studentEmailInput.checkValidity()) {
       };
     }
 
-    async function submitAssessment(timeExpired = false) {
+    async function submitAssessment(
+      timeExpired = false
+    ) {
       if (assessmentSubmitted) {
         return;
       }
 
       assessmentSubmitted = true;
+
       window.clearInterval(timerInterval);
 
       nextButton.disabled = true;
       previousButton.disabled = true;
 
-      nextButton.textContent = "Saving Result...";
+      nextButton.textContent =
+        "Saving Result...";
 
-      const result = calculateResult();
+      const result =
+        calculateResult();
 
       const resultRecord = {
         student_name: studentName,
         roll_number: rollNumber,
         email: studentEmail,
-        topic: assessmentData.topic,
-        category: assessmentData.category,
+        topic:
+          assessmentData.topic || topic,
+        category:
+          assessmentData.category || category,
         score: result.correctAnswers,
-        total_questions: result.totalQuestions,
-        correct_answers: result.correctAnswers,
-        incorrect_answers: result.incorrectAnswers,
-        unanswered: result.unanswered,
-        percentage: result.percentage,
-        time_taken_seconds: result.timeTakenSeconds
+        total_questions:
+          result.totalQuestions,
+        correct_answers:
+          result.correctAnswers,
+        incorrect_answers:
+          result.incorrectAnswers,
+        unanswered:
+          result.unanswered,
+        percentage:
+          result.percentage,
+        time_taken_seconds:
+          result.timeTakenSeconds
       };
 
       try {
-        const { error } = await supabaseClient
-          .from("assessment_results")
-          .insert(resultRecord);
+        const { error } =
+          await supabaseClient
+            .from("assessment_results")
+            .insert(resultRecord);
 
         if (error) {
           throw error;
@@ -771,7 +990,9 @@ if (!studentEmailInput.checkValidity()) {
 
         const resultForDisplay = {
           ...resultRecord,
-          title: assessmentData.title,
+          title:
+            assessmentData.title ||
+            "Assessment",
           timeExpired
         };
 
@@ -780,14 +1001,19 @@ if (!studentEmailInput.checkValidity()) {
           JSON.stringify(resultForDisplay)
         );
 
-        window.location.href = "result.html";
+        window.location.href =
+          "result.html";
       } catch (error) {
         console.error(error);
 
         assessmentSubmitted = false;
+
         nextButton.disabled = false;
-        previousButton.disabled = false;
-        nextButton.textContent = "Try Saving Again";
+        previousButton.disabled =
+          currentQuestionIndex === 0;
+
+        nextButton.textContent =
+          "Try Saving Again";
 
         window.alert(
           "The assessment was completed, but the result " +
