@@ -1,1 +1,787 @@
+{
+  "id": "pnc",
+  "category": "QA",
+  "title": "Permutations and Combinations",
+  "subtitle": "Quantitative Aptitude – Placement Preparation",
+  "description": "Learn fundamental counting principles, factorials, permutations, combinations, arrangements with restrictions, circular permutations, repeated objects, selections and distribution methods commonly tested in placement examinations.",
+  "estimatedLearningTime": "40–45 minutes",
 
+  "learningObjectives": [
+    "Understand the fundamental principle of counting.",
+    "Understand factorial notation and its properties.",
+    "Differentiate between permutations and combinations.",
+    "Calculate arrangements using the permutation formula.",
+    "Calculate selections using the combination formula.",
+    "Solve arrangements involving repeated objects.",
+    "Solve circular arrangement problems.",
+    "Handle restrictions such as objects being together or separated.",
+    "Arrange vowels, consonants, digits and letters under given conditions.",
+    "Form numbers using given digits with and without repetition.",
+    "Select committees and teams under different conditions.",
+    "Use complementary counting for selection problems.",
+    "Apply symmetry properties of combinations.",
+    "Solve distribution problems.",
+    "Use placement-test shortcuts to solve counting questions quickly."
+  ],
+
+  "sections": [
+    {
+      "heading": "1. Fundamental Principle of Counting",
+      "content": [
+        "The fundamental principle of counting helps determine the total number of outcomes when a task is completed through multiple stages.",
+        "If one operation can be performed in m ways and another independent operation can be performed in n ways, both operations together can be performed in m × n ways.",
+        "The multiplication principle is used when all stages must be completed.",
+        "The addition principle is used when exactly one among mutually exclusive alternatives must be chosen."
+      ],
+      "formulas": [
+        "Total ways for successive independent stages = m × n × p × ...",
+        "Total ways for mutually exclusive alternatives = m + n + p + ..."
+      ],
+      "examples": [
+        {
+          "question": "A student has 4 shirts and 3 trousers. In how many ways can the student choose one shirt and one trouser?",
+          "solution": "For each of the 4 shirts, any of the 3 trousers can be selected. Total ways = 4 × 3 = 12."
+        },
+        {
+          "question": "A person can travel from City A to City B by 3 buses or 2 trains. In how many ways can the person travel?",
+          "solution": "The person chooses either a bus or a train. Total ways = 3 + 2 = 5."
+        }
+      ]
+    },
+
+    {
+      "heading": "2. Factorials",
+      "content": [
+        "The factorial of a positive integer n is the product of all positive integers from 1 to n.",
+        "Factorials are extensively used in permutations and combinations.",
+        "By definition, 0 factorial and 1 factorial are both equal to 1.",
+        "Factorial expressions can often be simplified by cancelling common factors."
+      ],
+      "formulas": [
+        "n! = n × (n − 1) × (n − 2) × ... × 2 × 1",
+        "0! = 1",
+        "1! = 1",
+        "n! = n × (n − 1)!"
+      ],
+      "examples": [
+        {
+          "question": "Find the value of 6!.",
+          "solution": "6! = 6 × 5 × 4 × 3 × 2 × 1 = 720."
+        },
+        {
+          "question": "Simplify 10!/8!.",
+          "solution": "10!/8! = (10 × 9 × 8!)/8! = 10 × 9 = 90."
+        }
+      ]
+    },
+
+    {
+      "heading": "3. Permutations",
+      "content": [
+        "A permutation is an arrangement of objects in a specific order.",
+        "In permutation problems, changing the order creates a different arrangement.",
+        "The number of ways to arrange r objects selected from n distinct objects is written as nPr.",
+        "Use permutations when positions, ranks or order are important."
+      ],
+      "formulas": [
+        "nPr = n!/(n − r)!",
+        "nPn = n!",
+        "nP1 = n"
+      ],
+      "examples": [
+        {
+          "question": "In how many ways can 3 students be arranged from a group of 5 students?",
+          "solution": "The order matters. Therefore, 5P3 = 5!/(5 − 3)! = 5!/2! = 5 × 4 × 3 = 60."
+        },
+        {
+          "question": "In how many ways can 6 different books be arranged on a shelf?",
+          "solution": "All 6 books are arranged. Total arrangements = 6! = 720."
+        }
+      ]
+    },
+
+    {
+      "heading": "4. Combinations",
+      "content": [
+        "A combination is a selection of objects without considering their order.",
+        "In combination problems, changing the order does not create a new selection.",
+        "The number of ways to select r objects from n distinct objects is written as nCr.",
+        "Use combinations when forming groups, teams, committees or selections."
+      ],
+      "formulas": [
+        "nCr = n!/[r!(n − r)!]",
+        "nC0 = 1",
+        "nCn = 1",
+        "nC1 = n"
+      ],
+      "examples": [
+        {
+          "question": "In how many ways can 3 students be selected from 5 students?",
+          "solution": "The order does not matter. Therefore, 5C3 = 5!/(3! × 2!) = 10."
+        },
+        {
+          "question": "In how many ways can a committee of 2 people be selected from 6 people?",
+          "solution": "Number of committees = 6C2 = 6 × 5/2 = 15."
+        }
+      ]
+    },
+
+    {
+      "heading": "5. Difference Between Permutation and Combination",
+      "content": [
+        "Permutation refers to arrangement, while combination refers to selection.",
+        "Order matters in permutations but does not matter in combinations.",
+        "Words such as arrange, rank, seat, code and number generally indicate permutations.",
+        "Words such as choose, select, committee, group and team generally indicate combinations."
+      ],
+      "formulas": [
+        "nPr = nCr × r!",
+        "nCr = nPr/r!"
+      ],
+      "examples": [
+        {
+          "question": "Three students are selected from 7 students and assigned the roles of captain, vice-captain and secretary. How many possibilities are there?",
+          "solution": "The roles are different, so order matters. Total possibilities = 7P3 = 7 × 6 × 5 = 210."
+        },
+        {
+          "question": "Three students are selected from 7 students to form a committee. How many committees are possible?",
+          "solution": "There are no separate roles, so order does not matter. Total committees = 7C3 = 35."
+        }
+      ]
+    },
+
+    {
+      "heading": "6. Important Properties of Combinations",
+      "content": [
+        "Selecting r objects is equivalent to rejecting n − r objects.",
+        "This symmetry can simplify calculations involving large values of r.",
+        "The sum of all possible combinations of n objects is 2^n.",
+        "The sum excluding the empty selection is 2^n − 1."
+      ],
+      "formulas": [
+        "nCr = nC(n − r)",
+        "nCr + nC(r − 1) = (n + 1)Cr",
+        "nC0 + nC1 + ... + nCn = 2^n",
+        "nC1 + nC2 + ... + nCn = 2^n − 1"
+      ],
+      "examples": [
+        {
+          "question": "Find 10C8.",
+          "solution": "Using nCr = nC(n − r), 10C8 = 10C2 = 10 × 9/2 = 45."
+        },
+        {
+          "question": "How many non-empty groups can be formed from 5 people?",
+          "solution": "Each person can either be selected or not selected. Total non-empty groups = 2^5 − 1 = 31."
+        }
+      ]
+    },
+
+    {
+      "heading": "7. Arranging All Distinct Objects",
+      "content": [
+        "The number of ways to arrange n distinct objects in a row is n factorial.",
+        "Each position is filled successively using the multiplication principle.",
+        "This method applies to distinct people, letters, books and other unique objects."
+      ],
+      "formulas": [
+        "Linear arrangements of n distinct objects = n!"
+      ],
+      "examples": [
+        {
+          "question": "In how many ways can the letters of the word MATH be arranged?",
+          "solution": "All 4 letters are distinct. Number of arrangements = 4! = 24."
+        },
+        {
+          "question": "In how many ways can 7 people stand in a line?",
+          "solution": "Number of arrangements = 7! = 5040."
+        }
+      ]
+    },
+
+    {
+      "heading": "8. Arrangements with Repeated Objects",
+      "content": [
+        "When some objects are identical, interchanging identical objects does not create a new arrangement.",
+        "Divide the factorial of the total number of objects by the factorial of each repetition count.",
+        "This method is commonly used for arranging letters of words containing repeated letters."
+      ],
+      "formulas": [
+        "Arrangements of n objects where p, q, r, ... objects are identical = n!/(p!q!r!...)"
+      ],
+      "examples": [
+        {
+          "question": "How many distinct arrangements can be formed using the letters of LEVEL?",
+          "solution": "LEVEL has 5 letters, with L repeated twice and E repeated twice. Arrangements = 5!/(2! × 2!) = 30."
+        },
+        {
+          "question": "How many distinct arrangements are possible for the word BANANA?",
+          "solution": "BANANA has 6 letters, with A repeated 3 times and N repeated 2 times. Arrangements = 6!/(3! × 2!) = 60."
+        }
+      ]
+    },
+
+    {
+      "heading": "9. Objects That Must Always Be Together",
+      "content": [
+        "When certain objects must remain together, treat them as a single block.",
+        "Arrange the block with the remaining objects.",
+        "Then multiply by the internal arrangements of the objects within the block.",
+        "This method is commonly called the block method."
+      ],
+      "formulas": [
+        "Total arrangements = Arrangements of blocks × Internal arrangements"
+      ],
+      "examples": [
+        {
+          "question": "In how many ways can 5 people stand in a row if A and B must stand together?",
+          "solution": "Treat A and B as one block. There are now 4 units, which can be arranged in 4! ways. A and B can switch places in 2! ways. Total = 4! × 2! = 48."
+        },
+        {
+          "question": "How many arrangements of the word SCHOOL have all vowels together?",
+          "solution": "The vowels O and O form one block. The units are the vowel block, S, C, H and L, giving 5 units. Since the two O's are identical, internal arrangements equal 1. Total = 5! = 120."
+        }
+      ]
+    },
+
+    {
+      "heading": "10. Objects That Must Not Be Together",
+      "content": [
+        "Use complementary counting when particular objects must not be together.",
+        "First calculate all unrestricted arrangements.",
+        "Then subtract the arrangements in which the restricted objects are together.",
+        "This is usually faster than directly counting separated arrangements."
+      ],
+      "formulas": [
+        "Required arrangements = Total arrangements − Restricted arrangements"
+      ],
+      "examples": [
+        {
+          "question": "In how many ways can 5 people stand in a row if A and B must not stand together?",
+          "solution": "Total arrangements = 5! = 120. Arrangements with A and B together = 4! × 2! = 48. Required arrangements = 120 − 48 = 72."
+        },
+        {
+          "question": "In how many ways can the letters of MANGO be arranged if M and A are not together?",
+          "solution": "Total arrangements = 5! = 120. Arrangements with M and A together = 4! × 2! = 48. Required arrangements = 72."
+        }
+      ]
+    },
+
+    {
+      "heading": "11. Arrangements with No Two Similar Objects Together",
+      "content": [
+        "First arrange the objects of one category.",
+        "Count the gaps created before, between and after those objects.",
+        "Place the objects of the other category into the available gaps.",
+        "This method is commonly used when vowels or particular people must not be adjacent."
+      ],
+      "formulas": [
+        "If n objects are arranged, they create n + 1 gaps",
+        "Choose required gaps and arrange the remaining objects"
+      ],
+      "examples": [
+        {
+          "question": "In how many ways can 3 boys and 2 girls stand in a row if no two girls stand together?",
+          "solution": "Arrange the 3 boys in 3! ways. They create 4 gaps. Select 2 of the 4 gaps and arrange the girls: 4C2 × 2!. Total = 3! × 4C2 × 2! = 72."
+        },
+        {
+          "question": "In how many ways can 4 men and 3 women stand in a row if no two women stand together?",
+          "solution": "Arrange the men in 4! ways. They create 5 gaps. Choose 3 gaps and arrange the women. Total = 4! × 5C3 × 3! = 1440."
+        }
+      ]
+    },
+
+    {
+      "heading": "12. Vowels and Consonants",
+      "content": [
+        "Separate the vowels and consonants before applying restrictions.",
+        "For vowels together, treat all vowels as one block.",
+        "For vowels occupying only specified positions, first choose or identify those positions.",
+        "Account for repeated letters when necessary."
+      ],
+      "formulas": [
+        "Vowels together = Arrange the vowel block and consonants × Arrange vowels internally",
+        "Vowels in selected positions = Choose positions × Arrange vowels × Arrange consonants"
+      ],
+      "examples": [
+        {
+          "question": "In how many ways can the letters of MOBILE be arranged if all vowels are together?",
+          "solution": "The vowels O, I and E form one block. Along with M, B and L, there are 4 units. Arrange the units in 4! ways and vowels internally in 3! ways. Total = 4! × 3! = 144."
+        },
+        {
+          "question": "In how many ways can the letters of EQUATION be arranged so that all vowels are together?",
+          "solution": "EQUATION has 5 distinct vowels and 3 distinct consonants. Treat the vowels as one block, giving 4 units. Total arrangements = 4! × 5! = 2880."
+        }
+      ]
+    },
+
+    {
+      "heading": "13. Forming Numbers Without Repetition",
+      "content": [
+        "When forming numbers, the first digit cannot be zero.",
+        "Fill the first position separately when zero is among the available digits.",
+        "After selecting the first digit, fill the remaining positions using permutations.",
+        "Without repetition, a digit cannot be used more than once."
+      ],
+      "formulas": [
+        "r-digit numbers from n non-zero distinct digits without repetition = nPr",
+        "When zero is included, handle the first digit separately"
+      ],
+      "examples": [
+        {
+          "question": "How many 3-digit numbers can be formed from 1, 2, 3, 4 and 5 without repetition?",
+          "solution": "The number of arrangements is 5P3 = 5 × 4 × 3 = 60."
+        },
+        {
+          "question": "How many 3-digit numbers can be formed from 0, 1, 2, 3 and 4 without repetition?",
+          "solution": "The first digit has 4 choices because it cannot be zero. The second digit then has 4 choices and the third has 3 choices. Total = 4 × 4 × 3 = 48."
+        }
+      ]
+    },
+
+    {
+      "heading": "14. Forming Numbers with Repetition",
+      "content": [
+        "When repetition is allowed, a selected digit may be used again.",
+        "Each position generally has the same number of choices unless the first position cannot contain zero.",
+        "Use the multiplication principle to calculate the total."
+      ],
+      "formulas": [
+        "r-digit strings from n digits with repetition = n^r",
+        "r-digit numbers using 0 to n − 1 = (n − 1) × n^(r − 1)"
+      ],
+      "examples": [
+        {
+          "question": "How many 4-digit codes can be formed using digits 1 to 6 when repetition is allowed?",
+          "solution": "Each of the 4 positions has 6 choices. Total codes = 6^4 = 1296."
+        },
+        {
+          "question": "How many 3-digit numbers can be formed using digits 0 to 5 when repetition is allowed?",
+          "solution": "The first digit has 5 choices, excluding zero. Each remaining digit has 6 choices. Total = 5 × 6 × 6 = 180."
+        }
+      ]
+    },
+
+    {
+      "heading": "15. Numbers with Divisibility Conditions",
+      "content": [
+        "Use divisibility rules to restrict the possible final digits or digit groups.",
+        "For an even number, the final digit must be even.",
+        "For a number divisible by 5, the final digit must be 0 or 5.",
+        "After selecting the restricted digit, arrange the remaining digits."
+      ],
+      "formulas": [
+        "Even number: Last digit must be 0, 2, 4, 6 or 8",
+        "Divisible by 5: Last digit must be 0 or 5"
+      ],
+      "examples": [
+        {
+          "question": "How many 3-digit even numbers can be formed using 1, 2, 3, 4 and 5 without repetition?",
+          "solution": "The final digit must be 2 or 4, giving 2 choices. The first digit then has 4 choices and the middle digit has 3 choices. Total = 2 × 4 × 3 = 24."
+        },
+        {
+          "question": "How many 4-digit numbers divisible by 5 can be formed using 1, 2, 3, 4, 5 and 6 without repetition?",
+          "solution": "The final digit must be 5 because zero is unavailable. The remaining three positions can be filled from the other 5 digits in 5P3 ways. Total = 5 × 4 × 3 = 60."
+        }
+      ]
+    },
+
+    {
+      "heading": "16. Circular Permutations",
+      "content": [
+        "In a circular arrangement, rotations are considered identical.",
+        "Fix one object and arrange the remaining objects around it.",
+        "For people seated around a round table, the number of arrangements is (n − 1)!.",
+        "When clockwise and anticlockwise arrangements are also considered identical, divide by 2."
+      ],
+      "formulas": [
+        "Circular arrangements of n distinct objects = (n − 1)!",
+        "Circular arrangements when clockwise and anticlockwise orders are identical = (n − 1)!/2"
+      ],
+      "examples": [
+        {
+          "question": "In how many ways can 6 people sit around a circular table?",
+          "solution": "Circular arrangements = (6 − 1)! = 5! = 120."
+        },
+        {
+          "question": "In how many ways can 8 distinct beads be arranged in a necklace?",
+          "solution": "For a necklace, clockwise and anticlockwise arrangements are identical. Total = (8 − 1)!/2 = 7!/2 = 2520."
+        }
+      ]
+    },
+
+    {
+      "heading": "17. Circular Arrangements with Restrictions",
+      "content": [
+        "For adjacent people, treat them as one block before applying circular arrangements.",
+        "For people who must not sit together, subtract adjacent arrangements from total circular arrangements.",
+        "Fix one person to remove rotational duplication.",
+        "Carefully distinguish between round-table and necklace arrangements."
+      ],
+      "formulas": [
+        "Two particular people together around a circle = 2 × (n − 2)!",
+        "Two particular people not together = (n − 1)! − 2 × (n − 2)!"
+      ],
+      "examples": [
+        {
+          "question": "In how many ways can 6 people sit around a table if A and B must sit together?",
+          "solution": "Treat A and B as one block. There are 5 circular units, arranged in (5 − 1)! ways. A and B can switch positions in 2 ways. Total = 4! × 2 = 48."
+        },
+        {
+          "question": "In how many ways can 6 people sit around a table if A and B must not sit together?",
+          "solution": "Total arrangements = 5! = 120. Arrangements with A and B together = 48. Required arrangements = 120 − 48 = 72."
+        }
+      ]
+    },
+
+    {
+      "heading": "18. Committee and Team Selection",
+      "content": [
+        "Committee formation is generally a combination because order does not matter.",
+        "When particular members must be included, select them first and choose the remaining members.",
+        "When particular members must be excluded, remove them from the available group.",
+        "For conditions such as at least or at most, divide the problem into valid cases."
+      ],
+      "formulas": [
+        "Committee of r from n people = nCr",
+        "If k particular people must be included = (n − k)C(r − k)",
+        "If k particular people are excluded = (n − k)Cr"
+      ],
+      "examples": [
+        {
+          "question": "In how many ways can a committee of 4 be formed from 8 people?",
+          "solution": "Number of committees = 8C4 = 70."
+        },
+        {
+          "question": "In how many ways can a committee of 4 be formed from 8 people if A must be included?",
+          "solution": "Include A and select the remaining 3 members from the other 7 people. Total = 7C3 = 35."
+        }
+      ]
+    },
+
+    {
+      "heading": "19. Selection with Men and Women",
+      "content": [
+        "Split the selection according to the required number of men and women.",
+        "Calculate each valid case using combinations.",
+        "Add the results of mutually exclusive valid cases.",
+        "For at least one person from a category, complementary counting is often faster."
+      ],
+      "formulas": [
+        "Select x men and y women = mCx × wCy",
+        "At least one woman = Total selections − Selections containing no women"
+      ],
+      "examples": [
+        {
+          "question": "A committee of 3 is selected from 5 men and 4 women. In how many ways can it contain exactly 2 men and 1 woman?",
+          "solution": "Select 2 men from 5 and 1 woman from 4. Total = 5C2 × 4C1 = 10 × 4 = 40."
+        },
+        {
+          "question": "A team of 4 is selected from 6 men and 3 women. In how many ways can it contain at least one woman?",
+          "solution": "Total teams = 9C4 = 126. Teams with no women = 6C4 = 15. Required teams = 126 − 15 = 111."
+        }
+      ]
+    },
+
+    {
+      "heading": "20. At Least and At Most Conditions",
+      "content": [
+        "At least means the stated number or more.",
+        "At most means the stated number or fewer.",
+        "List all valid cases and add their counts.",
+        "Use the complement when the excluded cases are easier to calculate."
+      ],
+      "formulas": [
+        "At least one = Total − None",
+        "At most r = Sum of cases from 0 through r"
+      ],
+      "examples": [
+        {
+          "question": "A committee of 4 is selected from 5 men and 3 women. In how many ways can it contain at least 2 women?",
+          "solution": "Valid cases are 2 women and 2 men, or 3 women and 1 man. Total = 3C2 × 5C2 + 3C3 × 5C1 = 3 × 10 + 1 × 5 = 35."
+        },
+        {
+          "question": "From 6 men and 4 women, how many groups of 3 contain at most one woman?",
+          "solution": "Valid cases are no women or exactly one woman. Total = 6C3 + 4C1 × 6C2 = 20 + 4 × 15 = 80."
+        }
+      ]
+    },
+
+    {
+      "heading": "21. Selection of Particular Objects",
+      "content": [
+        "When some specified objects must be selected, include them first.",
+        "When specified objects must not be selected, remove them from the available objects.",
+        "When exactly one among specified objects must be selected, form separate cases.",
+        "When two objects cannot be selected together, subtract selections containing both."
+      ],
+      "formulas": [
+        "Both A and B included in an r-member group = (n − 2)C(r − 2)",
+        "Neither A nor B included = (n − 2)Cr",
+        "A and B not together in selection = nCr − (n − 2)C(r − 2)"
+      ],
+      "examples": [
+        {
+          "question": "In how many ways can 4 students be selected from 9 students if A and B must both be selected?",
+          "solution": "Select A and B first. Choose the remaining 2 students from the other 7. Total = 7C2 = 21."
+        },
+        {
+          "question": "In how many ways can 4 students be selected from 9 students if A and B cannot both be selected?",
+          "solution": "Total selections = 9C4 = 126. Selections containing both A and B = 7C2 = 21. Required selections = 126 − 21 = 105."
+        }
+      ]
+    },
+
+    {
+      "heading": "22. Distribution of Distinct Objects",
+      "content": [
+        "When distinct objects are distributed to distinct people, each object may independently be assigned to one of the people.",
+        "If every person may receive any number of objects, including none, use the multiplication principle.",
+        "Additional restrictions require case analysis or inclusion-exclusion."
+      ],
+      "formulas": [
+        "Distributing n distinct objects among r distinct people without restrictions = r^n"
+      ],
+      "examples": [
+        {
+          "question": "In how many ways can 4 distinct books be distributed among 3 students if a student may receive any number of books?",
+          "solution": "Each of the 4 books has 3 possible recipients. Total distributions = 3^4 = 81."
+        },
+        {
+          "question": "In how many ways can 5 different prizes be awarded to 4 students if a student can receive more than one prize?",
+          "solution": "Each prize has 4 possible recipients. Total ways = 4^5 = 1024."
+        }
+      ]
+    },
+
+    {
+      "heading": "23. Distribution of Identical Objects",
+      "content": [
+        "Identical-object distribution commonly uses the stars-and-bars method.",
+        "For non-negative distributions, a recipient may receive zero objects.",
+        "For positive distributions, every recipient must receive at least one object.",
+        "Convert minimum-allocation conditions by giving the required minimum first."
+      ],
+      "formulas": [
+        "Distribute n identical objects among r people, allowing zero = (n + r − 1)C(r − 1)",
+        "Distribute n identical objects among r people, each receiving at least one = (n − 1)C(r − 1)"
+      ],
+      "examples": [
+        {
+          "question": "In how many ways can 7 identical chocolates be distributed among 3 children if a child may receive none?",
+          "solution": "Using stars and bars, the number of distributions is (7 + 3 − 1)C(3 − 1) = 9C2 = 36."
+        },
+        {
+          "question": "In how many ways can 7 identical chocolates be distributed among 3 children if every child receives at least one?",
+          "solution": "Give one chocolate to each child first. The required count is (7 − 1)C(3 − 1) = 6C2 = 15."
+        }
+      ]
+    },
+
+    {
+      "heading": "24. Placement-Test Strategy",
+      "content": [
+        "First identify whether the question involves arrangement or selection.",
+        "Use permutations when order, position, rank or role matters.",
+        "Use combinations when only the selected group matters.",
+        "Apply the block method when objects must remain together.",
+        "Use total minus unwanted arrangements when objects must not be together.",
+        "Handle zero separately when forming numbers.",
+        "Use gap arrangements when similar objects must be separated.",
+        "Use complementary counting for at-least-one conditions.",
+        "Check whether repeated objects are identical.",
+        "For circular arrangements, fix one object before arranging the others.",
+        "Simplify factorial expressions before performing large multiplications.",
+        "Divide the problem into mutually exclusive cases when there are multiple conditions."
+      ],
+      "formulas": [
+        "Permutation: nPr = n!/(n − r)!",
+        "Combination: nCr = n!/[r!(n − r)!]",
+        "Relation: nPr = nCr × r!",
+        "Repeated objects: n!/(p!q!r!...)",
+        "Circular permutation: (n − 1)!",
+        "At least one = Total − None"
+      ],
+      "examples": [
+        {
+          "question": "From 8 employees, a manager and an assistant manager must be selected. In how many ways can this be done?",
+          "solution": "The two positions are different, so order matters. Total ways = 8P2 = 8 × 7 = 56."
+        },
+        {
+          "question": "From 8 employees, two representatives must be selected. In how many ways can this be done?",
+          "solution": "The representatives have identical roles, so order does not matter. Total ways = 8C2 = 28."
+        }
+      ]
+    }
+  ],
+
+  "quickShortcuts": [
+    {
+      "title": "Arrangement or selection",
+      "note": "Use permutations for arrangements and combinations for selections."
+    },
+    {
+      "title": "Factorial expansion",
+      "note": "Expand only enough terms to cancel the denominator."
+    },
+    {
+      "title": "Arrange all objects",
+      "note": "The number of linear arrangements of n distinct objects is n!."
+    },
+    {
+      "title": "Permutation formula",
+      "note": "Use nPr = n!/(n − r)! when order matters."
+    },
+    {
+      "title": "Combination formula",
+      "note": "Use nCr = n!/[r!(n − r)!] when order does not matter."
+    },
+    {
+      "title": "Combination symmetry",
+      "note": "Use nCr = nC(n − r) to reduce calculations."
+    },
+    {
+      "title": "Permutation-combination relation",
+      "note": "nPr = nCr × r!."
+    },
+    {
+      "title": "Repeated letters",
+      "note": "Divide total factorial by the factorial of each repetition count."
+    },
+    {
+      "title": "Always together",
+      "note": "Treat the required objects as one block."
+    },
+    {
+      "title": "Never together",
+      "note": "Subtract together-arrangements from total arrangements."
+    },
+    {
+      "title": "No two together",
+      "note": "Arrange one category first and place the other category in gaps."
+    },
+    {
+      "title": "Circular arrangement",
+      "note": "For n distinct people around a table, use (n − 1)!."
+    },
+    {
+      "title": "Necklace arrangement",
+      "note": "Use (n − 1)!/2 when clockwise and anticlockwise arrangements are identical."
+    },
+    {
+      "title": "Number formation",
+      "note": "Zero cannot occupy the first position of a number."
+    },
+    {
+      "title": "Even-number formation",
+      "note": "Choose the final even digit first."
+    },
+    {
+      "title": "Divisibility by 5",
+      "note": "Choose 0 or 5 as the final digit."
+    },
+    {
+      "title": "Particular person included",
+      "note": "Fix that person and select the remaining members."
+    },
+    {
+      "title": "At least one",
+      "note": "Use total selections minus selections containing none."
+    },
+    {
+      "title": "Non-empty subsets",
+      "note": "A set with n elements has 2^n − 1 non-empty subsets."
+    },
+    {
+      "title": "Distinct-object distribution",
+      "note": "n distinct objects distributed among r people gives r^n unrestricted assignments."
+    }
+  ],
+
+  "placementQuestionTypes": [
+    "Fundamental counting principle",
+    "Factorial simplification",
+    "Basic permutation problems",
+    "Basic combination problems",
+    "Difference between arrangement and selection",
+    "Arranging distinct letters",
+    "Arranging repeated letters",
+    "Objects always together",
+    "Objects never together",
+    "No two similar objects together",
+    "Vowels and consonants arrangements",
+    "Number formation without repetition",
+    "Number formation with repetition",
+    "Even and odd number formation",
+    "Numbers satisfying divisibility conditions",
+    "Circular seating arrangements",
+    "Circular arrangements with restrictions",
+    "Necklace and bracelet arrangements",
+    "Committee formation",
+    "Team selection",
+    "Men-and-women selection",
+    "At-least and at-most conditions",
+    "Particular members included or excluded",
+    "Non-empty subset problems",
+    "Distribution of distinct objects",
+    "Distribution of identical objects",
+    "Placement-based mixed counting problems"
+  ],
+
+  "commonMistakes": [
+    "Using permutations when only selection is required.",
+    "Using combinations when roles or positions are different.",
+    "Forgetting that order matters in passwords, rankings and seat arrangements.",
+    "Treating repeated objects as distinct.",
+    "Failing to divide by factorials of repeated letters.",
+    "Forgetting internal arrangements when using the block method.",
+    "Subtracting the wrong restricted case in not-together problems.",
+    "Using n! instead of (n − 1)! for circular arrangements.",
+    "Dividing round-table arrangements by 2 unnecessarily.",
+    "Forgetting to divide necklace arrangements by 2.",
+    "Allowing zero in the first position while forming a number.",
+    "Forgetting to restrict the last digit in even-number problems.",
+    "Using addition instead of multiplication for successive choices.",
+    "Using multiplication instead of addition for mutually exclusive cases.",
+    "Not considering every valid case in at-least or at-most questions.",
+    "Counting overlapping cases more than once.",
+    "Forgetting to include compulsory members before selecting the others.",
+    "Applying nCr = nC(n − r) incorrectly.",
+    "Calculating large factorials without first cancelling common factors.",
+    "Confusing identical-object distribution with distinct-object distribution."
+  ],
+
+  "revisionChecklist": [
+    "I understand the multiplication and addition principles of counting.",
+    "I can simplify factorial expressions.",
+    "I know when to use permutations.",
+    "I know when to use combinations.",
+    "I can use the relation between nPr and nCr.",
+    "I can arrange distinct objects.",
+    "I can arrange objects containing repetitions.",
+    "I can solve always-together problems.",
+    "I can solve never-together problems.",
+    "I can use the gap method.",
+    "I can solve vowel-and-consonant arrangement questions.",
+    "I can form numbers without repetition.",
+    "I can form numbers when repetition is allowed.",
+    "I correctly handle zero in number formation.",
+    "I can solve even-number and divisible-by-5 questions.",
+    "I can solve circular seating problems.",
+    "I can solve necklace arrangement problems.",
+    "I can form committees and teams.",
+    "I can handle compulsory and excluded members.",
+    "I can solve at-least and at-most questions.",
+    "I can use complementary counting.",
+    "I can calculate the number of non-empty subsets.",
+    "I can solve basic distribution problems.",
+    "I can identify the fastest placement-test method."
+  ],
+
+  "assessment": {
+    "buttonText": "Begin Assessment",
+    "page": "assessment.html",
+    "questionFile": "data/questions/QA/pnc.json",
+    "category": "QA",
+    "topic": "pnc"
+  }
+}
