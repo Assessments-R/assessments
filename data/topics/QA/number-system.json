@@ -1,1 +1,220 @@
+{
+  "id": "number-system",
+  "category": "QA",
+  "title": "Number System",
+  "subtitle": "Quantitative Aptitude – Placement Preparation",
+  "description": "Master the Number System concepts required for campus placements including divisibility rules, factors, multiples, remainders, cyclicity, units digit, digital root, factorials, base conversions and placement shortcuts.",
+  "estimatedLearningTime": "45–50 minutes",
 
+  "learningObjectives": [
+    "Understand natural, whole, integer, rational and irrational numbers.",
+    "Identify even, odd, prime and composite numbers.",
+    "Understand factors and multiples.",
+    "Use divisibility rules quickly.",
+    "Calculate HCF and LCM.",
+    "Solve remainder problems.",
+    "Solve cyclicity and unit digit questions.",
+    "Find the number of factors of a number.",
+    "Calculate the sum and product of factors.",
+    "Solve trailing zero problems.",
+    "Understand factorial concepts.",
+    "Convert numbers between different bases.",
+    "Solve digital root questions.",
+    "Apply number system shortcuts in placement tests."
+  ],
+
+  "sections": [
+    {
+      "heading": "1. Types of Numbers"
+    },
+    {
+      "heading": "2. Even and Odd Numbers"
+    },
+    {
+      "heading": "3. Prime and Composite Numbers"
+    },
+    {
+      "heading": "4. Co-prime Numbers"
+    },
+    {
+      "heading": "5. Factors and Multiples"
+    },
+    {
+      "heading": "6. Prime Factorization"
+    },
+    {
+      "heading": "7. HCF and LCM Review"
+    },
+    {
+      "heading": "8. Divisibility Rules"
+    },
+    {
+      "heading": "9. Remainder Theorem"
+    },
+    {
+      "heading": "10. Modular Arithmetic"
+    },
+    {
+      "heading": "11. Cyclicity of Powers"
+    },
+    {
+      "heading": "12. Unit Digit Problems"
+    },
+    {
+      "heading": "13. Last Two Digits"
+    },
+    {
+      "heading": "14. Number of Factors"
+    },
+    {
+      "heading": "15. Sum of Factors"
+    },
+    {
+      "heading": "16. Perfect Squares and Perfect Cubes"
+    },
+    {
+      "heading": "17. Factorials"
+    },
+    {
+      "heading": "18. Trailing Zeros"
+    },
+    {
+      "heading": "19. Digital Root"
+    },
+    {
+      "heading": "20. Base Number Systems (Binary, Octal, Decimal, Hexadecimal)"
+    },
+    {
+      "heading": "21. Consecutive Numbers"
+    },
+    {
+      "heading": "22. Remainders in Large Powers"
+    },
+    {
+      "heading": "23. Placement Shortcuts"
+    }
+  ],
+
+  "quickShortcuts": [
+    {
+      "title": "Divisible by 2",
+      "note": "Last digit is even."
+    },
+    {
+      "title": "Divisible by 3",
+      "note": "Sum of digits divisible by 3."
+    },
+    {
+      "title": "Divisible by 4",
+      "note": "Last two digits divisible by 4."
+    },
+    {
+      "title": "Divisible by 5",
+      "note": "Ends in 0 or 5."
+    },
+    {
+      "title": "Divisible by 6",
+      "note": "Divisible by both 2 and 3."
+    },
+    {
+      "title": "Divisible by 8",
+      "note": "Last three digits divisible by 8."
+    },
+    {
+      "title": "Divisible by 9",
+      "note": "Digit sum divisible by 9."
+    },
+    {
+      "title": "Divisible by 10",
+      "note": "Ends in 0."
+    },
+    {
+      "title": "Trailing zeros in n!",
+      "note": "Count factors of 5."
+    },
+    {
+      "title": "Number of factors",
+      "note": "Add one to each exponent and multiply."
+    },
+    {
+      "title": "HCF × LCM",
+      "note": "Equals product of two numbers."
+    },
+    {
+      "title": "Digital Root",
+      "note": "Repeated digit sum."
+    },
+    {
+      "title": "Units Digit",
+      "note": "Use cyclicity."
+    },
+    {
+      "title": "Large Powers",
+      "note": "Reduce exponent using cycle length."
+    },
+    {
+      "title": "Binary to Decimal",
+      "note": "Multiply each bit by powers of 2."
+    }
+  ],
+
+  "placementQuestionTypes": [
+    "Divisibility",
+    "Prime Numbers",
+    "Factors",
+    "Multiples",
+    "HCF",
+    "LCM",
+    "Remainders",
+    "Modular Arithmetic",
+    "Unit Digit",
+    "Last Two Digits",
+    "Cyclicity",
+    "Perfect Squares",
+    "Perfect Cubes",
+    "Trailing Zeros",
+    "Factorials",
+    "Digital Root",
+    "Binary Numbers",
+    "Base Conversion",
+    "Consecutive Numbers",
+    "Mixed Number System Problems"
+  ],
+
+  "commonMistakes": [
+    "Confusing factors and multiples.",
+    "Using divisibility rules incorrectly.",
+    "Ignoring cyclicity in power problems.",
+    "Using simple multiplication instead of modular arithmetic.",
+    "Forgetting to count only factors of 5 in factorial questions.",
+    "Missing repeated prime factors while counting divisors.",
+    "Using HCF instead of LCM.",
+    "Ignoring the remainder after division.",
+    "Incorrect binary conversions.",
+    "Not reducing exponents using cycle lengths."
+  ],
+
+  "revisionChecklist": [
+    "I know all number types.",
+    "I know divisibility rules.",
+    "I can calculate HCF and LCM.",
+    "I can solve remainder questions.",
+    "I can solve unit digit problems.",
+    "I know cyclicity.",
+    "I can find number of factors.",
+    "I can find sum of factors.",
+    "I can solve factorial questions.",
+    "I can calculate trailing zeros.",
+    "I can convert between bases.",
+    "I know digital roots.",
+    "I can solve placement number system problems."
+  ],
+
+  "assessment": {
+    "buttonText": "Begin Assessment",
+    "page": "assessment.html",
+    "questionFile": "data/questions/QA/number-system.json",
+    "category": "QA",
+    "topic": "number-system"
+  }
+}
