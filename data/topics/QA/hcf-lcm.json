@@ -1,1 +1,644 @@
+{
+  "id": "hcf-lcm",
+  "category": "QA",
+  "title": "HCF and LCM",
+  "subtitle": "Quantitative Aptitude – Placement Preparation",
+  "description": "Learn factors, multiples, prime factorization, HCF, LCM, division methods, relationships between numbers and common placement aptitude applications.",
+  "estimatedLearningTime": "30–35 minutes",
 
+  "learningObjectives": [
+    "Understand factors and multiples.",
+    "Identify prime and composite numbers.",
+    "Find the HCF of two or more numbers.",
+    "Find the LCM of two or more numbers.",
+    "Use prime factorization to calculate HCF and LCM.",
+    "Use the division method to calculate HCF.",
+    "Use the common-division method to calculate LCM.",
+    "Apply the relationship between HCF, LCM and the product of two numbers.",
+    "Find unknown numbers using HCF and LCM.",
+    "Solve remainder-based HCF questions.",
+    "Solve divisibility and grouping problems.",
+    "Solve recurring-event and timing problems using LCM.",
+    "Find the HCF and LCM of fractions.",
+    "Apply shortcuts commonly used in placement aptitude tests."
+  ],
+
+  "sections": [
+    {
+      "heading": "1. Factors and Multiples",
+      "content": [
+        "A factor of a number divides that number exactly without leaving a remainder.",
+        "A multiple of a number is obtained by multiplying the number by a whole number.",
+        "Every positive integer has at least two factors: 1 and the number itself.",
+        "A number has a finite number of factors but infinitely many multiples."
+      ],
+      "formulas": [
+        "If a divides b exactly, then a is a factor of b",
+        "Multiples of n = n, 2n, 3n, 4n, ..."
+      ],
+      "examples": [
+        {
+          "question": "List all the factors of 18.",
+          "solution": "The factors of 18 are 1, 2, 3, 6, 9 and 18."
+        },
+        {
+          "question": "Write the first five positive multiples of 7.",
+          "solution": "The first five positive multiples are 7, 14, 21, 28 and 35."
+        }
+      ]
+    },
+
+    {
+      "heading": "2. Prime and Composite Numbers",
+      "content": [
+        "A prime number has exactly two positive factors: 1 and itself.",
+        "A composite number has more than two positive factors.",
+        "The number 1 is neither prime nor composite.",
+        "Prime factorization expresses a number as a product of prime numbers."
+      ],
+      "formulas": [
+        "Prime number: exactly two positive factors",
+        "Composite number: more than two positive factors"
+      ],
+      "examples": [
+        {
+          "question": "Determine whether 29 is prime or composite.",
+          "solution": "The only factors of 29 are 1 and 29. Therefore, 29 is prime."
+        },
+        {
+          "question": "Write the prime factorization of 60.",
+          "solution": "60 = 2 × 2 × 3 × 5 = 2^2 × 3 × 5."
+        }
+      ]
+    },
+
+    {
+      "heading": "3. Meaning of HCF",
+      "content": [
+        "HCF stands for Highest Common Factor.",
+        "It is also called the Greatest Common Divisor or GCD.",
+        "The HCF is the greatest positive integer that divides each of the given numbers exactly.",
+        "HCF is commonly used in grouping, cutting and maximum-size problems."
+      ],
+      "formulas": [
+        "HCF = Greatest factor common to all the given numbers",
+        "HCF is always less than or equal to the smallest given number"
+      ],
+      "examples": [
+        {
+          "question": "Find the HCF of 12 and 18 by listing factors.",
+          "solution": "Factors of 12 are 1, 2, 3, 4, 6 and 12. Factors of 18 are 1, 2, 3, 6, 9 and 18. The greatest common factor is 6."
+        },
+        {
+          "question": "Find the HCF of 20 and 30.",
+          "solution": "The common factors are 1, 2, 5 and 10. Therefore, the HCF is 10."
+        }
+      ]
+    },
+
+    {
+      "heading": "4. Meaning of LCM",
+      "content": [
+        "LCM stands for Least Common Multiple.",
+        "It is the smallest positive number that is exactly divisible by all the given numbers.",
+        "LCM is useful in recurring-event, scheduling, repetition and synchronization problems.",
+        "The LCM is always greater than or equal to the largest given number."
+      ],
+      "formulas": [
+        "LCM = Smallest positive multiple common to all the given numbers"
+      ],
+      "examples": [
+        {
+          "question": "Find the LCM of 4 and 6 by listing multiples.",
+          "solution": "Multiples of 4 are 4, 8, 12, 16 and so on. Multiples of 6 are 6, 12, 18 and so on. The first common multiple is 12."
+        },
+        {
+          "question": "Find the LCM of 5 and 8.",
+          "solution": "The smallest number divisible by both 5 and 8 is 40. Therefore, the LCM is 40."
+        }
+      ]
+    },
+
+    {
+      "heading": "5. HCF Using Prime Factorization",
+      "content": [
+        "Express each number as a product of prime factors.",
+        "Select only the prime factors common to all the numbers.",
+        "For every common prime factor, take the smallest exponent.",
+        "Multiply the selected factors to obtain the HCF."
+      ],
+      "formulas": [
+        "HCF = Product of common prime factors with the smallest powers"
+      ],
+      "examples": [
+        {
+          "question": "Find the HCF of 36 and 48 using prime factorization.",
+          "solution": "36 = 2^2 × 3^2 and 48 = 2^4 × 3. Common factors with minimum powers are 2^2 × 3 = 12."
+        },
+        {
+          "question": "Find the HCF of 24, 36 and 60.",
+          "solution": "24 = 2^3 × 3, 36 = 2^2 × 3^2 and 60 = 2^2 × 3 × 5. HCF = 2^2 × 3 = 12."
+        }
+      ]
+    },
+
+    {
+      "heading": "6. LCM Using Prime Factorization",
+      "content": [
+        "Express every number as a product of prime factors.",
+        "Include every prime factor that appears in any of the numbers.",
+        "For every prime factor, take the greatest exponent.",
+        "Multiply the selected factors to obtain the LCM."
+      ],
+      "formulas": [
+        "LCM = Product of all prime factors with the greatest powers"
+      ],
+      "examples": [
+        {
+          "question": "Find the LCM of 36 and 48 using prime factorization.",
+          "solution": "36 = 2^2 × 3^2 and 48 = 2^4 × 3. LCM = 2^4 × 3^2 = 16 × 9 = 144."
+        },
+        {
+          "question": "Find the LCM of 12, 18 and 30.",
+          "solution": "12 = 2^2 × 3, 18 = 2 × 3^2 and 30 = 2 × 3 × 5. LCM = 2^2 × 3^2 × 5 = 180."
+        }
+      ]
+    },
+
+    {
+      "heading": "7. HCF Using the Division Method",
+      "content": [
+        "Divide the larger number by the smaller number.",
+        "Replace the larger number with the smaller number and the smaller number with the remainder.",
+        "Continue until the remainder becomes zero.",
+        "The last non-zero divisor is the HCF."
+      ],
+      "formulas": [
+        "Dividend = Divisor × Quotient + Remainder",
+        "HCF(a, b) = HCF(b, remainder)"
+      ],
+      "examples": [
+        {
+          "question": "Find the HCF of 252 and 105 using the division method.",
+          "solution": "252 = 105 × 2 + 42. Then 105 = 42 × 2 + 21. Then 42 = 21 × 2 + 0. Therefore, the HCF is 21."
+        },
+        {
+          "question": "Find the HCF of 867 and 255.",
+          "solution": "867 = 255 × 3 + 102; 255 = 102 × 2 + 51; 102 = 51 × 2. Therefore, the HCF is 51."
+        }
+      ]
+    },
+
+    {
+      "heading": "8. LCM Using the Common-Division Method",
+      "content": [
+        "Write the numbers together and divide them by suitable prime numbers.",
+        "A prime may divide one, some or all the numbers.",
+        "Continue until every remaining value becomes 1.",
+        "Multiply all the divisors to obtain the LCM."
+      ],
+      "formulas": [
+        "LCM = Product of all prime divisors used in the common-division process"
+      ],
+      "examples": [
+        {
+          "question": "Find the LCM of 12, 15 and 20.",
+          "solution": "Using successive prime divisors 2, 2, 3 and 5, the LCM is 2 × 2 × 3 × 5 = 60."
+        },
+        {
+          "question": "Find the LCM of 8, 18 and 24.",
+          "solution": "The highest prime powers required are 2^3 and 3^2. Therefore, LCM = 8 × 9 = 72."
+        }
+      ]
+    },
+
+    {
+      "heading": "9. Relationship Between HCF and LCM",
+      "content": [
+        "For any two positive integers, the product of the numbers equals the product of their HCF and LCM.",
+        "This relationship applies directly to two numbers.",
+        "It should not be applied in the same simple form to three or more numbers."
+      ],
+      "formulas": [
+        "First number × Second number = HCF × LCM",
+        "LCM = Product of two numbers / HCF",
+        "HCF = Product of two numbers / LCM"
+      ],
+      "examples": [
+        {
+          "question": "The HCF of two numbers is 6 and their LCM is 180. If one number is 30, find the other.",
+          "solution": "Other number = (6 × 180)/30 = 36."
+        },
+        {
+          "question": "Find the LCM of 24 and 36 if their HCF is 12.",
+          "solution": "LCM = (24 × 36)/12 = 72."
+        }
+      ]
+    },
+
+    {
+      "heading": "10. Co-Prime Numbers",
+      "content": [
+        "Two numbers are co-prime when their HCF is 1.",
+        "Co-prime numbers do not need to be prime individually.",
+        "Consecutive positive integers are always co-prime.",
+        "For two co-prime numbers, the LCM equals their product."
+      ],
+      "formulas": [
+        "For co-prime numbers, HCF = 1",
+        "For co-prime numbers, LCM = Product of the numbers"
+      ],
+      "examples": [
+        {
+          "question": "Are 8 and 15 co-prime?",
+          "solution": "The only common factor of 8 and 15 is 1. Therefore, they are co-prime."
+        },
+        {
+          "question": "Find the LCM of 9 and 20.",
+          "solution": "Since 9 and 20 are co-prime, LCM = 9 × 20 = 180."
+        }
+      ]
+    },
+
+    {
+      "heading": "11. Finding Numbers from HCF and LCM",
+      "content": [
+        "If the HCF of two numbers is H, represent the numbers as Hx and Hy.",
+        "The values x and y must be co-prime.",
+        "The LCM of the numbers becomes Hxy.",
+        "This representation helps identify possible number pairs."
+      ],
+      "formulas": [
+        "Numbers = Hx and Hy, where HCF(x, y) = 1",
+        "LCM = Hxy",
+        "xy = LCM/HCF"
+      ],
+      "examples": [
+        {
+          "question": "The HCF of two numbers is 6 and their LCM is 210. Find a possible pair of numbers.",
+          "solution": "xy = 210/6 = 35. Co-prime factor pairs of 35 include 5 and 7. Therefore, the numbers can be 6 × 5 = 30 and 6 × 7 = 42."
+        },
+        {
+          "question": "The HCF is 8 and the LCM is 96. If the numbers are in the ratio 2:3, find them.",
+          "solution": "Let the numbers be 8 × 2 and 8 × 3 because 2 and 3 are co-prime. Therefore, the numbers are 16 and 24."
+        }
+      ]
+    },
+
+    {
+      "heading": "12. Greatest Number That Divides Given Numbers Exactly",
+      "content": [
+        "When a question asks for the greatest number that divides several numbers exactly, calculate their HCF.",
+        "The word greatest generally indicates HCF in exact-division problems."
+      ],
+      "formulas": [
+        "Greatest exact divisor = HCF of the given numbers"
+      ],
+      "examples": [
+        {
+          "question": "Find the greatest number that divides 84, 126 and 210 exactly.",
+          "solution": "HCF of 84, 126 and 210 is 42. Therefore, the required number is 42."
+        },
+        {
+          "question": "Find the greatest number that divides 96, 144 and 240 without leaving a remainder.",
+          "solution": "HCF of 96, 144 and 240 is 48."
+        }
+      ]
+    },
+
+    {
+      "heading": "13. Greatest Number Leaving the Same Remainder",
+      "content": [
+        "If a divisor leaves the same remainder when dividing several numbers, subtract the numbers pairwise.",
+        "The required greatest divisor is the HCF of those differences.",
+        "The common remainder must be smaller than the required divisor."
+      ],
+      "formulas": [
+        "Required divisor = HCF of pairwise differences"
+      ],
+      "examples": [
+        {
+          "question": "Find the greatest number that divides 43, 91 and 183 leaving the same remainder.",
+          "solution": "Differences are 91 − 43 = 48, 183 − 91 = 92 and 183 − 43 = 140. HCF of 48, 92 and 140 is 4."
+        },
+        {
+          "question": "Find the greatest number that divides 65, 81 and 97 leaving the same remainder.",
+          "solution": "Differences are 16, 16 and 32. Their HCF is 16. Therefore, the required divisor is 16."
+        }
+      ]
+    },
+
+    {
+      "heading": "14. Greatest Number Leaving Specified Remainders",
+      "content": [
+        "When different numbers leave specified remainders, subtract each remainder from its corresponding number.",
+        "The required greatest divisor is the HCF of the resulting values.",
+        "Confirm that each given remainder is smaller than the divisor."
+      ],
+      "formulas": [
+        "Required divisor = HCF(Number1 − Remainder1, Number2 − Remainder2, ...)"
+      ],
+      "examples": [
+        {
+          "question": "Find the greatest number that divides 187 and 233 leaving remainders 7 and 8 respectively.",
+          "solution": "187 − 7 = 180 and 233 − 8 = 225. HCF of 180 and 225 is 45."
+        },
+        {
+          "question": "Find the greatest number that divides 122, 186 and 250 leaving remainder 2 in each case.",
+          "solution": "Subtract 2 from each number: 120, 184 and 248. Their HCF is 8."
+        }
+      ]
+    },
+
+    {
+      "heading": "15. Least Number Divisible by Given Numbers",
+      "content": [
+        "When a question asks for the smallest or least number divisible by several given numbers, calculate their LCM.",
+        "The words least, smallest, together again and next common occurrence usually indicate LCM."
+      ],
+      "formulas": [
+        "Least exactly divisible number = LCM of the given numbers"
+      ],
+      "examples": [
+        {
+          "question": "Find the least number exactly divisible by 12, 15 and 18.",
+          "solution": "LCM of 12, 15 and 18 is 180."
+        },
+        {
+          "question": "Find the smallest number divisible by 8, 10 and 12.",
+          "solution": "LCM = 2^3 × 3 × 5 = 120."
+        }
+      ]
+    },
+
+    {
+      "heading": "16. Least Number Leaving a Common Remainder",
+      "content": [
+        "First calculate the LCM of the given divisors.",
+        "Add the common remainder to the LCM.",
+        "This works when the same remainder is required for every divisor."
+      ],
+      "formulas": [
+        "Required least number = LCM of divisors + Common remainder"
+      ],
+      "examples": [
+        {
+          "question": "Find the least number that leaves remainder 3 when divided by 4, 6 and 8.",
+          "solution": "LCM of 4, 6 and 8 is 24. Required number = 24 + 3 = 27."
+        },
+        {
+          "question": "Find the least number that leaves remainder 5 when divided by 6, 8 and 12.",
+          "solution": "LCM of 6, 8 and 12 is 24. Required number = 24 + 5 = 29."
+        }
+      ]
+    },
+
+    {
+      "heading": "17. Least Number Requiring an Addition or Subtraction",
+      "content": [
+        "Find the LCM of the given divisors first.",
+        "If a number must leave a common remainder, add that remainder.",
+        "If a number is less than a required multiple by a fixed value, subtract that value from the LCM.",
+        "Check the final number against all the conditions."
+      ],
+      "formulas": [
+        "Number leaving remainder r = Multiple of LCM + r",
+        "Number requiring addition k = Multiple of LCM − k"
+      ],
+      "examples": [
+        {
+          "question": "Find the least number that must be increased by 5 to become divisible by 12, 18 and 24.",
+          "solution": "LCM of 12, 18 and 24 is 72. Required number = 72 − 5 = 67."
+        },
+        {
+          "question": "Find the least number that must be decreased by 4 to become divisible by 6, 8 and 10.",
+          "solution": "LCM of 6, 8 and 10 is 120. Required number = 120 + 4 = 124."
+        }
+      ]
+    },
+
+    {
+      "heading": "18. Recurring Events and Time Intervals",
+      "content": [
+        "When events repeat after fixed intervals, use LCM to determine when they occur together again.",
+        "Convert all intervals into the same unit before calculating the LCM.",
+        "If the events occur together at the starting time, add the LCM interval to that time."
+      ],
+      "formulas": [
+        "Time until events occur together again = LCM of their intervals"
+      ],
+      "examples": [
+        {
+          "question": "Three bells ring every 6, 8 and 12 minutes. If they ring together now, after how many minutes will they ring together again?",
+          "solution": "LCM of 6, 8 and 12 is 24. They will ring together again after 24 minutes."
+        },
+        {
+          "question": "Three traffic lights change every 30, 45 and 60 seconds. After how many seconds will they change together again?",
+          "solution": "LCM of 30, 45 and 60 is 180 seconds."
+        }
+      ]
+    },
+
+    {
+      "heading": "19. HCF and LCM of Fractions",
+      "content": [
+        "For fractions, first ensure that every fraction is in its lowest form.",
+        "The HCF of fractions uses the HCF of numerators and the LCM of denominators.",
+        "The LCM of fractions uses the LCM of numerators and the HCF of denominators."
+      ],
+      "formulas": [
+        "HCF of fractions = HCF of numerators / LCM of denominators",
+        "LCM of fractions = LCM of numerators / HCF of denominators"
+      ],
+      "examples": [
+        {
+          "question": "Find the HCF of 2/3 and 4/9.",
+          "solution": "HCF of numerators 2 and 4 is 2. LCM of denominators 3 and 9 is 9. Therefore, HCF = 2/9."
+        },
+        {
+          "question": "Find the LCM of 3/4 and 5/6.",
+          "solution": "LCM of numerators 3 and 5 is 15. HCF of denominators 4 and 6 is 2. Therefore, LCM = 15/2."
+        }
+      ]
+    },
+
+    {
+      "heading": "20. Placement-Test Strategy",
+      "content": [
+        "Use HCF for greatest-size, maximum-grouping, cutting and exact-division questions.",
+        "Use LCM for least-number, repeated-event and synchronization questions.",
+        "For same-remainder questions, calculate the HCF of the differences.",
+        "For a common remainder with several divisors, calculate the LCM and add the remainder.",
+        "Use the product relationship only when exactly two numbers are involved.",
+        "Check whether the numbers are co-prime before multiplying them directly for the LCM.",
+        "Use prime factorization when several numbers are given.",
+        "Use the Euclidean division method for large numbers.",
+        "Read words such as greatest, least, together again and maximum carefully."
+      ],
+      "formulas": [
+        "For two numbers: Product = HCF × LCM",
+        "Same remainder: HCF of differences",
+        "Recurring events: LCM of intervals",
+        "Numbers with HCF H: Hx and Hy, where x and y are co-prime"
+      ],
+      "examples": [
+        {
+          "question": "Two numbers have HCF 12 and LCM 420. If one number is 60, find the other.",
+          "solution": "Other number = (12 × 420)/60 = 84."
+        },
+        {
+          "question": "Three machines operate every 12, 18 and 30 minutes. If they start together, when will they operate together again?",
+          "solution": "LCM of 12, 18 and 30 is 180 minutes, which is 3 hours."
+        }
+      ]
+    }
+  ],
+
+  "quickShortcuts": [
+    {
+      "title": "Greatest exact divisor",
+      "note": "Use the HCF of the given numbers."
+    },
+    {
+      "title": "Least divisible number",
+      "note": "Use the LCM of the given numbers."
+    },
+    {
+      "title": "Prime-factor HCF",
+      "note": "Take only common prime factors with their smallest powers."
+    },
+    {
+      "title": "Prime-factor LCM",
+      "note": "Take all required prime factors with their greatest powers."
+    },
+    {
+      "title": "Two-number relationship",
+      "note": "Product of two numbers equals HCF multiplied by LCM."
+    },
+    {
+      "title": "Find the second number",
+      "note": "Second number = HCF × LCM ÷ First number."
+    },
+    {
+      "title": "Co-prime numbers",
+      "note": "Their HCF is 1 and their LCM is their product."
+    },
+    {
+      "title": "Consecutive numbers",
+      "note": "Any two consecutive positive integers are co-prime."
+    },
+    {
+      "title": "Same remainder",
+      "note": "Take the HCF of the pairwise differences."
+    },
+    {
+      "title": "Specified remainders",
+      "note": "Subtract each remainder first and then calculate the HCF."
+    },
+    {
+      "title": "Common remainder",
+      "note": "Required least number is usually LCM plus the common remainder."
+    },
+    {
+      "title": "Recurring events",
+      "note": "Use the LCM of the time intervals."
+    },
+    {
+      "title": "Maximum equal groups",
+      "note": "Use HCF when every group must have the same composition."
+    },
+    {
+      "title": "Largest equal piece",
+      "note": "Use HCF for cutting lengths into the largest equal pieces."
+    },
+    {
+      "title": "HCF of fractions",
+      "note": "HCF of numerators divided by LCM of denominators."
+    },
+    {
+      "title": "LCM of fractions",
+      "note": "LCM of numerators divided by HCF of denominators."
+    }
+  ],
+
+  "placementQuestionTypes": [
+    "Finding factors and multiples",
+    "Prime factorization",
+    "Finding HCF by listing factors",
+    "Finding LCM by listing multiples",
+    "HCF using prime factorization",
+    "LCM using prime factorization",
+    "HCF using the division method",
+    "LCM using the common-division method",
+    "Relationship between HCF and LCM",
+    "Finding an unknown number",
+    "Finding possible pairs of numbers",
+    "Co-prime number questions",
+    "Greatest exact divisor problems",
+    "Greatest divisor leaving the same remainder",
+    "Greatest divisor leaving specified remainders",
+    "Least exactly divisible number",
+    "Least number leaving a common remainder",
+    "Addition or subtraction for divisibility",
+    "Recurring-event and bell problems",
+    "Traffic-light synchronization problems",
+    "Maximum equal grouping",
+    "Largest equal cutting problems",
+    "HCF of fractions",
+    "LCM of fractions",
+    "Placement-based word problems"
+  ],
+
+  "commonMistakes": [
+    "Confusing factors with multiples.",
+    "Selecting the smallest common factor instead of the greatest common factor.",
+    "Selecting any common multiple instead of the least common multiple.",
+    "Taking the greatest exponents while finding HCF.",
+    "Taking the smallest exponents while finding LCM.",
+    "Ignoring prime factors that occur in only one number while finding LCM.",
+    "Applying the product relationship directly to three or more numbers.",
+    "Assuming that all odd numbers are prime.",
+    "Assuming that co-prime numbers must both be prime.",
+    "Forgetting that 1 is neither prime nor composite.",
+    "Using LCM for a greatest-size grouping problem.",
+    "Using HCF for a recurring-event problem.",
+    "Failing to subtract the remainders before finding HCF.",
+    "Adding a remainder when the question requires subtraction.",
+    "Not converting all time intervals into the same unit.",
+    "Multiplying numbers directly without checking whether they are co-prime.",
+    "Using unreduced fractions in HCF and LCM fraction questions.",
+    "Forgetting to verify the final number against all given conditions."
+  ],
+
+  "revisionChecklist": [
+    "I understand the difference between factors and multiples.",
+    "I can identify prime and composite numbers.",
+    "I can write the prime factorization of a number.",
+    "I understand the meaning of HCF.",
+    "I understand the meaning of LCM.",
+    "I can find HCF using prime factorization.",
+    "I can find LCM using prime factorization.",
+    "I can find HCF using the division method.",
+    "I can find LCM using the common-division method.",
+    "I can use the product relationship for two numbers.",
+    "I understand co-prime numbers.",
+    "I can find unknown numbers using HCF and LCM.",
+    "I can solve greatest exact-divisor questions.",
+    "I can solve same-remainder questions.",
+    "I can solve specified-remainder questions.",
+    "I can solve least-number divisibility questions.",
+    "I can solve recurring-event questions.",
+    "I can solve maximum-grouping and cutting questions.",
+    "I can calculate the HCF of fractions.",
+    "I can calculate the LCM of fractions.",
+    "I can choose correctly between HCF and LCM in word problems."
+  ],
+
+  "assessment": {
+    "buttonText": "Begin Assessment",
+    "page": "assessment.html",
+    "questionFile": "data/questions/QA/hcf-lcm.json",
+    "category": "QA",
+    "topic": "hcf-lcm"
+  }
+}
