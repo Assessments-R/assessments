@@ -1,1 +1,129 @@
+{
+  "topic": "time-work",
+  "category": "QA",
+  "title": "Time and Work Assessment",
+  "durationMinutes": 15,
 
+  "questions": [
+    {
+      "id": 1,
+      "question": "A can complete a piece of work in 12 days. What fraction of the work does A complete in one day?",
+      "options": [
+        "1/6",
+        "1/10",
+        "1/12",
+        "1/24"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If A completes the work in 12 days, A's one-day work = 1/12."
+    },
+    {
+      "id": 2,
+      "question": "A can complete a work in 10 days and B can complete the same work in 15 days. How many days will they take to complete it together?",
+      "options": [
+        "5 days",
+        "6 days",
+        "7 days",
+        "8 days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Combined one-day work = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6. Therefore, they complete the work in 6 days."
+    },
+    {
+      "id": 3,
+      "question": "A can complete a work in 12 days and B can complete it in 18 days. What is the efficiency ratio of A to B?",
+      "options": [
+        "2:3",
+        "3:2",
+        "4:3",
+        "5:3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Efficiency is inversely proportional to time. Therefore, efficiency ratio A:B = 18:12 = 3:2."
+    },
+    {
+      "id": 4,
+      "question": "A and B together can complete a work in 8 days. A alone can complete it in 12 days. How many days will B alone take?",
+      "options": [
+        "18 days",
+        "20 days",
+        "24 days",
+        "30 days"
+      ],
+      "correctAnswer": 2,
+      "explanation": "B's one-day work = 1/8 − 1/12 = 3/24 − 2/24 = 1/24. Therefore, B alone takes 24 days."
+    },
+    {
+      "id": 5,
+      "question": "A can complete a work in 20 days. What fraction of the work remains after A works for 8 days?",
+      "options": [
+        "2/5",
+        "3/5",
+        "1/2",
+        "4/5"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Work completed in 8 days = 8/20 = 2/5. Remaining work = 1 − 2/5 = 3/5."
+    },
+    {
+      "id": 6,
+      "question": "A can complete a work in 12 days and B in 18 days. A works alone for 4 days, after which B joins. How much more time will they take to finish the remaining work?",
+      "options": [
+        "4 days",
+        "4.8 days",
+        "5.5 days",
+        "6 days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A completes 4/12 = 1/3 of the work. Remaining work = 2/3. Their combined rate = 1/12 + 1/18 = 5/36. Time required = (2/3) ÷ (5/36) = 24/5 = 4.8 days."
+    },
+    {
+      "id": 7,
+      "question": "12 workers can complete a task in 15 days. How many days will 20 workers take to complete the same task, assuming equal efficiency?",
+      "options": [
+        "8 days",
+        "9 days",
+        "10 days",
+        "12 days"
+      ],
+      "correctAnswer": 1,
+      "explanation": "For the same work, workers × days remains constant. Therefore, 12 × 15 = 20 × D. D = 180/20 = 9 days."
+    },
+    {
+      "id": 8,
+      "question": "A and B have efficiencies in the ratio 3:2. If they receive $500 for completing a work together, how much should A receive?",
+      "options": [
+        "$200",
+        "$250",
+        "$300",
+        "$350"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Wages are divided according to work efficiency. A's share = 3/(3 + 2) × $500 = 3/5 × $500 = $300."
+    },
+    {
+      "id": 9,
+      "question": "A pipe fills a tank in 8 hours and a leak empties the full tank in 24 hours. How long will the tank take to fill when both operate together?",
+      "options": [
+        "10 hours",
+        "12 hours",
+        "14 hours",
+        "16 hours"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Net filling rate = 1/8 − 1/24 = 3/24 − 1/24 = 2/24 = 1/12. Therefore, the tank fills in 12 hours."
+    },
+    {
+      "id": 10,
+      "question": "A is 25% more efficient than B. If B completes a work in 20 days, how many days will A take?",
+      "options": [
+        "14 days",
+        "15 days",
+        "16 days",
+        "18 days"
+      ],
+      "correctAnswer": 2,
+      "explanation": "If B's efficiency is 100, A's efficiency is 125. Their efficiency ratio is 5:4, so their time ratio is 4:5. A's time = 20 × 4/5 = 16 days."
+    }
+  ]
+}
