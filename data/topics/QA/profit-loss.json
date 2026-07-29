@@ -1,24 +1,446 @@
-
 {
-  "heading": "Key Concepts",
-  "content": [
-    "Cost Price (CP) is the price at which an article is purchased.",
-    "Selling Price (SP) is the price at which an article is sold.",
-    "Marked Price (MP) is the price printed on the product before any discount.",
-    "Profit occurs when the selling price is greater than the cost price.",
-    "Loss occurs when the selling price is less than the cost price.",
-    "Profit percentage and loss percentage are generally calculated on the cost price unless mentioned otherwise.",
-    "Discount is always calculated on the marked price.",
-    "Successive discounts cannot be added directly. Use the equivalent discount formula.",
-    "For equal gain and equal loss percentages on two articles sold at the same selling price, the overall result is always a loss.",
-    "In false-weight or dishonest-dealer questions, profit comes from supplying less quantity while charging for the full quantity.",
-    "Always identify whether the percentage is based on Cost Price, Selling Price, or Marked Price before applying any formula.",
-    "Placement questions often combine profit, discount, markup and false-weight concepts in a single problem."
-  ]
-}
-"assessment": {
-  "buttonText": "Begin Assessment",
-  "page": "assessment.html",
+  "id": "profit-loss",
   "category": "QA",
-  "topic": "profit-loss"
+  "title": "Profit and Loss",
+  "subtitle": "Quantitative Aptitude – Placement Preparation",
+  "description": "Learn cost price, selling price, profit, loss, marked price, discount, successive changes, false weights and placement shortcuts through formulas and solved examples.",
+  "estimatedLearningTime": "30–35 minutes",
+  "learningObjectives": [
+    "Understand cost price, selling price, marked price, profit and loss.",
+    "Calculate profit percentage and loss percentage.",
+    "Find cost price or selling price when percentage gain or loss is given.",
+    "Solve marked-price and discount questions.",
+    "Handle successive discounts and successive profit or loss.",
+    "Differentiate percentages calculated on cost price and selling price.",
+    "Solve dishonest-dealer and false-weight problems.",
+    "Apply placement shortcuts accurately and quickly."
+  ],
+  "sections": [
+    {
+      "heading": "1. Basic Terms",
+      "content": [
+        "Cost Price (CP) is the price at which an article is purchased.",
+        "Selling Price (SP) is the price at which an article is sold.",
+        "Marked Price (MP) is the price printed or displayed before discount.",
+        "Profit occurs when SP is greater than CP.",
+        "Loss occurs when SP is less than CP."
+      ],
+      "formulas": [
+        "Profit = SP − CP",
+        "Loss = CP − SP"
+      ],
+      "examples": [
+        {
+          "question": "An article is bought for ₹800 and sold for ₹950. Find the profit.",
+          "solution": "Profit = 950 − 800 = ₹150."
+        },
+        {
+          "question": "An article is bought for ₹1,200 and sold for ₹1,050. Find the loss.",
+          "solution": "Loss = 1,200 − 1,050 = ₹150."
+        }
+      ]
+    },
+    {
+      "heading": "2. Profit Percentage and Loss Percentage",
+      "content": [
+        "Profit percentage and loss percentage are normally calculated on cost price unless stated otherwise.",
+        "Always identify the correct base before applying a percentage."
+      ],
+      "formulas": [
+        "Profit % = (Profit / CP) × 100",
+        "Loss % = (Loss / CP) × 100"
+      ],
+      "examples": [
+        {
+          "question": "An article is bought for ₹500 and sold for ₹600. Find the profit percentage.",
+          "solution": "Profit = 600 − 500 = ₹100. Profit % = 100/500 × 100 = 20%."
+        },
+        {
+          "question": "An article is bought for ₹800 and sold for ₹680. Find the loss percentage.",
+          "solution": "Loss = 800 − 680 = ₹120. Loss % = 120/800 × 100 = 15%."
+        }
+      ]
+    },
+    {
+      "heading": "3. Finding Selling Price",
+      "content": [
+        "When cost price and profit or loss percentage are known, selling price can be found directly.",
+        "A profit increases cost price, while a loss decreases it."
+      ],
+      "formulas": [
+        "SP at x% profit = CP × (100 + x) / 100",
+        "SP at x% loss = CP × (100 − x) / 100"
+      ],
+      "examples": [
+        {
+          "question": "Find the selling price of an article costing ₹1,500 at a profit of 20%.",
+          "solution": "SP = 1,500 × 120/100 = ₹1,800."
+        },
+        {
+          "question": "Find the selling price of an article costing ₹2,400 at a loss of 15%.",
+          "solution": "SP = 2,400 × 85/100 = ₹2,040."
+        }
+      ]
+    },
+    {
+      "heading": "4. Finding Cost Price",
+      "content": [
+        "When selling price and profit or loss percentage are known, reverse the multiplier to find cost price."
+      ],
+      "formulas": [
+        "CP when sold at x% profit = SP × 100 / (100 + x)",
+        "CP when sold at x% loss = SP × 100 / (100 − x)"
+      ],
+      "examples": [
+        {
+          "question": "An article is sold for ₹1,440 at a profit of 20%. Find the cost price.",
+          "solution": "CP = 1,440 × 100/120 = ₹1,200."
+        },
+        {
+          "question": "An article is sold for ₹1,700 at a loss of 15%. Find the cost price.",
+          "solution": "CP = 1,700 × 100/85 = ₹2,000."
+        }
+      ]
+    },
+    {
+      "heading": "5. Marked Price and Discount",
+      "content": [
+        "Discount is the reduction offered on marked price.",
+        "The customer pays the selling price after discount.",
+        "Discount percentage is calculated on marked price."
+      ],
+      "formulas": [
+        "Discount = MP − SP",
+        "Discount % = (Discount / MP) × 100",
+        "SP after x% discount = MP × (100 − x) / 100",
+        "MP = SP × 100 / (100 − discount%)"
+      ],
+      "examples": [
+        {
+          "question": "An article marked at ₹2,000 is sold at a discount of 15%. Find the selling price.",
+          "solution": "SP = 2,000 × 85/100 = ₹1,700."
+        },
+        {
+          "question": "An article is sold for ₹1,800 after a 10% discount. Find the marked price.",
+          "solution": "MP = 1,800 × 100/90 = ₹2,000."
+        }
+      ]
+    },
+    {
+      "heading": "6. Discount and Profit Together",
+      "content": [
+        "In many placement questions, an article is marked above cost price and then sold at a discount.",
+        "Apply markup first to get marked price, then apply discount to get selling price."
+      ],
+      "formulas": [
+        "MP = CP × (100 + markup%) / 100",
+        "SP = MP × (100 − discount%) / 100",
+        "Net multiplier = (1 + markup/100) × (1 − discount/100)"
+      ],
+      "examples": [
+        {
+          "question": "A shopkeeper marks an article 25% above cost price and gives a 10% discount. Find the profit percentage.",
+          "solution": "Assume CP = ₹100. MP = ₹125. SP = 125 × 90/100 = ₹112.50. Profit = ₹12.50, so profit % = 12.5%."
+        },
+        {
+          "question": "An article costing ₹800 is marked 40% above cost and sold at a discount of 20%. Find the selling price and profit percentage.",
+          "solution": "MP = 800 × 140/100 = ₹1,120. SP = 1,120 × 80/100 = ₹896. Profit = 896 − 800 = ₹96. Profit % = 96/800 × 100 = 12%."
+        }
+      ]
+    },
+    {
+      "heading": "7. Successive Discounts",
+      "content": [
+        "Successive discounts are applied one after another, not added directly.",
+        "The second discount is calculated on the reduced price after the first discount."
+      ],
+      "formulas": [
+        "Equivalent discount for a% and b% = a + b − ab/100",
+        "Final SP = MP × (100 − a)/100 × (100 − b)/100"
+      ],
+      "examples": [
+        {
+          "question": "Find the single equivalent discount of 20% followed by 10%.",
+          "solution": "Equivalent discount = 20 + 10 − (20 × 10)/100 = 28%."
+        },
+        {
+          "question": "An article marked at ₹5,000 gets successive discounts of 20% and 10%. Find the final selling price.",
+          "solution": "SP = 5,000 × 80/100 × 90/100 = ₹3,600."
+        }
+      ]
+    },
+    {
+      "heading": "8. Successive Profit and Loss",
+      "content": [
+        "When multiple percentage changes occur, multiply their factors.",
+        "Do not simply add profit and loss percentages.",
+        "A gain of x% followed by a loss of x% always results in a net loss."
+      ],
+      "formulas": [
+        "Net percentage change for a% and b% = a + b + ab/100, using negative signs for losses",
+        "Equal gain and loss of x% gives net loss = x²/100%"
+      ],
+      "examples": [
+        {
+          "question": "A price increases by 20% and then decreases by 10%. Find the net percentage change.",
+          "solution": "Net change = 20 − 10 − 2 = 8% increase."
+        },
+        {
+          "question": "An article is sold at 20% profit and later the price is reduced by 20%. Find the net result relative to cost price.",
+          "solution": "Net loss = 20²/100 = 4%."
+        }
+      ]
+    },
+    {
+      "heading": "9. Profit Based on Selling Price",
+      "content": [
+        "Sometimes profit is stated as a percentage of selling price instead of cost price.",
+        "Read the wording carefully because the base changes."
+      ],
+      "formulas": [
+        "If profit is x% of SP, then CP = SP × (100 − x)/100",
+        "If profit is x% of SP, profit % on CP = x/(100 − x) × 100"
+      ],
+      "examples": [
+        {
+          "question": "Profit is 20% of selling price. Find the profit percentage on cost price.",
+          "solution": "Assume SP = ₹100. Profit = ₹20, so CP = ₹80. Profit % on CP = 20/80 × 100 = 25%."
+        },
+        {
+          "question": "A trader sells an article for ₹1,000 and profit is 15% of SP. Find CP.",
+          "solution": "Profit = 15% of 1,000 = ₹150. CP = 1,000 − 150 = ₹850."
+        }
+      ]
+    },
+    {
+      "heading": "10. Loss Based on Selling Price",
+      "content": [
+        "If loss is expressed as a percentage of selling price, convert it carefully to a percentage of cost price."
+      ],
+      "formulas": [
+        "If loss is x% of SP, then CP = SP × (100 + x)/100",
+        "Loss % on CP = x/(100 + x) × 100"
+      ],
+      "examples": [
+        {
+          "question": "Loss is 20% of selling price. Find the loss percentage on cost price.",
+          "solution": "Assume SP = ₹100. Loss = ₹20, so CP = ₹120. Loss % on CP = 20/120 × 100 = 16⅔%."
+        }
+      ]
+    },
+    {
+      "heading": "11. Selling Two Articles at Same Selling Price",
+      "content": [
+        "If two articles are sold at the same selling price, one at x% gain and the other at x% loss, there is always an overall loss.",
+        "This shortcut applies only when both selling prices are equal and the gain and loss percentages are equal."
+      ],
+      "formulas": [
+        "Overall loss % = x²/100"
+      ],
+      "examples": [
+        {
+          "question": "Two articles are sold for ₹1,200 each. One is sold at 20% profit and the other at 20% loss. Find the overall loss percentage.",
+          "solution": "Overall loss % = 20²/100 = 4%."
+        }
+      ]
+    },
+    {
+      "heading": "12. Selling Two Articles at Same Cost Price",
+      "content": [
+        "If two articles have the same cost price, one sold at x% gain and the other at x% loss, the gains and losses cancel.",
+        "The overall result is neither profit nor loss."
+      ],
+      "examples": [
+        {
+          "question": "Two articles cost ₹1,000 each. One is sold at 15% profit and the other at 15% loss. Find the overall result.",
+          "solution": "Profit on first = ₹150. Loss on second = ₹150. Net result = no profit and no loss."
+        }
+      ]
+    },
+    {
+      "heading": "13. Required Selling Price for a Desired Profit",
+      "content": [
+        "Sometimes an article is sold at a loss and the question asks how much more it should be sold for to earn a profit.",
+        "First find cost price, then calculate the desired selling price."
+      ],
+      "examples": [
+        {
+          "question": "An article is sold for ₹960 at a loss of 20%. At what price should it be sold to gain 25%?",
+          "solution": "CP = 960 × 100/80 = ₹1,200. Required SP = 1,200 × 125/100 = ₹1,500."
+        }
+      ]
+    },
+    {
+      "heading": "14. Change in Selling Price and Change in Profit",
+      "content": [
+        "For a fixed cost price, any increase in selling price directly increases profit by the same amount.",
+        "Any decrease in selling price directly reduces profit or increases loss by the same amount."
+      ],
+      "examples": [
+        {
+          "question": "A trader earns ₹240 profit by selling an article for ₹1,440. What would the profit be if it were sold for ₹1,560?",
+          "solution": "CP = 1,440 − 240 = ₹1,200. New profit = 1,560 − 1,200 = ₹360."
+        }
+      ]
+    },
+    {
+      "heading": "15. False Weight and Dishonest Dealer",
+      "content": [
+        "A dishonest dealer may charge for a full kilogram but give less than one kilogram.",
+        "Even when goods are sold at cost price, the shortage in weight creates a profit.",
+        "Use actual quantity given as the effective cost base."
+      ],
+      "formulas": [
+        "Profit % when x grams are given instead of 1000 grams at cost price = [(1000 − x) / x] × 100",
+        "If a dealer uses a weight that is x% less, profit % = x/(100 − x) × 100"
+      ],
+      "examples": [
+        {
+          "question": "A dealer gives 900 grams instead of 1 kilogram and charges the cost price of 1 kilogram. Find the profit percentage.",
+          "solution": "Assume CP of 1 kg = ₹100. CP of 900 g = ₹90, but SP = ₹100. Profit = ₹10. Profit % = 10/90 × 100 = 11⅑%."
+        },
+        {
+          "question": "A dealer uses an 800-gram weight for 1 kilogram and sells at cost price. Find the profit percentage.",
+          "solution": "Profit % = (1000 − 800)/800 × 100 = 25%."
+        }
+      ]
+    },
+    {
+      "heading": "16. False Weight with Markup or Discount",
+      "content": [
+        "When false weight is combined with markup or discount, calculate the effective selling price and the actual cost of quantity delivered."
+      ],
+      "examples": [
+        {
+          "question": "A dealer marks goods 20% above cost, gives a 10% discount and uses a 900-gram weight for 1 kilogram. Find the profit percentage.",
+          "solution": "Assume CP of 1 kg = ₹100. Marked price = ₹120. After 10% discount, SP charged = ₹108. Actual CP of 900 g = ₹90. Profit = ₹18. Profit % = 18/90 × 100 = 20%."
+        }
+      ]
+    },
+    {
+      "heading": "17. Break-Even Discount",
+      "content": [
+        "The break-even discount is the maximum discount that can be offered without profit or loss when an article is marked above cost price."
+      ],
+      "formulas": [
+        "If markup is x%, break-even discount % = x/(100 + x) × 100"
+      ],
+      "examples": [
+        {
+          "question": "An article is marked 25% above cost price. What maximum discount can be given without loss?",
+          "solution": "Break-even discount = 25/125 × 100 = 20%."
+        }
+      ]
+    },
+    {
+      "heading": "18. Ratio Method",
+      "content": [
+        "The ratio method is often faster than using full formulas.",
+        "At x% profit, CP:SP = 100:(100 + x).",
+        "At x% loss, CP:SP = 100:(100 − x)."
+      ],
+      "formulas": [
+        "At x% profit: CP:SP = 100:(100 + x)",
+        "At x% loss: CP:SP = 100:(100 − x)"
+      ],
+      "examples": [
+        {
+          "question": "An article is sold at 25% profit. If SP is ₹1,500, find CP using ratio.",
+          "solution": "CP:SP = 100:125 = 4:5. CP = 1,500 × 4/5 = ₹1,200."
+        }
+      ]
+    }
+  ],
+  "quickShortcuts": [
+    {
+      "title": "Profit and loss base",
+      "note": "Unless stated otherwise, profit percentage and loss percentage are calculated on cost price."
+    },
+    {
+      "title": "Profit multiplier",
+      "note": "At x% profit, multiply CP by (100 + x)/100."
+    },
+    {
+      "title": "Loss multiplier",
+      "note": "At x% loss, multiply CP by (100 − x)/100."
+    },
+    {
+      "title": "Successive discounts",
+      "note": "Equivalent discount of a% and b% is a + b − ab/100."
+    },
+    {
+      "title": "Equal gain and loss",
+      "note": "An x% gain followed by an x% loss gives x²/100% loss."
+    },
+    {
+      "title": "Same selling price shortcut",
+      "note": "If two articles are sold at the same SP, one at x% gain and the other at x% loss, overall loss is x²/100%."
+    },
+    {
+      "title": "Marked price route",
+      "note": "Calculate MP from CP first, then apply discount to get SP."
+    },
+    {
+      "title": "False weight",
+      "note": "When x grams are given instead of 1000 grams, profit % is (1000 − x)/x × 100."
+    },
+    {
+      "title": "Break-even discount",
+      "note": "For x% markup, maximum no-loss discount is x/(100 + x) × 100."
+    },
+    {
+      "title": "Ratio method",
+      "note": "At x% profit use CP:SP = 100:(100+x); at x% loss use 100:(100−x)."
+    }
+  ],
+  "placementQuestionTypes": [
+    "Finding profit or loss amount",
+    "Finding profit percentage or loss percentage",
+    "Finding selling price from cost price",
+    "Finding cost price from selling price",
+    "Marked price and discount",
+    "Successive discounts",
+    "Markup followed by discount",
+    "Successive profit and loss",
+    "Profit or loss based on selling price",
+    "Two articles sold at the same selling price",
+    "Two articles with the same cost price",
+    "Required selling price for a desired profit",
+    "False-weight and dishonest-dealer problems",
+    "Break-even discount",
+    "Ratio-based profit and loss questions"
+  ],
+  "commonMistakes": [
+    "Calculating profit percentage on selling price instead of cost price.",
+    "Calculating discount percentage on cost price instead of marked price.",
+    "Adding successive discounts directly.",
+    "Assuming equal profit and loss percentages cancel in all cases.",
+    "Using the same-selling-price shortcut when selling prices are not equal.",
+    "Ignoring the actual reduced quantity in false-weight questions.",
+    "Applying discount before calculating marked price when the markup is given on cost price.",
+    "Confusing profit amount with profit percentage.",
+    "Using 100 − x in the denominator for profit instead of loss.",
+    "Forgetting that a percentage change must be applied to the current value at each stage."
+  ],
+  "revisionChecklist": [
+    "I can identify CP, SP, MP, profit, loss and discount.",
+    "I can calculate profit percentage and loss percentage.",
+    "I can find SP from CP and percentage.",
+    "I can find CP from SP and percentage.",
+    "I can solve marked-price and discount questions.",
+    "I can calculate successive discounts.",
+    "I can combine markup and discount.",
+    "I can solve successive gain and loss questions.",
+    "I understand percentages based on selling price.",
+    "I can solve same-selling-price questions.",
+    "I can solve false-weight and dishonest-dealer problems.",
+    "I can use ratio shortcuts confidently.",
+    "I can calculate the break-even discount."
+  ],
+  "assessment": {
+    "buttonText": "Begin Assessment",
+    "page": "assessment.html",
+    "category": "QA",
+    "topic": "profit-loss"
+  }
 }
