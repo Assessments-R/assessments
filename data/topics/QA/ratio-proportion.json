@@ -1,1 +1,906 @@
-[]
+{
+  "id": "ratio-proportion",
+  "category": "QA",
+  "title": "Ratio and Proportion",
+  "subtitle": "Quantitative Aptitude – Placement Preparation",
+  "description": "Learn the concepts, formulas and shortcuts required to solve ratio and proportion questions in placement aptitude tests. This module covers ratio simplification, equivalent ratios, proportions, direct and inverse variation, division in a given ratio, compound ratios, partnership, ages, mixtures and placement-oriented word problems.",
+  "estimatedLearningTime": "40–45 minutes",
+
+  "learningObjectives": [
+    "Understand the meaning of ratio and proportion.",
+    "Express quantities in the same unit before comparison.",
+    "Simplify ratios to their lowest form.",
+    "Find equivalent ratios.",
+    "Compare two or more ratios.",
+    "Understand the properties of proportions.",
+    "Find a missing term in a proportion.",
+    "Calculate the fourth proportional.",
+    "Calculate the third proportional.",
+    "Calculate the mean proportional.",
+    "Divide a quantity in a given ratio.",
+    "Combine two ratios containing a common term.",
+    "Understand compound ratios.",
+    "Solve direct-proportion problems.",
+    "Solve inverse-proportion problems.",
+    "Apply ratios to ages, salaries, marks and populations.",
+    "Solve partnership and profit-sharing questions.",
+    "Solve mixture and replacement questions.",
+    "Use placement-test shortcuts for ratio-based word problems."
+  ],
+
+  "sections": [
+    {
+      "heading": "1. Introduction to Ratio",
+      "content": [
+        "A ratio compares two quantities of the same kind.",
+        "The ratio of a to b is written as a:b or a/b.",
+        "The first term is called the antecedent and the second term is called the consequent.",
+        "A ratio has no unit when both quantities are expressed in the same unit.",
+        "The consequent of a ratio cannot be zero."
+      ],
+      "formulas": [
+        "Ratio of a to b = a:b = a/b",
+        "Antecedent = First term",
+        "Consequent = Second term"
+      ],
+      "examples": [
+        {
+          "question": "Express 20 students to 30 students as a ratio.",
+          "solution": "Ratio = 20:30 = 2:3."
+        },
+        {
+          "question": "What are the antecedent and consequent in the ratio 7:11?",
+          "solution": "The antecedent is 7 and the consequent is 11."
+        }
+      ]
+    },
+
+    {
+      "heading": "2. Converting Quantities into the Same Unit",
+      "content": [
+        "Quantities must be expressed in the same unit before forming a ratio.",
+        "Convert larger units into smaller units when convenient.",
+        "Do not write a ratio directly between quantities measured in different units.",
+        "After conversion, simplify the resulting ratio."
+      ],
+      "examples": [
+        {
+          "question": "Find the ratio of 2 meters to 50 centimeters.",
+          "solution": "Convert 2 meters into 200 centimeters. Ratio = 200:50 = 4:1."
+        },
+        {
+          "question": "Find the ratio of 3 hours to 45 minutes.",
+          "solution": "Convert 3 hours into 180 minutes. Ratio = 180:45 = 4:1."
+        }
+      ]
+    },
+
+    {
+      "heading": "3. Simplification of Ratios",
+      "content": [
+        "A ratio is simplified by dividing all its terms by their highest common factor.",
+        "The value of the ratio does not change when all terms are multiplied or divided by the same non-zero number.",
+        "A ratio in its lowest form has no common factor other than 1."
+      ],
+      "formulas": [
+        "a:b = a/k : b/k, where k is a common factor",
+        "Simplified ratio = Each term divided by the HCF"
+      ],
+      "examples": [
+        {
+          "question": "Simplify the ratio 48:72.",
+          "solution": "HCF of 48 and 72 is 24. Ratio = 48/24 : 72/24 = 2:3."
+        },
+        {
+          "question": "Simplify 150:225.",
+          "solution": "HCF is 75. Ratio = 150/75 : 225/75 = 2:3."
+        }
+      ]
+    },
+
+    {
+      "heading": "4. Ratios Containing Fractions",
+      "content": [
+        "To simplify a ratio containing fractions, multiply every term by the least common multiple of the denominators.",
+        "The resulting whole-number ratio can then be simplified further.",
+        "Do not divide the numerators alone without considering the denominators."
+      ],
+      "examples": [
+        {
+          "question": "Simplify 1/2 : 3/4.",
+          "solution": "LCM of 2 and 4 is 4. Multiply both terms by 4: 2:3."
+        },
+        {
+          "question": "Simplify 2/3 : 5/6 : 3/4.",
+          "solution": "LCM of 3, 6 and 4 is 12. Multiply all terms by 12: 8:10:9."
+        }
+      ]
+    },
+
+    {
+      "heading": "5. Ratios Containing Decimals",
+      "content": [
+        "Remove decimal points by multiplying every term by the same power of 10.",
+        "Then simplify the resulting whole-number ratio.",
+        "The number of decimal places determines the required power of 10."
+      ],
+      "examples": [
+        {
+          "question": "Simplify 0.4:1.2.",
+          "solution": "Multiply both terms by 10: 4:12 = 1:3."
+        },
+        {
+          "question": "Simplify 0.25:0.5:1.25.",
+          "solution": "Multiply all terms by 100: 25:50:125 = 1:2:5."
+        }
+      ]
+    },
+
+    {
+      "heading": "6. Equivalent Ratios",
+      "content": [
+        "Equivalent ratios represent the same comparison.",
+        "They are formed by multiplying or dividing all terms by the same non-zero number.",
+        "Cross multiplication can be used to verify whether two ratios are equivalent."
+      ],
+      "formulas": [
+        "a:b = ka:kb",
+        "a:b = c:d when ad = bc"
+      ],
+      "examples": [
+        {
+          "question": "Are 4:6 and 10:15 equivalent?",
+          "solution": "4 × 15 = 60 and 6 × 10 = 60. Therefore, the ratios are equivalent."
+        },
+        {
+          "question": "Find an equivalent ratio to 3:5 whose first term is 18.",
+          "solution": "3 is multiplied by 6 to obtain 18. Multiply 5 by 6. The equivalent ratio is 18:30."
+        }
+      ]
+    },
+
+    {
+      "heading": "7. Comparison of Ratios",
+      "content": [
+        "Ratios can be compared by converting them into fractions and cross multiplying.",
+        "They may also be converted into equivalent ratios with a common consequent.",
+        "Cross multiplication is generally the fastest method in placement tests."
+      ],
+      "formulas": [
+        "For a:b and c:d, compare ad and bc",
+        "If ad > bc, then a:b > c:d"
+      ],
+      "examples": [
+        {
+          "question": "Which is greater: 5:7 or 7:10?",
+          "solution": "Compare 5 × 10 = 50 and 7 × 7 = 49. Since 50 is greater, 5:7 is greater."
+        },
+        {
+          "question": "Which is smaller: 3:8 or 5:12?",
+          "solution": "Compare 3 × 12 = 36 and 5 × 8 = 40. Since 36 is smaller, 3:8 is smaller."
+        }
+      ]
+    },
+
+    {
+      "heading": "8. Introduction to Proportion",
+      "content": [
+        "A proportion is an equality between two ratios.",
+        "If a:b equals c:d, the four quantities are said to be in proportion.",
+        "The first and fourth terms are called extremes.",
+        "The second and third terms are called means.",
+        "The product of the extremes equals the product of the means."
+      ],
+      "formulas": [
+        "a:b = c:d",
+        "a/b = c/d",
+        "ad = bc",
+        "Product of extremes = Product of means"
+      ],
+      "examples": [
+        {
+          "question": "Check whether 4, 6, 10 and 15 are in proportion.",
+          "solution": "4 × 15 = 60 and 6 × 10 = 60. Therefore, 4:6 = 10:15."
+        },
+        {
+          "question": "Find x if 3:5 = 12:x.",
+          "solution": "3x = 5 × 12 = 60. Therefore, x = 20."
+        }
+      ]
+    },
+
+    {
+      "heading": "9. Fourth Proportional",
+      "content": [
+        "The fourth proportional to a, b and c is a number d such that a:b = c:d.",
+        "Use cross multiplication to calculate the missing fourth term."
+      ],
+      "formulas": [
+        "If a:b = c:d, then d = bc/a"
+      ],
+      "examples": [
+        {
+          "question": "Find the fourth proportional to 4, 6 and 10.",
+          "solution": "4:6 = 10:x. Therefore, x = 6 × 10/4 = 15."
+        },
+        {
+          "question": "Find the fourth proportional to 8, 12 and 18.",
+          "solution": "8:12 = 18:x. Therefore, x = 12 × 18/8 = 27."
+        }
+      ]
+    },
+
+    {
+      "heading": "10. Third Proportional",
+      "content": [
+        "The third proportional to a and b is a number c such that a:b = b:c.",
+        "The middle term appears twice in the proportion."
+      ],
+      "formulas": [
+        "If a:b = b:c, then c = b²/a"
+      ],
+      "examples": [
+        {
+          "question": "Find the third proportional to 4 and 8.",
+          "solution": "4:8 = 8:x. Therefore, x = 8²/4 = 64/4 = 16."
+        },
+        {
+          "question": "Find the third proportional to 9 and 12.",
+          "solution": "9:12 = 12:x. Therefore, x = 12²/9 = 144/9 = 16."
+        }
+      ]
+    },
+
+    {
+      "heading": "11. Mean Proportional",
+      "content": [
+        "The mean proportional between a and b is a number x such that a:x = x:b.",
+        "It is equal to the positive square root of the product of the two numbers.",
+        "The mean proportional is also called the geometric mean."
+      ],
+      "formulas": [
+        "a:x = x:b",
+        "x² = ab",
+        "Mean proportional = √(ab)"
+      ],
+      "examples": [
+        {
+          "question": "Find the mean proportional between 4 and 9.",
+          "solution": "Mean proportional = √(4 × 9) = √36 = 6."
+        },
+        {
+          "question": "Find the mean proportional between 8 and 18.",
+          "solution": "Mean proportional = √(8 × 18) = √144 = 12."
+        }
+      ]
+    },
+
+    {
+      "heading": "12. Division of a Quantity in a Given Ratio",
+      "content": [
+        "To divide a total in a given ratio, first calculate the sum of the ratio terms.",
+        "The share of each person is proportional to the corresponding ratio term.",
+        "All calculated shares must add up to the original total."
+      ],
+      "formulas": [
+        "First share = a/(a + b) × Total",
+        "Second share = b/(a + b) × Total",
+        "For a:b:c, each share = Corresponding term/(a + b + c) × Total"
+      ],
+      "examples": [
+        {
+          "question": "Divide 600 in the ratio 2:3.",
+          "solution": "Total parts = 2 + 3 = 5. First share = 2/5 × 600 = 240. Second share = 3/5 × 600 = 360."
+        },
+        {
+          "question": "Divide 900 among A, B and C in the ratio 2:3:4.",
+          "solution": "Total parts = 9. Shares are 2/9 × 900 = 200, 3/9 × 900 = 300 and 4/9 × 900 = 400."
+        }
+      ]
+    },
+
+    {
+      "heading": "13. Finding Quantities from Ratio and Difference",
+      "content": [
+        "When a ratio and the difference between two quantities are given, compare the difference in ratio parts.",
+        "Find the value of one ratio part.",
+        "Multiply the part value by each ratio term."
+      ],
+      "formulas": [
+        "Value of one part = Actual difference / Difference in ratio terms",
+        "Quantities = Ratio terms × Value of one part"
+      ],
+      "examples": [
+        {
+          "question": "Two numbers are in the ratio 3:5 and their difference is 20. Find the numbers.",
+          "solution": "Difference in ratio terms = 5 − 3 = 2. One part = 20/2 = 10. Numbers = 3 × 10 = 30 and 5 × 10 = 50."
+        },
+        {
+          "question": "The salaries of A and B are in the ratio 4:7. B earns $900 more than A. Find their salaries.",
+          "solution": "Difference in ratio terms = 3. One part = $900/3 = $300. Salaries are 4 × $300 = $1,200 and 7 × $300 = $2,100."
+        }
+      ]
+    },
+
+    {
+      "heading": "14. Finding Quantities from Ratio and Sum",
+      "content": [
+        "When a ratio and the total of the quantities are given, add the ratio terms.",
+        "Divide the total by the sum of ratio terms to find one part.",
+        "Multiply the part value by the individual ratio terms."
+      ],
+      "formulas": [
+        "Value of one part = Total / Sum of ratio terms"
+      ],
+      "examples": [
+        {
+          "question": "Two numbers are in the ratio 4:7 and their sum is 99. Find the numbers.",
+          "solution": "Total parts = 11. One part = 99/11 = 9. Numbers = 36 and 63."
+        },
+        {
+          "question": "The ages of A and B are in the ratio 5:3 and their total age is 48 years. Find their ages.",
+          "solution": "Total parts = 8. One part = 48/8 = 6. Ages are 30 years and 18 years."
+        }
+      ]
+    },
+
+    {
+      "heading": "15. Combining Two Ratios",
+      "content": [
+        "Two ratios can be combined when they contain a common quantity.",
+        "Make the common term equal in both ratios.",
+        "Then write the combined ratio using the adjusted values.",
+        "This method is commonly used to combine A:B and B:C."
+      ],
+      "examples": [
+        {
+          "question": "If A:B = 2:3 and B:C = 4:5, find A:B:C.",
+          "solution": "The common term B is 3 in the first ratio and 4 in the second. LCM = 12. Multiply 2:3 by 4 to get 8:12. Multiply 4:5 by 3 to get 12:15. Therefore, A:B:C = 8:12:15."
+        },
+        {
+          "question": "If P:Q = 3:5 and Q:R = 10:7, find P:Q:R.",
+          "solution": "Make Q equal to 10. Multiply 3:5 by 2 to obtain 6:10. Therefore, P:Q:R = 6:10:7."
+        }
+      ]
+    },
+
+    {
+      "heading": "16. Compound Ratio",
+      "content": [
+        "The compound ratio of two or more ratios is obtained by multiplying their antecedents and consequents separately.",
+        "Simplify the resulting ratio when possible."
+      ],
+      "formulas": [
+        "Compound ratio of a:b and c:d = ac:bd",
+        "Compound ratio of a:b, c:d and e:f = ace:bdf"
+      ],
+      "examples": [
+        {
+          "question": "Find the compound ratio of 2:3 and 4:5.",
+          "solution": "Compound ratio = 2 × 4 : 3 × 5 = 8:15."
+        },
+        {
+          "question": "Find the compound ratio of 3:4, 2:5 and 5:6.",
+          "solution": "Compound ratio = 3 × 2 × 5 : 4 × 5 × 6 = 30:120 = 1:4."
+        }
+      ]
+    },
+
+    {
+      "heading": "17. Duplicate, Triplicate and Sub-Duplicate Ratios",
+      "content": [
+        "The duplicate ratio is formed by squaring both terms.",
+        "The triplicate ratio is formed by cubing both terms.",
+        "The sub-duplicate ratio is formed by taking the square root of both terms.",
+        "The sub-triplicate ratio is formed by taking the cube root of both terms."
+      ],
+      "formulas": [
+        "Duplicate ratio of a:b = a²:b²",
+        "Triplicate ratio of a:b = a³:b³",
+        "Sub-duplicate ratio of a:b = √a:√b",
+        "Sub-triplicate ratio of a:b = ∛a:∛b"
+      ],
+      "examples": [
+        {
+          "question": "Find the duplicate ratio of 3:4.",
+          "solution": "Duplicate ratio = 3²:4² = 9:16."
+        },
+        {
+          "question": "Find the sub-duplicate ratio of 25:49.",
+          "solution": "Sub-duplicate ratio = √25:√49 = 5:7."
+        }
+      ]
+    },
+
+    {
+      "heading": "18. Direct Proportion",
+      "content": [
+        "Two quantities are directly proportional when an increase in one causes a proportional increase in the other.",
+        "A decrease in one quantity causes a proportional decrease in the other.",
+        "The ratio between the two quantities remains constant.",
+        "Examples include cost and quantity when the price per unit is fixed."
+      ],
+      "formulas": [
+        "x ∝ y",
+        "x/y = Constant",
+        "x₁/y₁ = x₂/y₂",
+        "x₁y₂ = x₂y₁"
+      ],
+      "examples": [
+        {
+          "question": "If 5 books cost $60, what is the cost of 8 books at the same rate?",
+          "solution": "Cost is directly proportional to quantity. Cost = 60 × 8/5 = $96."
+        },
+        {
+          "question": "A machine produces 240 units in 6 hours. How many units will it produce in 9 hours at the same rate?",
+          "solution": "Production = 240 × 9/6 = 360 units."
+        }
+      ]
+    },
+
+    {
+      "heading": "19. Inverse Proportion",
+      "content": [
+        "Two quantities are inversely proportional when an increase in one causes a proportional decrease in the other.",
+        "The product of the two quantities remains constant.",
+        "Common examples include workers and time, speed and travel time, and taps and filling time."
+      ],
+      "formulas": [
+        "x ∝ 1/y",
+        "xy = Constant",
+        "x₁y₁ = x₂y₂"
+      ],
+      "examples": [
+        {
+          "question": "If 8 workers complete a job in 15 days, how many days will 12 workers take at the same efficiency?",
+          "solution": "Workers and days are inversely proportional. Days = 8 × 15/12 = 10 days."
+        },
+        {
+          "question": "A journey takes 6 hours at 60 km/h. How long will it take at 90 km/h?",
+          "solution": "Speed and time are inversely proportional. Time = 60 × 6/90 = 4 hours."
+        }
+      ]
+    },
+
+    {
+      "heading": "20. Direct and Inverse Proportion Identification",
+      "content": [
+        "Identify whether both quantities move in the same direction or opposite directions.",
+        "If both increase or both decrease together, the relationship is usually direct.",
+        "If one increases while the other decreases, the relationship is usually inverse.",
+        "The relationship must be checked under unchanged conditions."
+      ],
+      "examples": [
+        {
+          "question": "Is the relationship between the number of items purchased and total cost direct or inverse when unit price is constant?",
+          "solution": "More items produce a higher total cost. Therefore, the relationship is direct."
+        },
+        {
+          "question": "Is the relationship between the number of workers and completion time direct or inverse for a fixed amount of work?",
+          "solution": "More workers require less time. Therefore, the relationship is inverse."
+        }
+      ]
+    },
+
+    {
+      "heading": "21. Ratio-Based Age Problems",
+      "content": [
+        "Represent present ages using multiples of the given ratio.",
+        "Add or subtract the same number of years from each person's age.",
+        "Ratios change over time, but age differences remain constant.",
+        "Form equations using the past or future ratio."
+      ],
+      "examples": [
+        {
+          "question": "The present ages of A and B are in the ratio 3:5. After 6 years, their ages will be in the ratio 2:3. Find their present ages.",
+          "solution": "Let the present ages be 3x and 5x. Then (3x + 6)/(5x + 6) = 2/3. Therefore, 9x + 18 = 10x + 12, so x = 6. Present ages are 18 and 30 years."
+        },
+        {
+          "question": "The ages of P and Q are in the ratio 4:7 and their age difference is 12 years. Find their ages.",
+          "solution": "Difference in ratio terms = 3. One part = 12/3 = 4. Ages are 16 and 28 years."
+        }
+      ]
+    },
+
+    {
+      "heading": "22. Partnership and Profit Sharing",
+      "content": [
+        "When investments are made for the same duration, profit is divided in the ratio of investments.",
+        "When investment periods differ, profit is divided according to capital multiplied by time.",
+        "Capital-time products must use the same time unit."
+      ],
+      "formulas": [
+        "Profit ratio = Investment ratio, when time is equal",
+        "Profit ratio = Capital₁ × Time₁ : Capital₂ × Time₂"
+      ],
+      "examples": [
+        {
+          "question": "A and B invest $4,000 and $6,000 for the same period. Find their profit-sharing ratio.",
+          "solution": "Profit ratio = 4000:6000 = 2:3."
+        },
+        {
+          "question": "A invests $5,000 for 12 months and B invests $8,000 for 6 months. Find their profit-sharing ratio.",
+          "solution": "Ratio = 5000 × 12 : 8000 × 6 = 60000:48000 = 5:4."
+        }
+      ]
+    },
+
+    {
+      "heading": "23. Mixture Ratios",
+      "content": [
+        "Mixture questions compare the quantities of different ingredients.",
+        "If a mixture has a ratio a:b, the total number of parts is a + b.",
+        "The amount of each ingredient is found using its fractional share.",
+        "When an ingredient is added or removed, form an equation using the new ratio."
+      ],
+      "formulas": [
+        "First ingredient = a/(a + b) × Total mixture",
+        "Second ingredient = b/(a + b) × Total mixture"
+      ],
+      "examples": [
+        {
+          "question": "A 40-liter mixture contains milk and water in the ratio 3:2. Find the quantities of milk and water.",
+          "solution": "Total parts = 5. Milk = 3/5 × 40 = 24 liters. Water = 2/5 × 40 = 16 liters."
+        },
+        {
+          "question": "A mixture contains 30 liters of milk and 10 liters of water. Find the ratio of milk to water.",
+          "solution": "Ratio = 30:10 = 3:1."
+        }
+      ]
+    },
+
+    {
+      "heading": "24. Ratio Change After Addition",
+      "content": [
+        "Represent the original quantities using ratio multiples.",
+        "Add the stated amount to the appropriate quantity.",
+        "Use the new ratio to create an equation.",
+        "Check whether the addition changes one quantity or both."
+      ],
+      "examples": [
+        {
+          "question": "The ratio of boys to girls is 3:2. If 10 girls join, the ratio becomes 3:4. Find the original number of boys and girls.",
+          "solution": "Let boys and girls be 3x and 2x. Then 3x/(2x + 10) = 3/4. Therefore, 12x = 6x + 30, so x = 5. Originally there were 15 boys and 10 girls."
+        },
+        {
+          "question": "Two numbers are in the ratio 2:5. If 12 is added to the first number, the ratio becomes 4:5. Find the numbers.",
+          "solution": "Let the numbers be 2x and 5x. Then (2x + 12)/(5x) = 4/5. Therefore, 10x + 60 = 20x, so x = 6. The numbers are 12 and 30."
+        }
+      ]
+    },
+
+    {
+      "heading": "25. Ratio Change After Subtraction",
+      "content": [
+        "Represent the original quantities using the ratio.",
+        "Subtract the stated value from the appropriate quantity.",
+        "Set the resulting quantities equal to the new ratio.",
+        "Ensure that no calculated quantity becomes negative."
+      ],
+      "examples": [
+        {
+          "question": "Two numbers are in the ratio 5:7. If 10 is subtracted from each, the ratio becomes 3:5. Find the numbers.",
+          "solution": "Let the numbers be 5x and 7x. Then (5x − 10)/(7x − 10) = 3/5. Therefore, 25x − 50 = 21x − 30, so x = 5. The numbers are 25 and 35."
+        },
+        {
+          "question": "The ratio of two quantities is 4:9. If 12 is subtracted from the second, the ratio becomes 2:3. Find the quantities.",
+          "solution": "Let the quantities be 4x and 9x. Then 4x/(9x − 12) = 2/3. Therefore, 12x = 18x − 24, so x = 4. The quantities are 16 and 36."
+        }
+      ]
+    },
+
+    {
+      "heading": "26. Ratio of Income, Expenditure and Savings",
+      "content": [
+        "Savings equal income minus expenditure.",
+        "When income and expenditure ratios are given, represent each using suitable multiples.",
+        "If savings are equal or related, form an equation using income minus expenditure.",
+        "Ensure that all monetary values refer to the same period."
+      ],
+      "formulas": [
+        "Savings = Income − Expenditure"
+      ],
+      "examples": [
+        {
+          "question": "The incomes of A and B are in the ratio 3:4, and their expenditures are in the ratio 2:3. If both save $1,000 and A's income is $3,000, find B's income.",
+          "solution": "From the income ratio 3:4, B's income = 3000 × 4/3 = $4,000."
+        },
+        {
+          "question": "A person's income and expenditure are in the ratio 5:4. If the person saves $600, find the income.",
+          "solution": "The difference of 1 ratio part represents $600. Income = 5 × $600 = $3,000."
+        }
+      ]
+    },
+
+    {
+      "heading": "27. Ratio of Speeds, Times and Distances",
+      "content": [
+        "For equal time, distances are proportional to speeds.",
+        "For equal distance, speeds are inversely proportional to times.",
+        "For equal speed, distances are proportional to times.",
+        "Identify which quantity remains fixed before applying a ratio."
+      ],
+      "formulas": [
+        "For equal time: Distance ratio = Speed ratio",
+        "For equal distance: Speed ratio = Inverse of time ratio",
+        "For equal speed: Distance ratio = Time ratio"
+      ],
+      "examples": [
+        {
+          "question": "Two cars travel for the same time at speeds in the ratio 3:5. Find the ratio of distances covered.",
+          "solution": "For equal time, distance ratio equals speed ratio. Therefore, the ratio is 3:5."
+        },
+        {
+          "question": "A and B cover the same distance in times in the ratio 4:5. Find their speed ratio.",
+          "solution": "For equal distance, speed ratio is the inverse of time ratio. Therefore, speed ratio = 5:4."
+        }
+      ]
+    },
+
+    {
+      "heading": "28. Ratio of Work and Efficiency",
+      "content": [
+        "Efficiency is inversely proportional to the time taken to complete the same work.",
+        "A person who completes work in fewer days has greater efficiency.",
+        "The ratio of work completed in equal time is the ratio of efficiencies."
+      ],
+      "formulas": [
+        "Efficiency ratio = Inverse of time ratio",
+        "If A takes x days and B takes y days, efficiency ratio A:B = y:x"
+      ],
+      "examples": [
+        {
+          "question": "A completes a job in 12 days and B in 18 days. Find their efficiency ratio.",
+          "solution": "Efficiency ratio A:B = 18:12 = 3:2."
+        },
+        {
+          "question": "The efficiencies of A and B are in the ratio 4:5. Find the ratio of the time taken by them for the same work.",
+          "solution": "Time ratio is the inverse of efficiency ratio. Therefore, time ratio = 5:4."
+        }
+      ]
+    },
+
+    {
+      "heading": "29. Ratio-Based Percentage Conversion",
+      "content": [
+        "A ratio can be converted into percentage shares when the total is represented by the sum of its terms.",
+        "The percentage represented by one term is that term divided by the total parts multiplied by 100.",
+        "Percentage comparison and percentage distribution are different calculations."
+      ],
+      "formulas": [
+        "If A:B = a:b, A's share percentage = a/(a + b) × 100",
+        "B's share percentage = b/(a + b) × 100",
+        "A is what percent of B = a/b × 100"
+      ],
+      "examples": [
+        {
+          "question": "The ratio of men to women is 3:2. What percentage of the group are women?",
+          "solution": "Total parts = 5. Percentage of women = 2/5 × 100 = 40%."
+        },
+        {
+          "question": "If A:B = 4:5, A is what percentage of B?",
+          "solution": "Required percentage = 4/5 × 100 = 80%."
+        }
+      ]
+    },
+
+    {
+      "heading": "30. Placement-Test Strategy",
+      "content": [
+        "Convert all quantities into the same unit before forming a ratio.",
+        "Simplify ratios before beginning lengthy calculations.",
+        "Represent unknown quantities as multiples of ratio terms.",
+        "Use one-part calculation when the total or difference is given.",
+        "Use cross multiplication to solve proportions.",
+        "Make the common term equal when combining two ratios.",
+        "Check whether the relationship is direct or inverse.",
+        "For age questions, remember that age differences remain constant.",
+        "For partnership questions, multiply capital by time.",
+        "For worker-time problems, use inverse proportion.",
+        "For speed-time problems involving equal distance, invert the ratio.",
+        "Verify that calculated shares add up to the total.",
+        "Use answer choices to test possible ratio multiples when appropriate.",
+        "Avoid unnecessary decimal calculations by retaining fractions."
+      ],
+      "formulas": [
+        "Ratio = First quantity / Second quantity",
+        "If a:b = c:d, then ad = bc",
+        "Share = Corresponding ratio term / Sum of terms × Total",
+        "Direct proportion: x₁/y₁ = x₂/y₂",
+        "Inverse proportion: x₁y₁ = x₂y₂",
+        "Partnership ratio = Capital × Time",
+        "Efficiency ratio = Inverse of time ratio"
+      ],
+      "examples": [
+        {
+          "question": "Two quantities are in the ratio 7:9 and their difference is 24. What is the fastest method?",
+          "solution": "The difference of 2 ratio parts equals 24, so one part equals 12. The quantities are 84 and 108."
+        },
+        {
+          "question": "If 15 workers complete a job in 20 days, should workers and days be treated as directly proportional?",
+          "solution": "No. For fixed work, more workers require fewer days. Therefore, workers and days are inversely proportional."
+        }
+      ]
+    }
+  ],
+
+  "quickShortcuts": [
+    {
+      "title": "Same units",
+      "note": "Convert quantities into the same unit before forming a ratio."
+    },
+    {
+      "title": "Simplifying ratios",
+      "note": "Divide every term by their highest common factor."
+    },
+    {
+      "title": "Fraction ratios",
+      "note": "Multiply every term by the LCM of the denominators."
+    },
+    {
+      "title": "Decimal ratios",
+      "note": "Multiply all terms by the same power of 10 to remove decimals."
+    },
+    {
+      "title": "Equivalent ratios",
+      "note": "Multiply or divide every term by the same non-zero number."
+    },
+    {
+      "title": "Compare ratios",
+      "note": "Use cross multiplication instead of converting to decimals."
+    },
+    {
+      "title": "Proportion rule",
+      "note": "The product of the extremes equals the product of the means."
+    },
+    {
+      "title": "Fourth proportional",
+      "note": "For a:b = c:d, use d = bc/a."
+    },
+    {
+      "title": "Third proportional",
+      "note": "The third proportional to a and b is b²/a."
+    },
+    {
+      "title": "Mean proportional",
+      "note": "The mean proportional between a and b is √(ab)."
+    },
+    {
+      "title": "Divide a total",
+      "note": "Divide each ratio term by the sum of the terms and multiply by the total."
+    },
+    {
+      "title": "Ratio and difference",
+      "note": "One part equals the actual difference divided by the difference of ratio terms."
+    },
+    {
+      "title": "Ratio and sum",
+      "note": "One part equals the total divided by the sum of ratio terms."
+    },
+    {
+      "title": "Combine ratios",
+      "note": "Make the common term equal before combining the ratios."
+    },
+    {
+      "title": "Compound ratio",
+      "note": "Multiply antecedents together and consequents together."
+    },
+    {
+      "title": "Direct proportion",
+      "note": "Both quantities change in the same direction."
+    },
+    {
+      "title": "Inverse proportion",
+      "note": "One quantity increases while the other decreases."
+    },
+    {
+      "title": "Age problems",
+      "note": "Age differences remain constant over time."
+    },
+    {
+      "title": "Partnership",
+      "note": "Use capital multiplied by investment duration."
+    },
+    {
+      "title": "Efficiency",
+      "note": "Efficiency ratio is the inverse of the time ratio."
+    }
+  ],
+
+  "placementQuestionTypes": [
+    "Basic ratio formation",
+    "Unit conversion before forming ratios",
+    "Simplification of ratios",
+    "Fraction and decimal ratios",
+    "Equivalent ratios",
+    "Comparison of ratios",
+    "Basic proportion",
+    "Missing term in a proportion",
+    "Fourth proportional",
+    "Third proportional",
+    "Mean proportional",
+    "Division in a given ratio",
+    "Ratio and total questions",
+    "Ratio and difference questions",
+    "Combining two or more ratios",
+    "Compound ratios",
+    "Duplicate and sub-duplicate ratios",
+    "Direct proportion",
+    "Inverse proportion",
+    "Age-ratio problems",
+    "Partnership and profit-sharing problems",
+    "Mixture-ratio problems",
+    "Ratio change after addition",
+    "Ratio change after subtraction",
+    "Income, expenditure and savings",
+    "Speed, time and distance ratios",
+    "Work and efficiency ratios",
+    "Ratio-to-percentage conversion",
+    "Placement-based mixed ratio problems"
+  ],
+
+  "commonMistakes": [
+    "Comparing quantities without converting them into the same unit.",
+    "Reversing the order of terms in a ratio.",
+    "Treating a ratio as having units after both quantities are converted into the same unit.",
+    "Dividing only one term while simplifying a ratio.",
+    "Using addition instead of multiplication in equivalent ratios.",
+    "Comparing ratios by comparing only their first terms.",
+    "Applying the proportion rule to quantities that are not proportional.",
+    "Confusing the third proportional with the fourth proportional.",
+    "Using the arithmetic mean instead of the mean proportional.",
+    "Dividing a total using individual ratio terms without first finding total parts.",
+    "Using the sum of ratio terms when the difference is given.",
+    "Using the difference of ratio terms when the total is given.",
+    "Combining ratios without making the common term equal.",
+    "Adding terms when finding a compound ratio.",
+    "Confusing direct proportion with inverse proportion.",
+    "Treating workers and completion time as directly proportional.",
+    "Forgetting to invert the time ratio when calculating efficiency.",
+    "Adding different numbers to people's ages in an age problem.",
+    "Dividing partnership profit only according to capital when investment periods differ.",
+    "Using percentages as ratio terms without simplifying them.",
+    "Forgetting that savings equal income minus expenditure.",
+    "Using speed ratio directly as time ratio for equal distances.",
+    "Failing to verify that divided shares add up to the original total.",
+    "Rounding intermediate values too early."
+  ],
+
+  "revisionChecklist": [
+    "I understand the meaning of antecedent and consequent.",
+    "I convert quantities into the same unit before comparison.",
+    "I can simplify whole-number ratios.",
+    "I can simplify ratios containing fractions.",
+    "I can simplify ratios containing decimals.",
+    "I can identify equivalent ratios.",
+    "I can compare two ratios using cross multiplication.",
+    "I understand the meaning of proportion.",
+    "I can find a missing term in a proportion.",
+    "I can calculate the fourth proportional.",
+    "I can calculate the third proportional.",
+    "I can calculate the mean proportional.",
+    "I can divide a quantity in a given ratio.",
+    "I can find quantities when their ratio and total are given.",
+    "I can find quantities when their ratio and difference are given.",
+    "I can combine ratios containing a common term.",
+    "I can calculate compound ratios.",
+    "I can distinguish direct proportion from inverse proportion.",
+    "I can solve age-ratio questions.",
+    "I can solve partnership questions.",
+    "I can solve mixture-ratio questions.",
+    "I can solve questions involving a change in ratio.",
+    "I can solve income, expenditure and savings questions.",
+    "I can solve speed, time and distance ratio questions.",
+    "I can solve work and efficiency ratio questions.",
+    "I can convert ratio shares into percentages.",
+    "I can choose the quickest method for placement aptitude questions."
+  ],
+
+  "assessment": {
+    "buttonText": "Begin Assessment",
+    "page": "assessment.html",
+    "questionFile": "data/questions/QA/ratio-proportion.json",
+    "category": "QA",
+    "topic": "ratio-proportion"
+  }
+}
