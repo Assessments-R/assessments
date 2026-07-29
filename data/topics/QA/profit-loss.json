@@ -440,6 +440,7 @@
   "assessment": {
     "buttonText": "Begin Assessment",
     "page": "assessment.html",
+       "questionFile": "data/questions/QA/profit-loss.json",
     "category": "QA",
     "topic": "profit-loss"
   }
