@@ -1,1 +1,640 @@
+{
+  "id": "compound-interest",
+  "category": "QA",
+  "title": "Compound Interest",
+  "subtitle": "Quantitative Aptitude – Placement Preparation",
+  "description": "Learn compound interest, amount, annual and half-yearly compounding, changing interest rates, growth and depreciation, comparison with simple interest and placement-test shortcuts.",
+  "estimatedLearningTime": "30–35 minutes",
 
+  "learningObjectives": [
+    "Understand the meaning of compound interest.",
+    "Distinguish between simple interest and compound interest.",
+    "Calculate the compound amount and compound interest.",
+    "Find principal, rate and time in compound-interest problems.",
+    "Calculate compound interest for two and three years.",
+    "Solve half-yearly and quarterly compounding questions.",
+    "Solve questions involving different rates in different years.",
+    "Calculate population growth and depreciation.",
+    "Find the difference between simple interest and compound interest.",
+    "Solve successive percentage-change problems.",
+    "Use placement-test shortcuts for compound-interest questions."
+  ],
+
+  "sections": [
+    {
+      "heading": "1. Basic Concept of Compound Interest",
+      "content": [
+        "Compound Interest is calculated on the original principal and also on the interest accumulated during earlier periods.",
+        "At the end of every compounding period, the interest is added to the principal.",
+        "The new amount becomes the principal for the next compounding period.",
+        "Compound interest therefore produces interest on interest."
+      ],
+      "formulas": [
+        "Amount = Principal + Compound Interest",
+        "Compound Interest = Amount − Principal",
+        "CI = A − P"
+      ],
+      "examples": [
+        {
+          "question": "A principal of $5,000 grows to $6,050 after a certain period. Find the compound interest.",
+          "solution": "CI = Amount − Principal = $6,050 − $5,000 = $1,050."
+        },
+        {
+          "question": "The compound interest on a sum is $1,440 and the principal is $8,000. Find the final amount.",
+          "solution": "Amount = Principal + Compound Interest = $8,000 + $1,440 = $9,440."
+        }
+      ]
+    },
+
+    {
+      "heading": "2. Compound Amount Formula",
+      "content": [
+        "The compound amount is calculated by multiplying the principal by the growth factor for every compounding period.",
+        "For annual compounding, the growth factor is 1 plus the annual rate expressed as a decimal.",
+        "After calculating the amount, subtract the principal to obtain compound interest."
+      ],
+      "formulas": [
+        "A = P(1 + R/100)^T",
+        "CI = P(1 + R/100)^T − P",
+        "CI = A − P"
+      ],
+      "examples": [
+        {
+          "question": "Find the amount on $5,000 at 10% per annum compounded annually for 2 years.",
+          "solution": "A = 5,000(1 + 10/100)^2 = 5,000 × 1.1 × 1.1 = $6,050."
+        },
+        {
+          "question": "Find the compound interest on $8,000 at 5% per annum for 2 years.",
+          "solution": "A = 8,000(1.05)^2 = 8,000 × 1.1025 = $8,820. CI = $8,820 − $8,000 = $820."
+        }
+      ]
+    },
+
+    {
+      "heading": "3. Year-by-Year Method",
+      "content": [
+        "Compound interest can also be calculated by finding the interest separately for each year.",
+        "After every year, add the interest to the existing amount.",
+        "The resulting amount becomes the principal for the following year.",
+        "This method is useful when the rates change from year to year."
+      ],
+      "formulas": [
+        "First-year interest = P × R / 100",
+        "Second-year principal = P + First-year interest",
+        "Next-year interest = Previous-year amount × R / 100"
+      ],
+      "examples": [
+        {
+          "question": "Find the compound interest on $10,000 at 10% per annum for 2 years using the year-by-year method.",
+          "solution": "First-year interest = $1,000, so the amount becomes $11,000. Second-year interest = 10% of $11,000 = $1,100. Total CI = $1,000 + $1,100 = $2,100."
+        },
+        {
+          "question": "Find the amount on $4,000 at 5% per annum for 3 years.",
+          "solution": "After year 1: $4,200. After year 2: $4,410. After year 3: $4,630.50. Therefore, the amount is $4,630.50."
+        }
+      ]
+    },
+
+    {
+      "heading": "4. Compound Interest for Two Years",
+      "content": [
+        "For two years, compound interest can be calculated using the standard amount formula.",
+        "A direct expansion formula is also useful in placement questions.",
+        "The additional term in compound interest represents interest earned on the first year's interest."
+      ],
+      "formulas": [
+        "CI for 2 years = P[(1 + R/100)^2 − 1]",
+        "CI for 2 years = P(2R/100 + R^2/10000)",
+        "Difference between CI and SI for 2 years = PR^2/10000"
+      ],
+      "examples": [
+        {
+          "question": "Find the compound interest on $10,000 at 10% per annum for 2 years.",
+          "solution": "CI = 10,000[(1.1)^2 − 1] = 10,000 × 0.21 = $2,100."
+        },
+        {
+          "question": "Find the difference between compound interest and simple interest on $20,000 at 5% for 2 years.",
+          "solution": "Difference = PR²/10000 = 20,000 × 25/10000 = $50."
+        }
+      ]
+    },
+
+    {
+      "heading": "5. Compound Interest for Three Years",
+      "content": [
+        "For three years, the amount is obtained by applying the growth factor three times.",
+        "The difference between compound interest and simple interest becomes larger as the duration increases.",
+        "The direct formula can be used when the rate remains constant."
+      ],
+      "formulas": [
+        "A = P(1 + R/100)^3",
+        "CI = P[(1 + R/100)^3 − 1]",
+        "CI for 3 years = P[3R/100 + 3R²/10000 + R³/1000000]"
+      ],
+      "examples": [
+        {
+          "question": "Find the amount on $8,000 at 10% per annum for 3 years.",
+          "solution": "A = 8,000 × (1.1)^3 = 8,000 × 1.331 = $10,648."
+        },
+        {
+          "question": "Find the compound interest on $5,000 at 20% per annum for 3 years.",
+          "solution": "A = 5,000 × (1.2)^3 = 5,000 × 1.728 = $8,640. CI = $8,640 − $5,000 = $3,640."
+        }
+      ]
+    },
+
+    {
+      "heading": "6. Finding the Principal",
+      "content": [
+        "When the final amount, rate and time are given, rearrange the compound amount formula.",
+        "Divide the amount by the complete growth factor to obtain the original principal."
+      ],
+      "formulas": [
+        "P = A / (1 + R/100)^T"
+      ],
+      "examples": [
+        {
+          "question": "A sum becomes $12,100 in 2 years at 10% compound interest. Find the principal.",
+          "solution": "P = 12,100/(1.1)^2 = 12,100/1.21 = $10,000."
+        },
+        {
+          "question": "A sum becomes $9,261 in 3 years at 5% compounded annually. Find the principal.",
+          "solution": "P = 9,261/(1.05)^3 = 9,261/1.157625 = $8,000."
+        }
+      ]
+    },
+
+    {
+      "heading": "7. Finding the Rate of Interest",
+      "content": [
+        "When principal, amount and time are known, compare the amount with the principal.",
+        "Find the growth factor and then determine the annual rate.",
+        "In placement questions, the growth factor often corresponds to a familiar square or cube."
+      ],
+      "formulas": [
+        "A/P = (1 + R/100)^T",
+        "1 + R/100 = (A/P)^(1/T)",
+        "R = [(A/P)^(1/T) − 1] × 100"
+      ],
+      "examples": [
+        {
+          "question": "A sum of $10,000 becomes $12,100 in 2 years. Find the annual compound-interest rate.",
+          "solution": "A/P = 12,100/10,000 = 1.21 = (1.1)^2. Therefore, the rate is 10%."
+        },
+        {
+          "question": "A sum of $8,000 becomes $10,648 in 3 years. Find the rate.",
+          "solution": "A/P = 10,648/8,000 = 1.331 = (1.1)^3. Therefore, the rate is 10%."
+        }
+      ]
+    },
+
+    {
+      "heading": "8. Finding the Time",
+      "content": [
+        "When principal, amount and rate are given, compare the amount ratio with successive powers of the growth factor.",
+        "Placement questions generally use values that produce an exact number of years."
+      ],
+      "formulas": [
+        "A/P = (1 + R/100)^T"
+      ],
+      "examples": [
+        {
+          "question": "In how many years will $5,000 become $6,655 at 10% compound interest?",
+          "solution": "6,655/5,000 = 1.331 = (1.1)^3. Therefore, the time is 3 years."
+        },
+        {
+          "question": "In how many years will $10,000 become $14,641 at 10% compounded annually?",
+          "solution": "14,641/10,000 = 1.4641 = (1.1)^4. Therefore, the time is 4 years."
+        }
+      ]
+    },
+
+    {
+      "heading": "9. Half-Yearly Compounding",
+      "content": [
+        "When interest is compounded half-yearly, interest is calculated twice every year.",
+        "Divide the annual rate by 2 and multiply the number of years by 2.",
+        "Each half-year is treated as one compounding period."
+      ],
+      "formulas": [
+        "Half-yearly rate = R/2",
+        "Number of periods = 2T",
+        "A = P(1 + R/200)^(2T)",
+        "CI = A − P"
+      ],
+      "examples": [
+        {
+          "question": "Find the amount on $10,000 at 10% per annum compounded half-yearly for 1 year.",
+          "solution": "Rate per half-year = 5% and periods = 2. A = 10,000(1.05)^2 = $11,025."
+        },
+        {
+          "question": "Find the compound interest on $8,000 at 12% per annum compounded half-yearly for 1 year.",
+          "solution": "Rate per half-year = 6%. A = 8,000(1.06)^2 = $8,988.80. CI = $988.80."
+        }
+      ]
+    },
+
+    {
+      "heading": "10. Quarterly Compounding",
+      "content": [
+        "When interest is compounded quarterly, interest is calculated four times every year.",
+        "Divide the annual rate by 4 and multiply the number of years by 4.",
+        "Each quarter is treated as one compounding period."
+      ],
+      "formulas": [
+        "Quarterly rate = R/4",
+        "Number of periods = 4T",
+        "A = P(1 + R/400)^(4T)"
+      ],
+      "examples": [
+        {
+          "question": "Find the amount on $10,000 at 8% per annum compounded quarterly for 1 year.",
+          "solution": "Quarterly rate = 2% and periods = 4. A = 10,000(1.02)^4 = $10,824.32 approximately."
+        },
+        {
+          "question": "Find the compound interest on $20,000 at 12% per annum compounded quarterly for 6 months.",
+          "solution": "Quarterly rate = 3% and the number of quarters is 2. A = 20,000(1.03)^2 = $21,218. CI = $1,218."
+        }
+      ]
+    },
+
+    {
+      "heading": "11. Different Rates for Different Years",
+      "content": [
+        "If the rate changes from one year to another, use a separate growth factor for each year.",
+        "Multiply all yearly growth factors with the original principal.",
+        "Do not use the average rate unless the question explicitly permits it."
+      ],
+      "formulas": [
+        "A = P(1 + R1/100)(1 + R2/100)(1 + R3/100)",
+        "CI = A − P"
+      ],
+      "examples": [
+        {
+          "question": "Find the amount on $10,000 for 2 years if the rates are 10% in the first year and 20% in the second year.",
+          "solution": "A = 10,000 × 1.10 × 1.20 = $13,200. CI = $3,200."
+        },
+        {
+          "question": "A sum of $8,000 is invested for 3 years at rates of 5%, 10% and 20% respectively. Find the amount.",
+          "solution": "A = 8,000 × 1.05 × 1.10 × 1.20 = $11,088."
+        }
+      ]
+    },
+
+    {
+      "heading": "12. Difference Between Simple Interest and Compound Interest",
+      "content": [
+        "Simple interest is calculated only on the original principal.",
+        "Compound interest includes interest on previously earned interest.",
+        "For one year, simple interest and compound interest are equal when the compounding is annual.",
+        "For more than one year, compound interest is normally greater than simple interest."
+      ],
+      "formulas": [
+        "SI = PRT/100",
+        "CI = P(1 + R/100)^T − P",
+        "For 2 years, CI − SI = PR²/10000"
+      ],
+      "examples": [
+        {
+          "question": "Find the difference between CI and SI on $10,000 at 10% per annum for 2 years.",
+          "solution": "Difference = PR²/10000 = 10,000 × 100/10000 = $100."
+        },
+        {
+          "question": "The difference between CI and SI for 2 years at 5% is $50. Find the principal.",
+          "solution": "50 = P × 25/10000. Therefore, P = 50 × 10000/25 = $20,000."
+        }
+      ]
+    },
+
+    {
+      "heading": "13. Finding the Rate from the Difference Between CI and SI",
+      "content": [
+        "For two years, the difference between compound interest and simple interest is the interest earned on the first year's interest.",
+        "The direct difference formula can be rearranged to find the rate."
+      ],
+      "formulas": [
+        "Difference = PR²/10000",
+        "R² = Difference × 10000 / P",
+        "R = Square root of (Difference × 10000 / P)"
+      ],
+      "examples": [
+        {
+          "question": "The difference between CI and SI on $10,000 for 2 years is $144. Find the annual rate.",
+          "solution": "R² = 144 × 10000/10,000 = 144. Therefore, R = 12%."
+        },
+        {
+          "question": "The difference between CI and SI on $25,000 for 2 years is $100. Find the rate.",
+          "solution": "R² = 100 × 10000/25,000 = 40. Therefore, R = √40, approximately 6.32%."
+        }
+      ]
+    },
+
+    {
+      "heading": "14. Successive Percentage Increase",
+      "content": [
+        "Compound growth is equivalent to applying successive percentage increases.",
+        "The second increase is calculated on the increased value, not on the original value.",
+        "Two successive increases cannot normally be added directly."
+      ],
+      "formulas": [
+        "Net increase for a% and b% = a + b + ab/100",
+        "Final value = Original value × (1 + a/100)(1 + b/100)"
+      ],
+      "examples": [
+        {
+          "question": "A value increases by 10% in the first year and 20% in the second year. Find the total percentage increase.",
+          "solution": "Net increase = 10 + 20 + (10 × 20)/100 = 32%."
+        },
+        {
+          "question": "A salary of $40,000 increases by 5% in each of two successive years. Find the salary after two years.",
+          "solution": "Final salary = 40,000 × 1.05 × 1.05 = $44,100."
+        }
+      ]
+    },
+
+    {
+      "heading": "15. Population Growth",
+      "content": [
+        "Population growth follows the compound-interest model when the population increases by a fixed percentage each year.",
+        "The current population acts as the principal.",
+        "The future population is found using the compound amount formula."
+      ],
+      "formulas": [
+        "Future population = Present population × (1 + R/100)^T",
+        "Present population = Future population / (1 + R/100)^T"
+      ],
+      "examples": [
+        {
+          "question": "A town has a population of 50,000. It increases by 10% annually. Find the population after 2 years.",
+          "solution": "Population = 50,000 × (1.1)^2 = 60,500."
+        },
+        {
+          "question": "The population of a city after 2 years is 72,600. If it grows at 10% annually, find its present population.",
+          "solution": "Present population = 72,600/(1.1)^2 = 72,600/1.21 = 60,000."
+        }
+      ]
+    },
+
+    {
+      "heading": "16. Depreciation",
+      "content": [
+        "Depreciation represents a repeated percentage reduction in the value of an asset.",
+        "The reduced value after one year becomes the base value for the next year.",
+        "Use a reduction factor instead of a growth factor."
+      ],
+      "formulas": [
+        "Value after depreciation = P(1 − R/100)^T",
+        "Depreciation amount = Original value − Final value"
+      ],
+      "examples": [
+        {
+          "question": "A machine worth $50,000 depreciates by 10% annually. Find its value after 2 years.",
+          "solution": "Value = 50,000 × (0.9)^2 = $40,500."
+        },
+        {
+          "question": "A vehicle worth $80,000 depreciates by 20% per year. Find the total depreciation after 2 years.",
+          "solution": "Final value = 80,000 × (0.8)^2 = $51,200. Depreciation = $80,000 − $51,200 = $28,800."
+        }
+      ]
+    },
+
+    {
+      "heading": "17. Growth Followed by Reduction",
+      "content": [
+        "An increase followed by an equal percentage decrease does not restore the original value.",
+        "The decrease is calculated on the increased value.",
+        "The overall result is always a loss when the increase and decrease percentages are equal and non-zero."
+      ],
+      "formulas": [
+        "Net change for x% increase followed by x% decrease = −x²/100%",
+        "Final value = Original value × (1 + x/100)(1 − x/100)"
+      ],
+      "examples": [
+        {
+          "question": "A value increases by 20% and then decreases by 20%. Find the net percentage change.",
+          "solution": "Net change = −20²/100 = −4%. Therefore, there is a 4% decrease."
+        },
+        {
+          "question": "A machine valued at $25,000 appreciates by 10% and then depreciates by 10%. Find its final value.",
+          "solution": "Final value = 25,000 × 1.10 × 0.90 = $24,750."
+        }
+      ]
+    },
+
+    {
+      "heading": "18. Money Becoming Double or Multiple Times",
+      "content": [
+        "Under compound interest, the amount grows by repeated multiplication.",
+        "To find when a sum becomes double or triple, compare the required amount ratio with powers of the growth factor.",
+        "Unlike simple interest, the time required is not found using RT = 100."
+      ],
+      "formulas": [
+        "A/P = (1 + R/100)^T",
+        "For doubling, 2 = (1 + R/100)^T",
+        "For tripling, 3 = (1 + R/100)^T"
+      ],
+      "examples": [
+        {
+          "question": "A sum becomes double in 5 years under compound interest. In how many years will it become four times at the same rate?",
+          "solution": "Four times means double twice. Therefore, the required time is 5 + 5 = 10 years."
+        },
+        {
+          "question": "A sum becomes three times in 8 years. In how many years will it become nine times?",
+          "solution": "Nine times equals 3 × 3. Therefore, the required time is 8 + 8 = 16 years."
+        }
+      ]
+    },
+
+    {
+      "heading": "19. Ratio-Based Compound-Interest Problems",
+      "content": [
+        "Compound amount ratios can often be solved without calculating the actual amounts.",
+        "When the rates and times are the same, the final amounts remain in the same ratio as the principals.",
+        "When the principals are the same, compare the growth factors."
+      ],
+      "formulas": [
+        "A1 : A2 = P1(1 + R1/100)^T1 : P2(1 + R2/100)^T2",
+        "For equal rates and times, A1 : A2 = P1 : P2"
+      ],
+      "examples": [
+        {
+          "question": "Two principals are in the ratio 3:5 and are invested at the same compound-interest rate for the same time. Find the ratio of their amounts.",
+          "solution": "Since both have the same growth factor, the amount ratio remains 3:5."
+        },
+        {
+          "question": "Equal sums are invested for 2 years at 10% and 20% compound interest. Find the ratio of their amounts.",
+          "solution": "Amount ratio = (1.1)^2 : (1.2)^2 = 1.21:1.44 = 121:144."
+        }
+      ]
+    },
+
+    {
+      "heading": "20. Placement-Test Strategy",
+      "content": [
+        "Identify whether the question asks for principal, amount, rate, time or compound interest.",
+        "Check whether compounding is annual, half-yearly or quarterly.",
+        "Modify both the rate and number of periods when the compounding frequency changes.",
+        "Use the year-by-year method when different rates apply in different years.",
+        "Use the direct CI and SI difference formula for two-year questions.",
+        "Treat population growth as compound increase and depreciation as compound decrease.",
+        "For successive changes, multiply the factors instead of simply adding the percentages.",
+        "Estimate the answer before choosing an option."
+      ],
+      "formulas": [
+        "A = P(1 + R/100)^T",
+        "CI = A − P",
+        "Half-yearly: A = P(1 + R/200)^(2T)",
+        "Quarterly: A = P(1 + R/400)^(4T)",
+        "Depreciation: Value = P(1 − R/100)^T"
+      ],
+      "examples": [
+        {
+          "question": "Find the amount on $20,000 at 10% compounded annually for 2 years.",
+          "solution": "A = 20,000 × (1.1)^2 = $24,200."
+        },
+        {
+          "question": "A machine worth $60,000 depreciates by 10% annually for 2 years. Find its value.",
+          "solution": "Value = 60,000 × (0.9)^2 = $48,600."
+        }
+      ]
+    }
+  ],
+
+  "quickShortcuts": [
+    {
+      "title": "Basic amount formula",
+      "note": "Amount = Principal × (1 + Rate/100) raised to the number of years."
+    },
+    {
+      "title": "Find compound interest",
+      "note": "Subtract the principal from the compound amount."
+    },
+    {
+      "title": "Two-year difference",
+      "note": "For two years, CI − SI = Principal × Rate² ÷ 10000."
+    },
+    {
+      "title": "Half-yearly compounding",
+      "note": "Halve the annual rate and double the number of periods."
+    },
+    {
+      "title": "Quarterly compounding",
+      "note": "Divide the annual rate by 4 and multiply the number of periods by 4."
+    },
+    {
+      "title": "Different yearly rates",
+      "note": "Multiply a separate growth factor for each year."
+    },
+    {
+      "title": "Population growth",
+      "note": "Use the compound amount formula with a positive growth rate."
+    },
+    {
+      "title": "Depreciation",
+      "note": "Replace the growth factor with 1 minus Rate/100."
+    },
+    {
+      "title": "Successive increases",
+      "note": "For increases of a% and b%, net increase = a + b + ab/100."
+    },
+    {
+      "title": "Equal increase and decrease",
+      "note": "An x% increase followed by an x% decrease results in an x²/100 percent loss."
+    },
+    {
+      "title": "Same rate and time",
+      "note": "Compound amounts remain in the same ratio as the original principals."
+    },
+    {
+      "title": "Amount ratio",
+      "note": "Compare principal multiplied by its complete growth factor."
+    },
+    {
+      "title": "Doubling pattern",
+      "note": "If money doubles in T years, it becomes four times in 2T years."
+    },
+    {
+      "title": "Tripling pattern",
+      "note": "If money triples in T years, it becomes nine times in 2T years."
+    },
+    {
+      "title": "Avoid averaging rates",
+      "note": "For different yearly rates, multiply the factors instead of using the arithmetic average."
+    }
+  ],
+
+  "placementQuestionTypes": [
+    "Finding compound amount",
+    "Finding compound interest",
+    "Finding principal",
+    "Finding the annual compound-interest rate",
+    "Finding the investment period",
+    "Compound interest for two years",
+    "Compound interest for three years",
+    "Difference between compound interest and simple interest",
+    "Finding principal from the CI and SI difference",
+    "Finding rate from the CI and SI difference",
+    "Half-yearly compounding",
+    "Quarterly compounding",
+    "Different rates in different years",
+    "Successive percentage increases",
+    "Population-growth problems",
+    "Depreciation problems",
+    "Growth followed by reduction",
+    "Money doubling and becoming multiple times",
+    "Compound amount ratio questions",
+    "Placement-based word problems"
+  ],
+
+  "commonMistakes": [
+    "Using the simple-interest formula for a compound-interest question.",
+    "Forgetting to subtract the principal when only compound interest is asked.",
+    "Giving compound interest when the question asks for the total amount.",
+    "Using the original principal for every year's interest in the year-by-year method.",
+    "Adding yearly rates instead of multiplying their growth factors.",
+    "Using the annual rate directly for half-yearly compounding.",
+    "Forgetting to double the number of periods for half-yearly compounding.",
+    "Using the annual rate directly for quarterly compounding.",
+    "Forgetting to multiply the number of periods by four for quarterly compounding.",
+    "Using RT = 100 for compound-interest doubling questions.",
+    "Treating equal percentage increase and decrease as zero net change.",
+    "Using a positive growth factor for depreciation.",
+    "Adding successive percentage changes directly.",
+    "Applying the two-year CI and SI difference formula to three-year questions.",
+    "Using the amount instead of the principal in the difference formula.",
+    "Rounding growth factors too early.",
+    "Mixing years, half-years and quarters.",
+    "Ignoring the stated compounding frequency."
+  ],
+
+  "revisionChecklist": [
+    "I understand how compound interest differs from simple interest.",
+    "I can calculate compound amount.",
+    "I can calculate compound interest.",
+    "I can solve compound-interest questions year by year.",
+    "I can find the principal from the amount.",
+    "I can find the annual rate.",
+    "I can find the investment period.",
+    "I can calculate compound interest for two years.",
+    "I can calculate compound interest for three years.",
+    "I can solve half-yearly compounding questions.",
+    "I can solve quarterly compounding questions.",
+    "I can handle different rates in different years.",
+    "I can find the difference between compound and simple interest.",
+    "I can solve successive percentage-change questions.",
+    "I can solve population-growth questions.",
+    "I can solve depreciation questions.",
+    "I understand the effect of equal percentage increase and decrease.",
+    "I can solve doubling and multiple-growth questions.",
+    "I can solve compound amount ratio questions.",
+    "I can avoid common compounding-frequency errors."
+  ],
+
+  "assessment": {
+    "buttonText": "Begin Assessment",
+    "page": "assessment.html",
+    "questionFile": "data/questions/QA/compound-interest.json",
+    "category": "QA",
+    "topic": "compound-interest"
+  }
+}
