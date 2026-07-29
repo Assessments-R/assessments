@@ -418,6 +418,7 @@
 
     let studentName = "";
     let rollNumber = "";
+    let studentEmail = "";
 
     let assessmentStarted = false;
     let assessmentSubmitted = false;
@@ -446,6 +447,8 @@
 
     const rollNumberInput =
       document.getElementById("rollNumber");
+    const studentEmailInput =
+  document.getElementById("studentEmail");
 
     const studentFormError =
       document.getElementById("studentFormError");
@@ -521,15 +524,21 @@
     }
 
     function beginAssessment() {
-      studentName = studentNameInput.value.trim();
-      rollNumber = rollNumberInput.value.trim();
+     studentName = studentNameInput.value.trim();
+rollNumber = rollNumberInput.value.trim();
+studentEmail = studentEmailInput.value.trim();
 
-      if (!studentName || !rollNumber) {
-        studentFormError.textContent =
-          "Enter both student name and roll number.";
-        return;
-      }
+if (!studentName || !rollNumber || !studentEmail) {
+  studentFormError.textContent =
+    "Enter student name, roll number and email ID.";
+  return;
+}
 
+if (!studentEmailInput.checkValidity()) {
+  studentFormError.textContent =
+    "Enter a valid email ID.";
+  return;
+}
       if (!questions.length) {
         studentFormError.textContent =
           "The assessment questions are not ready.";
@@ -739,6 +748,7 @@
       const resultRecord = {
         student_name: studentName,
         roll_number: rollNumber,
+        email: studentEmail,
         topic: assessmentData.topic,
         category: assessmentData.category,
         score: result.correctAnswers,
