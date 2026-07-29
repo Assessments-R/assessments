@@ -1,1 +1,233 @@
-
+{
+  "topic": "data-interpretation",
+  "category": "QA",
+  "title": "Data Interpretation Assessment",
+  "durationMinutes": 20,
+  "questions": [
+    {
+      "id": 1,
+      "instruction": "Study the bar graph and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/branch-placements.svg",
+      "imageAlt": "Bar graph showing students placed from CSE, ECE, EEE, Mechanical and Civil branches.",
+      "question": "How many students were placed from CSE and ECE together?",
+      "options": [
+        "280",
+        "300",
+        "320",
+        "340"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Students placed from CSE = 180 and ECE = 140. Therefore, the combined number of placements = 180 + 140 = 320."
+    },
+    {
+      "id": 2,
+      "instruction": "Study the bar graph and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/branch-placements.svg",
+      "imageAlt": "Bar graph showing students placed from CSE, ECE, EEE, Mechanical and Civil branches.",
+      "question": "The number of students placed from CSE is what percentage greater than the number placed from EEE?",
+      "options": [
+        "60%",
+        "70%",
+        "80%",
+        "90%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "CSE placements = 180 and EEE placements = 100. Difference = 180 − 100 = 80. Percentage greater = 80/100 × 100 = 80%."
+    },
+    {
+      "id": 3,
+      "instruction": "Study the bar graph and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/branch-placements.svg",
+      "imageAlt": "Bar graph showing students placed from CSE, ECE, EEE, Mechanical and Civil branches.",
+      "question": "What is the average number of students placed across all five branches?",
+      "options": [
+        "108",
+        "112",
+        "116",
+        "120"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total placements = 180 + 140 + 100 + 80 + 80 = 580. Average = 580/5 = 116."
+    },
+    {
+      "id": 4,
+      "instruction": "Study the line graph and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/company-revenue.svg",
+      "imageAlt": "Line graph showing company revenue from 2021 to 2025.",
+      "question": "Between which two consecutive years did the company record the greatest increase in revenue?",
+      "options": [
+        "2021–2022",
+        "2022–2023",
+        "2023–2024",
+        "2024–2025"
+      ],
+      "correctAnswer": 3,
+      "explanation": "The changes are: 2021–2022 = 40, 2022–2023 = 60, 2023–2024 = −30 and 2024–2025 = 90. The greatest increase occurred from 2024 to 2025."
+    },
+    {
+      "id": 5,
+      "instruction": "Study the line graph and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/company-revenue.svg",
+      "imageAlt": "Line graph showing company revenue from 2021 to 2025.",
+      "question": "What was the percentage decrease in revenue from 2023 to 2024?",
+      "options": [
+        "8%",
+        "10%",
+        "12%",
+        "15%"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Revenue decreased from 300 to 270. Decrease = 30. Percentage decrease = 30/300 × 100 = 10%."
+    },
+    {
+      "id": 6,
+      "instruction": "Study the pie chart and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/company-expenditure.svg",
+      "imageAlt": "Pie chart showing the percentage distribution of company expenditure.",
+      "question": "If the company's total expenditure was ₹20,00,000, how much was spent on salaries?",
+      "options": [
+        "₹5,00,000",
+        "₹6,00,000",
+        "₹7,00,000",
+        "₹8,00,000"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Salaries account for 35% of the total expenditure. Amount spent = 35/100 × ₹20,00,000 = ₹7,00,000."
+    },
+    {
+      "id": 7,
+      "instruction": "Study the pie chart and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/company-expenditure.svg",
+      "imageAlt": "Pie chart showing the percentage distribution of company expenditure.",
+      "question": "What is the ratio of expenditure on salaries to expenditure on marketing?",
+      "options": [
+        "5:2",
+        "7:3",
+        "7:4",
+        "4:3"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Expenditure on salaries = 35% and marketing = 15%. Ratio = 35:15 = 7:3."
+    },
+    {
+      "id": 8,
+      "instruction": "Study the double bar graph and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/applications-selections.svg",
+      "imageAlt": "Double bar graph comparing job applications and selections from 2022 to 2025.",
+      "question": "What was the selection percentage in 2024?",
+      "options": [
+        "40%",
+        "42%",
+        "45%",
+        "50%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Applications in 2024 = 500 and selections = 225. Selection percentage = 225/500 × 100 = 45%."
+    },
+    {
+      "id": 9,
+      "instruction": "Study the double bar graph and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/applications-selections.svg",
+      "imageAlt": "Double bar graph comparing job applications and selections from 2022 to 2025.",
+      "question": "What was the total number of selections from 2022 to 2025?",
+      "options": [
+        "800",
+        "825",
+        "850",
+        "875"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Total selections = 120 + 180 + 225 + 300 = 825."
+    },
+    {
+      "id": 10,
+      "instruction": "Study the table image and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/quarterly-sales.svg",
+      "imageAlt": "Table showing quarterly sales of Products A, B, C and D.",
+      "question": "What was the average quarterly sale of Product B?",
+      "options": [
+        "140 units",
+        "145 units",
+        "150 units",
+        "155 units"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Product B sales were 100, 140, 160 and 200. Total = 600. Average = 600/4 = 150 units."
+    },
+    {
+      "id": 11,
+      "instruction": "Study the table image and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/quarterly-sales.svg",
+      "imageAlt": "Table showing quarterly sales of Products A, B, C and D.",
+      "question": "What was the percentage increase in the sales of Product C from Quarter 1 to Quarter 4?",
+      "options": [
+        "100%",
+        "105%",
+        "112.5%",
+        "125%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Product C sales increased from 80 to 170. Increase = 90. Percentage increase = 90/80 × 100 = 112.5%."
+    },
+    {
+      "id": 12,
+      "instruction": "Study the table image and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/quarterly-sales.svg",
+      "imageAlt": "Table showing quarterly sales of Products A, B, C and D.",
+      "question": "Which product recorded the highest total annual sales?",
+      "options": [
+        "Product A",
+        "Product B",
+        "Product C",
+        "Product D"
+      ],
+      "correctAnswer": 0,
+      "explanation": "Annual totals are: Product A = 660, Product B = 600, Product C = 520 and Product D = 550. Product A recorded the highest annual sales."
+    },
+    {
+      "id": 13,
+      "instruction": "Study the stacked bar graph and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/company-employees.svg",
+      "imageAlt": "Stacked bar graph showing male and female employees in four departments.",
+      "question": "How many employees work in the Sales and Finance departments together?",
+      "options": [
+        "220",
+        "230",
+        "240",
+        "250"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Sales employees = 80 men + 60 women = 140. Finance employees = 55 men + 45 women = 100. Combined total = 140 + 100 = 240."
+    },
+    {
+      "id": 14,
+      "instruction": "Study the stacked bar graph and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/company-employees.svg",
+      "imageAlt": "Stacked bar graph showing male and female employees in four departments.",
+      "question": "Women constitute what percentage of the employees in the HR department?",
+      "options": [
+        "50%",
+        "55%",
+        "60%",
+        "65%"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The HR department has 40 men and 60 women, for a total of 100 employees. Percentage of women = 60/100 × 100 = 60%."
+    },
+    {
+      "id": 15,
+      "instruction": "Study the line graph and answer the question.",
+      "image": "assets/images/assessments/data-interpretation/monthly-production.svg",
+      "imageAlt": "Line graph showing monthly production from January to June.",
+      "question": "What was the average monthly production from January to June?",
+      "options": [
+        "450 units",
+        "460 units",
+        "470 units",
+        "480 units"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Total production = 400 + 450 + 500 + 480 + 520 + 470 = 2820. Average = 2820/6 = 470 units."
+    }
+  ]
+}
