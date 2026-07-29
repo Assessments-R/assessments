@@ -1,1 +1,128 @@
-
+{
+  "topic": "hcf-lcm",
+  "category": "QA",
+  "title": "HCF and LCM Assessment",
+  "durationMinutes": 15,
+  "questions": [
+    {
+      "id": 1,
+      "question": "Find the HCF of 36 and 48.",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "16"
+      ],
+      "correctAnswer": 2,
+      "explanation": "36 = 2^2 × 3^2 and 48 = 2^4 × 3. Taking the common prime factors with the smallest powers gives HCF = 2^2 × 3 = 12."
+    },
+    {
+      "id": 2,
+      "question": "Find the LCM of 12, 18 and 30.",
+      "options": [
+        "90",
+        "120",
+        "180",
+        "360"
+      ],
+      "correctAnswer": 2,
+      "explanation": "12 = 2^2 × 3, 18 = 2 × 3^2 and 30 = 2 × 3 × 5. Taking the greatest powers gives LCM = 2^2 × 3^2 × 5 = 180."
+    },
+    {
+      "id": 3,
+      "question": "The HCF of two numbers is 6 and their LCM is 180. If one number is 30, find the other number.",
+      "options": [
+        "24",
+        "30",
+        "36",
+        "42"
+      ],
+      "correctAnswer": 2,
+      "explanation": "For two numbers, their product equals HCF × LCM. Other number = (6 × 180) ÷ 30 = 36."
+    },
+    {
+      "id": 4,
+      "question": "Find the greatest number that divides 84, 126 and 210 exactly.",
+      "options": [
+        "14",
+        "21",
+        "42",
+        "84"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The required greatest exact divisor is the HCF of 84, 126 and 210. Their HCF is 42."
+    },
+    {
+      "id": 5,
+      "question": "Find the greatest number that divides 65, 81 and 97, leaving the same remainder in each case.",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "24"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Take the differences: 81 − 65 = 16, 97 − 81 = 16 and 97 − 65 = 32. HCF of 16, 16 and 32 is 16."
+    },
+    {
+      "id": 6,
+      "question": "Find the least number that leaves a remainder of 3 when divided by 4, 6 and 8.",
+      "options": [
+        "24",
+        "27",
+        "48",
+        "51"
+      ],
+      "correctAnswer": 1,
+      "explanation": "LCM of 4, 6 and 8 is 24. Adding the common remainder gives 24 + 3 = 27."
+    },
+    {
+      "id": 7,
+      "question": "Three bells ring at intervals of 6, 8 and 12 minutes. If they ring together now, after how many minutes will they ring together again?",
+      "options": [
+        "12 minutes",
+        "18 minutes",
+        "24 minutes",
+        "48 minutes"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The bells will ring together again after the LCM of their intervals. LCM of 6, 8 and 12 is 24 minutes."
+    },
+    {
+      "id": 8,
+      "question": "The HCF of two numbers is 8 and their LCM is 96. If the numbers are in the ratio 2:3, find the numbers.",
+      "options": [
+        "8 and 12",
+        "16 and 24",
+        "24 and 36",
+        "32 and 48"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Write the numbers as 8 × 2 and 8 × 3 because 2 and 3 are co-prime. Therefore, the numbers are 16 and 24. Their LCM is 96."
+    },
+    {
+      "id": 9,
+      "question": "Find the HCF of the fractions 2/3 and 4/9.",
+      "options": [
+        "1/9",
+        "2/9",
+        "2/3",
+        "4/9"
+      ],
+      "correctAnswer": 1,
+      "explanation": "HCF of fractions = HCF of numerators ÷ LCM of denominators. Therefore, HCF = HCF(2, 4) ÷ LCM(3, 9) = 2/9."
+    },
+    {
+      "id": 10,
+      "question": "Find the least number that must be increased by 5 to become exactly divisible by 12, 18 and 24.",
+      "options": [
+        "65",
+        "67",
+        "72",
+        "77"
+      ],
+      "correctAnswer": 1,
+      "explanation": "LCM of 12, 18 and 24 is 72. The required number is 5 less than 72, so it is 72 − 5 = 67."
+    }
+  ]
+}
