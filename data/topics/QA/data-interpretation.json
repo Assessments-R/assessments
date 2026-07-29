@@ -1,1 +1,873 @@
+{
+  "id": "data-interpretation",
+  "category": "QA",
+  "title": "Data Interpretation",
+  "subtitle": "Quantitative Aptitude – Placement Preparation",
+  "description": "Learn how to read, analyse and compare data presented through tables, bar graphs, line graphs, pie charts, mixed graphs and caselets. This module covers percentage change, ratios, averages, totals, differences and approximation techniques commonly tested in placement examinations.",
+  "estimatedLearningTime": "45–50 minutes",
 
+  "learningObjectives": [
+    "Understand the purpose of data interpretation.",
+    "Read data accurately from tables and charts.",
+    "Identify titles, units, labels, scales and legends.",
+    "Calculate totals, differences and averages.",
+    "Compare values using ratios and percentages.",
+    "Calculate percentage increase and decrease.",
+    "Interpret bar graphs and double bar graphs.",
+    "Interpret line graphs and identify trends.",
+    "Interpret pie charts and convert angles into values.",
+    "Solve tabular data questions.",
+    "Solve mixed graph questions.",
+    "Analyse paragraph-based caselets.",
+    "Use approximation to save time.",
+    "Avoid common calculation and interpretation errors.",
+    "Apply placement-test strategies for solving data interpretation sets."
+  ],
+
+  "sections": [
+    {
+      "heading": "1. Introduction to Data Interpretation",
+      "content": [
+        "Data Interpretation is the process of reading, analysing and drawing conclusions from data presented in visual or textual form.",
+        "Placement examinations commonly present data through tables, bar graphs, line graphs, pie charts and caselets.",
+        "Most questions require basic arithmetic such as addition, subtraction, multiplication, division, averages, ratios and percentages.",
+        "The main challenge is to identify the correct data and perform calculations quickly and accurately."
+      ],
+      "examples": [
+        {
+          "question": "A table shows that a company sold 240 units in January and 300 units in February. What is the increase in sales?",
+          "solution": "Increase = 300 − 240 = 60 units."
+        },
+        {
+          "question": "If total sales over four months are 800 units, what is the average monthly sale?",
+          "solution": "Average = 800 / 4 = 200 units."
+        }
+      ]
+    },
+
+    {
+      "heading": "2. Important Components of a Data Set",
+      "content": [
+        "Always read the title before attempting the questions.",
+        "Check whether the values represent numbers, percentages, money, population, production or another unit.",
+        "Observe the scale used on the axes of a graph.",
+        "Read legends carefully when multiple categories are shown.",
+        "Check whether values are in units, hundreds, thousands, lakhs or millions.",
+        "Identify the time period represented by the data."
+      ],
+      "examples": [
+        {
+          "question": "A bar graph states that values are in thousands. A bar has a value of 45. What is the actual value?",
+          "solution": "Actual value = 45 × 1000 = 45,000."
+        },
+        {
+          "question": "A chart shows revenue in millions and displays 2.5 for a company. What is the actual revenue?",
+          "solution": "Actual revenue = 2.5 million."
+        }
+      ]
+    },
+
+    {
+      "heading": "3. Basic Arithmetic Used in Data Interpretation",
+      "content": [
+        "Most Data Interpretation questions are based on a small set of arithmetic operations.",
+        "You should be comfortable with totals, differences, averages, ratios, fractions and percentages.",
+        "Before calculating, determine exactly what the question asks.",
+        "Avoid performing unnecessary calculations."
+      ],
+      "formulas": [
+        "Total = Sum of all required values",
+        "Difference = Larger value − Smaller value",
+        "Average = Sum of values / Number of values",
+        "Ratio = First value : Second value",
+        "Percentage = Required value / Total value × 100"
+      ],
+      "examples": [
+        {
+          "question": "The production of a company in three years was 120, 150 and 180 units. Find the total production.",
+          "solution": "Total production = 120 + 150 + 180 = 450 units."
+        },
+        {
+          "question": "The number of selected students from two branches is 80 and 120. Find their ratio.",
+          "solution": "Ratio = 80 : 120 = 2 : 3."
+        }
+      ]
+    },
+
+    {
+      "heading": "4. Percentage Calculation",
+      "content": [
+        "Percentage questions are among the most common in Data Interpretation.",
+        "A percentage compares a part with the total.",
+        "Identify the numerator and denominator carefully before calculation.",
+        "When comparing one category with another, the denominator is normally the reference category."
+      ],
+      "formulas": [
+        "Percentage = Part / Total × 100",
+        "Part = Percentage / 100 × Total",
+        "Total = Part × 100 / Percentage"
+      ],
+      "examples": [
+        {
+          "question": "Out of 500 employees, 125 are women. What percentage of employees are women?",
+          "solution": "Percentage = 125 / 500 × 100 = 25%."
+        },
+        {
+          "question": "If 40% of 600 students passed an examination, how many students passed?",
+          "solution": "Passed students = 40 / 100 × 600 = 240."
+        }
+      ]
+    },
+
+    {
+      "heading": "5. Percentage Increase and Decrease",
+      "content": [
+        "Percentage change measures how much a value has increased or decreased compared with its original value.",
+        "The original value is always used as the denominator.",
+        "A positive change represents an increase.",
+        "A negative change represents a decrease."
+      ],
+      "formulas": [
+        "Percentage increase = Increase / Original value × 100",
+        "Percentage decrease = Decrease / Original value × 100",
+        "Percentage change = New value − Old value / Old value × 100"
+      ],
+      "examples": [
+        {
+          "question": "Sales increased from 400 units to 500 units. Find the percentage increase.",
+          "solution": "Increase = 500 − 400 = 100. Percentage increase = 100 / 400 × 100 = 25%."
+        },
+        {
+          "question": "Production decreased from 800 units to 680 units. Find the percentage decrease.",
+          "solution": "Decrease = 800 − 680 = 120. Percentage decrease = 120 / 800 × 100 = 15%."
+        }
+      ]
+    },
+
+    {
+      "heading": "6. Ratio and Proportion in Data Interpretation",
+      "content": [
+        "Ratios are used to compare two or more quantities.",
+        "Always simplify the ratio to its lowest form unless the question asks otherwise.",
+        "When values have different units, convert them into the same unit before comparing.",
+        "Ratios can also be used to divide a total into parts."
+      ],
+      "formulas": [
+        "Ratio of A to B = A : B",
+        "If A : B = x : y, then A/B = x/y",
+        "Share of A from total T = x / (x + y) × T"
+      ],
+      "examples": [
+        {
+          "question": "The sales of Product A and Product B are 300 and 450 units. Find the ratio.",
+          "solution": "Ratio = 300 : 450 = 2 : 3."
+        },
+        {
+          "question": "The ratio of male to female employees is 3 : 2. If there are 250 employees, how many are female?",
+          "solution": "Total parts = 3 + 2 = 5. Female employees = 2 / 5 × 250 = 100."
+        }
+      ]
+    },
+
+    {
+      "heading": "7. Average-Based Data Interpretation",
+      "content": [
+        "Average represents the equal distribution of a total among a number of observations.",
+        "Questions may ask for a missing value when the average is known.",
+        "The total can be calculated by multiplying the average by the number of observations.",
+        "Always count the number of observations correctly."
+      ],
+      "formulas": [
+        "Average = Total / Number of observations",
+        "Total = Average × Number of observations",
+        "Missing value = Required total − Sum of known values"
+      ],
+      "examples": [
+        {
+          "question": "The sales for four months are 120, 140, 160 and 180 units. Find the average.",
+          "solution": "Average = (120 + 140 + 160 + 180) / 4 = 600 / 4 = 150 units."
+        },
+        {
+          "question": "The average production for five years is 200 units. The production in four years totals 760 units. Find the production in the fifth year.",
+          "solution": "Required total = 200 × 5 = 1000. Fifth-year production = 1000 − 760 = 240 units."
+        }
+      ]
+    },
+
+    {
+      "heading": "8. Tabular Data Interpretation",
+      "content": [
+        "Tables present data in rows and columns.",
+        "Read the row heading and column heading together to locate the correct value.",
+        "Check whether totals or percentages are already provided.",
+        "Do not confuse similar rows or adjacent columns.",
+        "Tabular questions commonly involve totals, averages, ratios and percentage changes."
+      ],
+      "sampleData": {
+        "title": "Quarterly Sales of Three Products",
+        "columns": [
+          "Product",
+          "Quarter 1",
+          "Quarter 2",
+          "Quarter 3",
+          "Quarter 4"
+        ],
+        "rows": [
+          [
+            "A",
+            120,
+            150,
+            180,
+            210
+          ],
+          [
+            "B",
+            100,
+            140,
+            160,
+            200
+          ],
+          [
+            "C",
+            80,
+            120,
+            150,
+            170
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "question": "What is the total annual sale of Product A?",
+          "solution": "Total = 120 + 150 + 180 + 210 = 660 units."
+        },
+        {
+          "question": "What is the difference between the Quarter 4 sales of Product A and Product C?",
+          "solution": "Difference = 210 − 170 = 40 units."
+        },
+        {
+          "question": "What is the average quarterly sale of Product B?",
+          "solution": "Average = (100 + 140 + 160 + 200) / 4 = 600 / 4 = 150 units."
+        }
+      ]
+    },
+
+    {
+      "heading": "9. Bar Graph Interpretation",
+      "content": [
+        "A bar graph represents data using rectangular bars.",
+        "The height or length of each bar represents the value.",
+        "Bars may be vertical or horizontal.",
+        "Check the scale before reading a bar value.",
+        "Bar graphs are useful for comparing categories or time periods."
+      ],
+      "sampleData": {
+        "title": "Students Placed from Different Branches",
+        "values": [
+          {
+            "branch": "CSE",
+            "students": 180
+          },
+          {
+            "branch": "ECE",
+            "students": 140
+          },
+          {
+            "branch": "EEE",
+            "students": 100
+          },
+          {
+            "branch": "ME",
+            "students": 80
+          }
+        ]
+      },
+      "examples": [
+        {
+          "question": "How many students were placed from CSE and ECE together?",
+          "solution": "Total = 180 + 140 = 320 students."
+        },
+        {
+          "question": "By what percentage is the number of CSE placements greater than EEE placements?",
+          "solution": "Difference = 180 − 100 = 80. Percentage greater = 80 / 100 × 100 = 80%."
+        }
+      ]
+    },
+
+    {
+      "heading": "10. Double Bar Graph Interpretation",
+      "content": [
+        "A double bar graph compares two related sets of data.",
+        "Each category contains two bars represented by different colours or patterns.",
+        "Use the legend to identify each data series.",
+        "Questions may compare the two series for one category or across several categories."
+      ],
+      "sampleData": {
+        "title": "Applications and Selections",
+        "values": [
+          {
+            "year": "2023",
+            "applications": 400,
+            "selections": 160
+          },
+          {
+            "year": "2024",
+            "applications": 500,
+            "selections": 225
+          },
+          {
+            "year": "2025",
+            "applications": 600,
+            "selections": 300
+          }
+        ]
+      },
+      "examples": [
+        {
+          "question": "What was the selection percentage in 2024?",
+          "solution": "Selection percentage = 225 / 500 × 100 = 45%."
+        },
+        {
+          "question": "What was the increase in selections from 2023 to 2025?",
+          "solution": "Increase = 300 − 160 = 140 selections."
+        }
+      ]
+    },
+
+    {
+      "heading": "11. Line Graph Interpretation",
+      "content": [
+        "A line graph displays changes in data over time.",
+        "Points represent values and are connected by lines.",
+        "An upward line generally indicates growth.",
+        "A downward line generally indicates decline.",
+        "Line graphs are useful for identifying trends, fluctuations and maximum or minimum values."
+      ],
+      "sampleData": {
+        "title": "Company Revenue over Five Years",
+        "values": [
+          {
+            "year": "2021",
+            "revenue": 200
+          },
+          {
+            "year": "2022",
+            "revenue": 240
+          },
+          {
+            "year": "2023",
+            "revenue": 300
+          },
+          {
+            "year": "2024",
+            "revenue": 270
+          },
+          {
+            "year": "2025",
+            "revenue": 360
+          }
+        ]
+      },
+      "examples": [
+        {
+          "question": "In which year was the revenue highest?",
+          "solution": "The highest revenue was 360 in 2025."
+        },
+        {
+          "question": "What was the percentage decrease in revenue from 2023 to 2024?",
+          "solution": "Decrease = 300 − 270 = 30. Percentage decrease = 30 / 300 × 100 = 10%."
+        },
+        {
+          "question": "What was the percentage increase from 2024 to 2025?",
+          "solution": "Increase = 360 − 270 = 90. Percentage increase = 90 / 270 × 100 = 33.33%."
+        }
+      ]
+    },
+
+    {
+      "heading": "12. Pie Chart Interpretation",
+      "content": [
+        "A pie chart represents a total as a circle divided into sectors.",
+        "The entire circle represents 100% or 360 degrees.",
+        "Each sector represents the proportion of one category.",
+        "Questions may provide percentages, angles or actual values.",
+        "When the total is known, sector values can be calculated directly."
+      ],
+      "formulas": [
+        "Sector percentage = Sector angle / 360 × 100",
+        "Sector angle = Sector percentage / 100 × 360",
+        "Sector value = Sector percentage / 100 × Total",
+        "Sector value = Sector angle / 360 × Total"
+      ],
+      "examples": [
+        {
+          "question": "A sector has an angle of 90 degrees. What percentage of the circle does it represent?",
+          "solution": "Percentage = 90 / 360 × 100 = 25%."
+        },
+        {
+          "question": "A pie chart represents 800 students. If CSE accounts for 30%, how many CSE students are there?",
+          "solution": "CSE students = 30 / 100 × 800 = 240."
+        },
+        {
+          "question": "A sector represents 150 students out of 600. Find its angle.",
+          "solution": "Angle = 150 / 600 × 360 = 90 degrees."
+        }
+      ]
+    },
+
+    {
+      "heading": "13. Comparing Pie Chart Sectors",
+      "content": [
+        "Values in the same pie chart can be compared directly through their percentages or angles.",
+        "When comparing sectors from different pie charts, check whether the totals are equal.",
+        "Equal percentages from different totals may represent different actual values.",
+        "Convert percentages into actual values before comparison when totals differ."
+      ],
+      "examples": [
+        {
+          "question": "Company A has 25% of 800 employees in sales. Company B has 20% of 1200 employees in sales. Which company has more sales employees?",
+          "solution": "Company A sales employees = 25% of 800 = 200. Company B sales employees = 20% of 1200 = 240. Company B has more sales employees."
+        },
+        {
+          "question": "A sector of 72 degrees represents what fraction of a pie chart?",
+          "solution": "Fraction = 72 / 360 = 1/5."
+        }
+      ]
+    },
+
+    {
+      "heading": "14. Caselet Data Interpretation",
+      "content": [
+        "A caselet presents data in paragraph form instead of a table or chart.",
+        "Convert the paragraph into a small table before solving.",
+        "Identify the total, subgroups, ratios and percentage relationships.",
+        "Do not rely on memory when multiple values are given.",
+        "Caselets often combine percentages, ratios and averages."
+      ],
+      "sampleData": {
+        "caselet": "A company has 600 employees. Forty percent work in the technical department. Of the technical employees, 25% are women. The remaining employees work in non-technical departments."
+      },
+      "examples": [
+        {
+          "question": "How many employees work in the technical department?",
+          "solution": "Technical employees = 40% of 600 = 240."
+        },
+        {
+          "question": "How many women work in the technical department?",
+          "solution": "Women in technical department = 25% of 240 = 60."
+        },
+        {
+          "question": "How many employees work in non-technical departments?",
+          "solution": "Non-technical employees = 600 − 240 = 360."
+        }
+      ]
+    },
+
+    {
+      "heading": "15. Mixed Graph Data Interpretation",
+      "content": [
+        "Mixed graphs combine two different forms of data, such as a bar graph and a line graph.",
+        "One graph may show actual values while another shows percentages or ratios.",
+        "Read the legends and scales for both graphs separately.",
+        "Do not assume that both graph types use the same axis or unit.",
+        "Mixed graph questions usually require combining information from both data sets."
+      ],
+      "examples": [
+        {
+          "question": "A bar graph shows that a company produced 500 units, while a line graph shows that 80% were sold. How many units were sold?",
+          "solution": "Units sold = 80% of 500 = 400."
+        },
+        {
+          "question": "Production was 750 units and the profit per unit was $12. Find the total profit.",
+          "solution": "Total profit = 750 × $12 = $9,000."
+        }
+      ]
+    },
+
+    {
+      "heading": "16. Percentage Share of a Total",
+      "content": [
+        "Percentage share shows how much one category contributes to the overall total.",
+        "First calculate the overall total when it is not given.",
+        "Then divide the category value by the total.",
+        "Multiply the result by 100."
+      ],
+      "formulas": [
+        "Percentage share = Category value / Overall total × 100"
+      ],
+      "examples": [
+        {
+          "question": "The sales of four products are 100, 150, 200 and 50 units. What percentage of total sales is contributed by the third product?",
+          "solution": "Total sales = 100 + 150 + 200 + 50 = 500. Percentage share = 200 / 500 × 100 = 40%."
+        },
+        {
+          "question": "A branch contributes 240 employees out of a total of 1200 employees. Find its percentage share.",
+          "solution": "Percentage share = 240 / 1200 × 100 = 20%."
+        }
+      ]
+    },
+
+    {
+      "heading": "17. Difference and Relative Difference",
+      "content": [
+        "Absolute difference gives the numerical gap between two values.",
+        "Relative difference expresses the difference as a percentage of a reference value.",
+        "Read words such as greater than, less than, more than and lower than carefully.",
+        "The denominator changes depending on the reference stated in the question."
+      ],
+      "formulas": [
+        "Absolute difference = Larger value − Smaller value",
+        "A is what percent more than B = A − B / B × 100",
+        "A is what percent less than B = B − A / B × 100"
+      ],
+      "examples": [
+        {
+          "question": "Sales of A are 300 and sales of B are 240. By what percentage are A's sales greater than B's?",
+          "solution": "Difference = 300 − 240 = 60. Percentage greater = 60 / 240 × 100 = 25%."
+        },
+        {
+          "question": "Production decreased from 500 to 400. By what percentage is the new production less than the old production?",
+          "solution": "Difference = 500 − 400 = 100. Percentage less = 100 / 500 × 100 = 20%."
+        }
+      ]
+    },
+
+    {
+      "heading": "18. Approximation Techniques",
+      "content": [
+        "Approximation helps reduce calculation time when answer choices are widely separated.",
+        "Round numbers to convenient values while maintaining sufficient accuracy.",
+        "Do not approximate too early when answer choices are close.",
+        "Use known fractions and percentage equivalents.",
+        "Estimate before performing exact calculations to identify unreasonable answers."
+      ],
+      "formulas": [
+        "1/2 = 50%",
+        "1/3 ≈ 33.33%",
+        "2/3 ≈ 66.67%",
+        "1/4 = 25%",
+        "3/4 = 75%",
+        "1/5 = 20%",
+        "1/8 = 12.5%",
+        "1/10 = 10%"
+      ],
+      "examples": [
+        {
+          "question": "Approximately what percentage is 198 out of 803?",
+          "solution": "Approximate 198 as 200 and 803 as 800. Percentage ≈ 200 / 800 × 100 = 25%."
+        },
+        {
+          "question": "Estimate the average of 99, 201, 301 and 399.",
+          "solution": "Approximate values as 100, 200, 300 and 400. Average ≈ 1000 / 4 = 250."
+        }
+      ]
+    },
+
+    {
+      "heading": "19. Missing Data Questions",
+      "content": [
+        "Some Data Interpretation sets omit one or more values.",
+        "The missing value may be calculated using a total, average, percentage or ratio.",
+        "Form an equation using the information provided.",
+        "Verify that the calculated value satisfies all conditions."
+      ],
+      "examples": [
+        {
+          "question": "The total sales for four quarters are 800 units. The first three quarters have sales of 180, 220 and 190 units. Find the fourth-quarter sales.",
+          "solution": "Fourth-quarter sales = 800 − (180 + 220 + 190) = 800 − 590 = 210 units."
+        },
+        {
+          "question": "The average of five values is 60. Four values are 50, 55, 65 and 70. Find the fifth value.",
+          "solution": "Required total = 60 × 5 = 300. Sum of known values = 240. Missing value = 300 − 240 = 60."
+        }
+      ]
+    },
+
+    {
+      "heading": "20. Trend Analysis",
+      "content": [
+        "Trend analysis identifies the general movement of data over time.",
+        "A consistent rise represents an upward trend.",
+        "A consistent fall represents a downward trend.",
+        "Irregular movement indicates fluctuation.",
+        "Questions may ask for the highest rise, steepest fall or overall growth."
+      ],
+      "examples": [
+        {
+          "question": "Sales over four years are 100, 130, 170 and 220 units. What trend is shown?",
+          "solution": "Sales increase every year, so the data shows a continuous upward trend."
+        },
+        {
+          "question": "Values over five years are 300, 280, 320, 290 and 340. What type of movement is shown?",
+          "solution": "The values rise and fall irregularly, so the data shows fluctuation."
+        }
+      ]
+    },
+
+    {
+      "heading": "21. Maximum, Minimum and Ranking Questions",
+      "content": [
+        "Maximum and minimum questions require identifying the highest or lowest value.",
+        "Ranking questions require arranging values in ascending or descending order.",
+        "When values are close, read the chart scale carefully.",
+        "For derived quantities such as percentage or average, calculate the required measure before ranking."
+      ],
+      "examples": [
+        {
+          "question": "The values are 240, 310, 280 and 350. Find the maximum and minimum.",
+          "solution": "Maximum = 350 and minimum = 240."
+        },
+        {
+          "question": "Arrange 125, 90, 160 and 140 in descending order.",
+          "solution": "Descending order: 160, 140, 125, 90."
+        }
+      ]
+    },
+
+    {
+      "heading": "22. Data Sufficiency in Data Interpretation",
+      "content": [
+        "Some questions ask whether the available data is sufficient to answer a question.",
+        "Do not solve more than necessary.",
+        "Check each statement independently before combining them.",
+        "A statement is sufficient only when it gives a unique answer."
+      ],
+      "examples": [
+        {
+          "question": "Can the average of five values be found if their total is given?",
+          "solution": "Yes. Average = Total / 5, so the information is sufficient."
+        },
+        {
+          "question": "Can the total number of students be found if only the percentage of boys is given?",
+          "solution": "No. The percentage alone is insufficient without an actual number or total."
+        }
+      ]
+    },
+
+    {
+      "heading": "23. Multi-Step Data Interpretation",
+      "content": [
+        "Multi-step questions require more than one calculation.",
+        "Complete each step in the correct order.",
+        "Store intermediate results clearly.",
+        "Avoid rounding intermediate values unless the question asks for approximation."
+      ],
+      "examples": [
+        {
+          "question": "A company produced 800 units. It sold 75% of them and earned a profit of $10 per unit sold. Find the total profit.",
+          "solution": "Units sold = 75% of 800 = 600. Total profit = 600 × $10 = $6,000."
+        },
+        {
+          "question": "A college has 1200 students. Forty percent are women, and 25% of the women are in the final year. How many final-year women are there?",
+          "solution": "Women = 40% of 1200 = 480. Final-year women = 25% of 480 = 120."
+        }
+      ]
+    },
+
+    {
+      "heading": "24. Placement-Test Strategy",
+      "content": [
+        "Read the chart title, units, labels and legend before reading the questions.",
+        "Scan all questions in a set before starting calculations.",
+        "Solve direct questions first.",
+        "Write down totals and frequently used values.",
+        "Use approximation when answer options are far apart.",
+        "Use exact calculation when options are close.",
+        "Avoid repeatedly calculating the same total.",
+        "Check whether the question asks for value, difference, ratio, average or percentage.",
+        "Use the correct reference value in percentage comparisons.",
+        "Skip lengthy questions temporarily and return after completing easier ones.",
+        "Recheck decimal placement and units.",
+        "Use elimination when exact calculation is unnecessary."
+      ],
+      "formulas": [
+        "Average = Total / Number of values",
+        "Percentage = Part / Total × 100",
+        "Percentage change = Change / Original value × 100",
+        "Ratio = First value : Second value",
+        "Pie-chart value = Sector angle / 360 × Total",
+        "At least or combined total = Add all relevant values"
+      ],
+      "examples": [
+        {
+          "question": "A chart question asks which year had the highest production. Is calculation required?",
+          "solution": "No. Directly compare the values or bar heights and identify the maximum."
+        },
+        {
+          "question": "Two answer options are 24.8% and 25.1%. Should you use approximation?",
+          "solution": "No. The options are close, so an exact calculation is required."
+        }
+      ]
+    }
+  ],
+
+  "quickShortcuts": [
+    {
+      "title": "Read the unit first",
+      "note": "Check whether values are in units, hundreds, thousands, lakhs or millions."
+    },
+    {
+      "title": "Percentage",
+      "note": "Use part divided by total multiplied by 100."
+    },
+    {
+      "title": "Percentage increase",
+      "note": "Use increase divided by original value multiplied by 100."
+    },
+    {
+      "title": "Percentage decrease",
+      "note": "Use decrease divided by original value multiplied by 100."
+    },
+    {
+      "title": "Average",
+      "note": "Divide the total by the number of observations."
+    },
+    {
+      "title": "Missing value",
+      "note": "Subtract the sum of known values from the required total."
+    },
+    {
+      "title": "Ratio",
+      "note": "Write both values in the same unit and simplify."
+    },
+    {
+      "title": "Pie-chart percentage",
+      "note": "Divide the sector angle by 360 and multiply by 100."
+    },
+    {
+      "title": "Pie-chart angle",
+      "note": "Multiply the percentage by 3.6."
+    },
+    {
+      "title": "Quarter circle",
+      "note": "90 degrees represents 25%."
+    },
+    {
+      "title": "Half circle",
+      "note": "180 degrees represents 50%."
+    },
+    {
+      "title": "One-third circle",
+      "note": "120 degrees represents 33.33%."
+    },
+    {
+      "title": "Relative comparison",
+      "note": "Use the reference quantity as the denominator."
+    },
+    {
+      "title": "Direct questions",
+      "note": "Answer maximum, minimum and total questions before lengthy calculations."
+    },
+    {
+      "title": "Approximation",
+      "note": "Round values only when answer options are sufficiently separated."
+    },
+    {
+      "title": "Caselet conversion",
+      "note": "Convert paragraph data into a table before solving."
+    },
+    {
+      "title": "Mixed graphs",
+      "note": "Check the scale and unit of each graph separately."
+    },
+    {
+      "title": "Reuse totals",
+      "note": "Calculate common totals once and use them for multiple questions."
+    },
+    {
+      "title": "Percentage fraction",
+      "note": "Use familiar equivalents such as 25% = 1/4 and 12.5% = 1/8."
+    },
+    {
+      "title": "Final check",
+      "note": "Verify units, denominator and decimal placement before submitting."
+    }
+  ],
+
+  "placementQuestionTypes": [
+    "Table interpretation",
+    "Simple bar graph",
+    "Double bar graph",
+    "Stacked bar graph",
+    "Line graph",
+    "Multiple line graph",
+    "Pie chart",
+    "Multiple pie charts",
+    "Mixed graph",
+    "Caselet interpretation",
+    "Total calculation",
+    "Average calculation",
+    "Ratio comparison",
+    "Percentage share",
+    "Percentage increase",
+    "Percentage decrease",
+    "Absolute difference",
+    "Relative difference",
+    "Maximum and minimum",
+    "Ranking of values",
+    "Missing data",
+    "Trend analysis",
+    "Approximation",
+    "Data sufficiency",
+    "Multi-step data interpretation",
+    "Placement-based mixed data sets"
+  ],
+
+  "commonMistakes": [
+    "Ignoring the title or unit of the chart.",
+    "Reading the wrong row or column in a table.",
+    "Misreading the scale of a graph.",
+    "Confusing actual values with percentages.",
+    "Using the new value instead of the original value in percentage change.",
+    "Using the wrong denominator in percentage comparison.",
+    "Comparing percentages from different totals without finding actual values.",
+    "Forgetting to convert values into the same unit.",
+    "Adding values when the question asks for an average.",
+    "Calculating an average using the wrong number of observations.",
+    "Confusing percentage points with percentage change.",
+    "Using approximate values when answer options are close.",
+    "Performing exact lengthy calculations when approximation is sufficient.",
+    "Ignoring the legend in double or mixed graphs.",
+    "Assuming different charts have the same scale.",
+    "Forgetting that a full pie chart equals 360 degrees.",
+    "Treating 90 degrees as 90% instead of 25%.",
+    "Rounding intermediate values too early.",
+    "Repeating calculations instead of reusing a previously calculated total.",
+    "Failing to verify whether the final answer matches the required unit."
+  ],
+
+  "revisionChecklist": [
+    "I read titles, labels, scales, units and legends carefully.",
+    "I can calculate totals and differences.",
+    "I can calculate averages.",
+    "I can simplify ratios.",
+    "I can calculate percentages.",
+    "I can calculate percentage increase and decrease.",
+    "I use the original value as the denominator in percentage change.",
+    "I can interpret tables.",
+    "I can interpret bar graphs.",
+    "I can interpret double bar graphs.",
+    "I can interpret line graphs.",
+    "I can identify trends.",
+    "I can interpret pie charts.",
+    "I can convert pie-chart angles into percentages.",
+    "I can convert pie-chart percentages into actual values.",
+    "I can compare sectors from different pie charts.",
+    "I can solve paragraph-based caselets.",
+    "I can solve mixed graph questions.",
+    "I can calculate missing values.",
+    "I can solve multi-step data questions.",
+    "I know when approximation is appropriate.",
+    "I can identify maximum, minimum and ranked values.",
+    "I avoid repeating unnecessary calculations.",
+    "I can solve placement-level Data Interpretation sets within the available time."
+  ],
+
+  "assessment": {
+    "buttonText": "Begin Assessment",
+    "page": "assessment.html",
+    "questionFile": "data/questions/QA/data-interpretation.json",
+    "category": "QA",
+    "topic": "data-interpretation"
+  }
+}
